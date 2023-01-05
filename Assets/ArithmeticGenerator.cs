@@ -12,21 +12,29 @@ namespace KidsLearning
         {
             if (Input.GetKeyDown(KeyCode.Return))
             {
-                _arithmetic = GenerateProblem();
-                while (ShouldReGenerate(_arithmetic))
-                {
-                    _arithmetic = GenerateProblem();
-                }
-                Debug.Log(_arithmetic.ToString());
+                GetRandomArithmeticProblem();
             }
+        }
+
+        public Arithmetic GetRandomArithmeticProblem()
+        {
+            _arithmetic = GenerateProblem();
+            while (ShouldReGenerate(_arithmetic))
+            {
+                _arithmetic = GenerateProblem();
+            }
+            Debug.Log(_arithmetic.ToString());
+            return _arithmetic;
         }
 
         private bool ShouldReGenerate(Arithmetic arithmetic)
         {
-            return arithmetic.result < 0 || arithmetic.result > 20 || (arithmetic.result == 0 && arithmetic.operatorUsed == '%');
+            return arithmetic.result < 0 || arithmetic.result > 20 ||
+            !(Math.Abs(arithmetic.result % 1) < double.Epsilon) ||
+            (arithmetic.result == 0 && arithmetic.operatorUsed == '/');
         }
 
-        public static Arithmetic GenerateProblem(char operatorUsed = ' ')
+        private Arithmetic GenerateProblem(char operatorUsed = ' ')
         {
             // Choose two random numbers between 1 and 9
             int num1 = random.Next(1, 10);
@@ -46,7 +54,7 @@ namespace KidsLearning
             return new Arithmetic(num1, op, num2, result);
         }
 
-        private static char GetRandomOperator()
+        private char GetRandomOperator()
         {
             // Choose a random number between 0 and 3
             int opIndex = random.Next(0, 4);
@@ -67,7 +75,7 @@ namespace KidsLearning
             }
         }
 
-        private static float CalculateResult(int num1, int num2, char op)
+        private float CalculateResult(int num1, int num2, char op)
         {
             switch (op)
             {
@@ -76,9 +84,9 @@ namespace KidsLearning
                 case '-':
                     return num1 - num2;
                 case '*':
-                    return num1 * num2;
+                    return (float)num1 * num2;
                 case '/':
-                    return num1 / num2;
+                    return (float)num1 / num2;
                 default:
                     throw new InvalidOperationException("Invalid operator");
             }
