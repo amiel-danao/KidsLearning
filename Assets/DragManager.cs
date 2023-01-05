@@ -15,6 +15,7 @@ namespace KidsLearning
         private Rect _boundingBox;
 
         private AnswerChoice _currentDraggedObject = null;
+
         public AnswerChoice CurrentDraggedObject => _currentDraggedObject;
 
         private void Awake()
@@ -25,11 +26,13 @@ namespace KidsLearning
         public void RegisterDraggedObject(AnswerChoice drag)
         {
             _currentDraggedObject = drag;
+            _currentDraggedObject.MyRectTransform.sizeDelta = _questionLogic.GetAnswerPart(_currentDraggedObject).MyRectTransform.sizeDelta;
             drag.transform.SetParent(_dragLayer);
         }
 
         public void UnregisterDraggedObject(AnswerChoice drag)
         {
+            _currentDraggedObject.ResetSize();
             drag.transform.SetParent(_defaultLayer);
             _currentDraggedObject = null;
         }

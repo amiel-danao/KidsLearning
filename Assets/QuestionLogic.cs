@@ -45,6 +45,27 @@ namespace KidsLearning
             NextQuestion();
         }
 
+        public AnswerParts GetAnswerPart(AnswerChoice answerChoice)
+        {
+            return _allAnswerParts.Where(answer => answer.MyAnswerChoice == answerChoice).First();
+        }
+
+        public AnswerParts GetCurrentAnswer()
+        {
+            try
+            {
+                return _allAnswerParts[_currentQuestionIndex];
+            }
+            catch (IndexOutOfRangeException exception)
+            {
+                return null;
+            }
+            catch (NullReferenceException exception)
+            {
+                return null;
+            }
+        }
+
         public void NextQuestion()
         {
             int previousIndex = _currentQuestionIndex;

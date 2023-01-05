@@ -13,9 +13,11 @@ namespace KidsLearning
         [SerializeField] private Image _image;
         [SerializeField] private TMP_Text _text;
         public TMP_Text MyText => _text;
+        public RectTransform MyRectTransform => _rectTransform;
         private DragManager _manager = null;
+        private RectTransform _rectTransform;
         private AnswerParts _currentAnswerHover;
-
+        private Vector2 _originalSizeDelta;
         private Vector2 _centerPoint;
         private Vector2 _worldCenterPoint => transform.TransformPoint(_centerPoint);
         // Start is called before the first frame update
@@ -23,6 +25,8 @@ namespace KidsLearning
         {
             _manager = GetComponentInParent<DragManager>();
             _centerPoint = (transform as RectTransform).rect.center;
+            _rectTransform = GetComponent<RectTransform>();
+            _originalSizeDelta = _rectTransform.sizeDelta;
 
             iTween.ScaleTo(_text.gameObject, iTween.Hash(
                 "scale", Vector3.one * 1.3f,
@@ -30,6 +34,11 @@ namespace KidsLearning
                 "looptype", "pingpong",
                 "easetype", iTween.EaseType.easeInOutCubic
             ));
+        }
+
+        public void ResetSize()
+        {
+            _rectTransform.sizeDelta = _originalSizeDelta;
         }
 
         public void OnBeginDrag(PointerEventData eventData)
