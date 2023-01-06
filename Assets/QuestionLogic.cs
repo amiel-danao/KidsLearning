@@ -56,11 +56,11 @@ namespace KidsLearning
             {
                 return _allAnswerParts[_currentQuestionIndex];
             }
-            catch (IndexOutOfRangeException exception)
+            catch (IndexOutOfRangeException)
             {
                 return null;
             }
-            catch (NullReferenceException exception)
+            catch (NullReferenceException)
             {
                 return null;
             }
@@ -77,11 +77,11 @@ namespace KidsLearning
                 var previousAnswer = _allAnswerParts[previousIndex];
                 CorrectAnsweredEvent?.Invoke(previousAnswer);
             }
-            catch (IndexOutOfRangeException exception)
+            catch (IndexOutOfRangeException)
             {
 
             }
-            catch (NullReferenceException exception)
+            catch (NullReferenceException)
             {
 
             }
