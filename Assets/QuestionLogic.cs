@@ -20,6 +20,10 @@ namespace KidsLearning
 
         public Action<AnswerParts> CorrectAnsweredEvent;
         public Action LevelFinishedEvent;
+        [SerializeField] private AudioSource _soundEffect;
+        [SerializeField] private AudioClip _correctSound;
+        [SerializeField] private AudioClip _yaySound;
+        [SerializeField] private GameObject _congratsPanel;
 
         void Awake()
         {
@@ -42,6 +46,12 @@ namespace KidsLearning
 
         void Start()
         {
+            iTween.ScaleTo(_questionText.gameObject, iTween.Hash(
+                "scale", Vector3.one * 0.8f,
+                "time", 1f,
+                "looptype", "pingpong",
+                "easetype", iTween.EaseType.easeInOutCubic
+            ));
             NextQuestion();
         }
 
@@ -75,6 +85,7 @@ namespace KidsLearning
             try
             {
                 var previousAnswer = _allAnswerParts[previousIndex];
+                _soundEffect.PlayOneShot(_correctSound);
                 CorrectAnsweredEvent?.Invoke(previousAnswer);
             }
             catch (IndexOutOfRangeException)
@@ -96,6 +107,9 @@ namespace KidsLearning
                 }
                 else
                 {
+                    _soundEffect.PlayOneShot(_yaySound);
+                    LevelFinishedEvent?.Invoke();
+                    _congratsPanel.SetActive(true);
                     Debug.Log("Level Finished!");
                 }
             }

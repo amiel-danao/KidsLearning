@@ -17,6 +17,8 @@ namespace KidsLearning.Assets.level3
         private LetterChoice _currentDraggedObject = null;
 
         public LetterChoice CurrentDraggedObject => _currentDraggedObject;
+        [SerializeField] private AudioSource _soundEffect;
+        [SerializeField] private AudioClip _clickSound, _unClickSound;
 
         public LetterChoice GetCurrentDraggedObject()
         { return _currentDraggedObject; }
@@ -26,12 +28,8 @@ namespace KidsLearning.Assets.level3
             SetBoundingBoxRect(_dragLayer);
         }
 
-        public void EvaluateAnswer()
+        public void SwapLetter(Transform a, int index1, Transform b)
         {
-
-        }
-
-        public void SwapLetter(Transform a, int index1, Transform b) {
             int index2 = b.GetSiblingIndex();
             a.SetSiblingIndex(index2);
             b.SetSiblingIndex(index1);
@@ -40,14 +38,22 @@ namespace KidsLearning.Assets.level3
 
         public void RegisterDraggedObject(LetterChoice drag)
         {
+            _soundEffect.PlayOneShot(_clickSound);
             _currentDraggedObject = drag;
             drag.transform.SetParent(_dragLayer);
         }
 
-        public void UnregisterDraggedObject(LetterChoice drag)
+        public void UnregisterDraggedObject(LetterChoice drag, Transform optionalSwapTransform = null)
         {
+            _soundEffect.PlayOneShot(_unClickSound);
             drag.transform.SetParent(_defaultLayer);
             _currentDraggedObject = null;
+            if (optionalSwapTransform != null)
+            {
+                SwapLetter(drag.transform, drag.IndexBeforeDragging, optionalSwapTransform);
+            }
+
+            _wordGame.EvaluateAnswer();
         }
 
         public bool IsWithinBounds(Vector2 position)

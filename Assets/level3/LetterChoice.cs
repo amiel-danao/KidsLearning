@@ -17,13 +17,13 @@ namespace KidsLearning.Assets.level3
         private Vector2 _originalSizeDelta;
         private Vector2 _centerPoint;
         private int _indexBeforeDragging = -1;
+        public int IndexBeforeDragging => _indexBeforeDragging;
         private Vector2 _worldCenterPoint => transform.TransformPoint(_centerPoint);
 
         public void SetLetter(string letter)
         {
             _text.text = letter;
         }
-
         void Start()
         {
             _manager = transform.root.GetComponent<LetterDragManager>();
@@ -54,29 +54,33 @@ namespace KidsLearning.Assets.level3
 
         public void OnEndDrag(PointerEventData eventData)
         {
-            _manager.UnregisterDraggedObject(this);
+
             if (_currentLetterPairHover == null)
             {
+                _manager.UnregisterDraggedObject(this);
                 transform.SetSiblingIndex(_indexBeforeDragging);
             }
-            else if(_currentLetterPairHover.transform.GetSiblingIndex() != _indexBeforeDragging)
+            else
             {
-                _manager.SwapLetter(transform, _indexBeforeDragging, _currentLetterPairHover.transform);
+                _manager.UnregisterDraggedObject(this, _currentLetterPairHover.transform);
             }
 
-            _manager.EvaluateAnswer();
             _currentLetterPairHover = null;
 
-            iTween.ScaleTo(gameObject, iTween.Hash(
-                "scale", Vector3.one,
-                "time", 0.4f,
-                "easetype", iTween.EaseType.easeInOutCubic
-            ));
+            try
+            {
+                iTween.ScaleTo(gameObject, iTween.Hash(
+                    "scale", Vector3.one,
+                    "time", 0.4f,
+                    "easetype", iTween.EaseType.easeInOutCubic
+                ));
+            }
+            catch (MissingReferenceException) { }
         }
 
         void OnTriggerEnter2D(Collider2D collider)
         {
-            if (collider.TryGetComponent(out LetterPair answerPart) && _manager.GetCurrentDraggedObject())
+            if (collider.TryGetComponent(out LetterPair answerPart) && _manager != null && _manager.GetCurrentDraggedObject() == this)
             {
                 _currentLetterPairHover = answerPart;
                 Debug.Log("Enter!!", answerPart.gameObject);

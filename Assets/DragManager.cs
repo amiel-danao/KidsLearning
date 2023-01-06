@@ -17,16 +17,19 @@ namespace KidsLearning
         private AnswerChoice _currentDraggedObject = null;
 
         public AnswerChoice CurrentDraggedObject => _currentDraggedObject;
+        [SerializeField] private AudioSource _soundEffect;
+        [SerializeField] private AudioClip _clickSound, _unClickSound;
 
         private void Awake()
         {
             SetBoundingBoxRect(_dragLayer);
         }
 
-        
+
 
         public void RegisterDraggedObject(AnswerChoice drag)
         {
+            _soundEffect.PlayOneShot(_clickSound);
             _currentDraggedObject = drag;
             _currentDraggedObject.MyRectTransform.sizeDelta = _questionLogic.GetAnswerPart(_currentDraggedObject).MyRectTransform.sizeDelta;
             drag.transform.SetParent(_dragLayer);
@@ -34,6 +37,7 @@ namespace KidsLearning
 
         public void UnregisterDraggedObject(AnswerChoice drag)
         {
+            _soundEffect.PlayOneShot(_unClickSound);
             _currentDraggedObject.ResetSize();
             drag.transform.SetParent(_defaultLayer);
             _currentDraggedObject = null;

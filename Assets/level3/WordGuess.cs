@@ -12,6 +12,7 @@ namespace KidsLearning
         [SerializeField] private Sprite _sprite;
         public string MyWord => _word;
         public Sprite MySprite => _sprite;
-
+        [SerializeField] private float _desiredScale = 1;
+        public float DesiredScale => _desiredScale;
     }
 }
