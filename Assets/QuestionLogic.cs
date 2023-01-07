@@ -5,6 +5,7 @@ using UnityEngine.UI;
 using UnityEngine;
 using TMPro;
 using System.Linq;
+using Random = System.Random;
 
 
 namespace KidsLearning
@@ -14,12 +15,15 @@ namespace KidsLearning
     {
         [SerializeField] private TMP_Text _questionText;
         [SerializeField] private ArithmeticGenerator _arithmeticGenerator;
+        [SerializeField] private Transform _levelsParent;
+        private int _currentLevel = 0;
         private AnswerParts[] _allAnswerParts;
         private List<Arithmetic> _questions = new List<Arithmetic>();
         private int _currentQuestionIndex = -1;
 
         public Action<AnswerParts> CorrectAnsweredEvent;
         public Action LevelFinishedEvent;
+        public Action ShapeFinishedEvent;
         [SerializeField] private AudioSource _soundEffect;
         [SerializeField] private AudioClip _correctSound;
         [SerializeField] private AudioClip _yaySound;
@@ -27,21 +31,7 @@ namespace KidsLearning
 
         void Awake()
         {
-            _allAnswerParts = transform.GetComponentsInChildren<AnswerParts>();
-            foreach (var answerPart in _allAnswerParts)
-            {
-                var problem = _arithmeticGenerator.GetRandomArithmeticProblem();
-
-                while (_questions.Any(question => question.result == problem.result))
-                {
-                    problem = _arithmeticGenerator.GetRandomArithmeticProblem();
-                }
-
-                _questions.Add(problem);
-                answerPart.SetAnswer(problem.result);
-            }
-
-
+            
         }
 
         void Start()
@@ -52,6 +42,7 @@ namespace KidsLearning
                 "looptype", "pingpong",
                 "easetype", iTween.EaseType.easeInOutCubic
             ));
+            AssembleLevel();
             NextQuestion();
         }
 
@@ -76,8 +67,36 @@ namespace KidsLearning
             }
         }
 
+        public RectTransform GetCurrentLevelTransform()
+        {
+            return _levelsParent.GetChild(_currentLevel).GetComponent<RectTransform>();
+        }
+
+        private void AssembleLevel()
+        {
+            var levelParent = GetCurrentLevelTransform();
+            levelParent.gameObject.SetActive(true);
+            //RandomizeChildren();
+            _allAnswerParts = levelParent.GetComponentsInChildren<AnswerParts>();
+            ShufflePartsToGuess();
+            _questions.Clear();
+            foreach (var answerPart in _allAnswerParts)
+            {
+                var problem = _arithmeticGenerator.GetRandomArithmeticProblem();
+
+                while (_questions.Any(question => question.result == problem.result))
+                {
+                    problem = _arithmeticGenerator.GetRandomArithmeticProblem();
+                }
+
+                _questions.Add(problem);
+                answerPart.SetAnswer(problem.result);
+            }
+        }
+
         public void NextQuestion()
         {
+            
             int previousIndex = _currentQuestionIndex;
             _currentQuestionIndex++;
             _questionText.text = string.Empty;
@@ -107,10 +126,23 @@ namespace KidsLearning
                 }
                 else
                 {
-                    _soundEffect.PlayOneShot(_yaySound);
-                    LevelFinishedEvent?.Invoke();
-                    _congratsPanel.SetActive(true);
-                    Debug.Log("Level Finished!");
+                    int previousLevel = _currentLevel;
+                    _currentLevel++;
+                    if (_currentLevel < _levelsParent.childCount)
+                    {
+                        ShapeFinishedEvent?.Invoke();
+                        _levelsParent.GetChild(previousLevel).gameObject.SetActive(false);
+                        _currentQuestionIndex = -1;
+                        AssembleLevel();
+                        NextQuestion();
+                    }
+                    else
+                    {
+                        _soundEffect.PlayOneShot(_yaySound);
+                        LevelFinishedEvent?.Invoke();
+                        _congratsPanel.SetActive(true);
+                        Debug.Log("Level Finished!");
+                    }
                 }
             }
             catch (IndexOutOfRangeException exception)
@@ -119,10 +151,42 @@ namespace KidsLearning
             }
         }
 
-        // Update is called once per frame
-        void Update()
+        private void ShufflePartsToGuess()
         {
+            Random rnd = new Random();
+            int n = _allAnswerParts.Length;
+            while (n > 1)
+            {
+                n--;
+                int k = rnd.Next(n + 1);
+                var value = _allAnswerParts[k];
+                _allAnswerParts[k] = _allAnswerParts[n];
+                _allAnswerParts[n] = value;
+            }
+        }
 
+        void RandomizeChildren()
+        {
+            var parent = GetCurrentLevelTransform().Find("answer_bg");
+            int childCount = parent.childCount;
+            if (childCount == 0) return;
+
+            // Create a list of the children
+            List<Transform> children = new();
+            for (int i = 0; i < childCount; i++)
+            {
+                children.Add(parent.GetChild(i));
+            }
+
+            // Randomize the list of children
+            System.Random rng = new();
+            children = children.OrderBy(x => rng.Next()).ToList();
+
+            // Re-parent the children in the randomized order
+            for (int i = 0; i < childCount; i++)
+            {
+                children[i].SetParent(parent);
+            }
         }
     }
 }

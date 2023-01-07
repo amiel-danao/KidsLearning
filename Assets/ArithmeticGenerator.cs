@@ -31,7 +31,7 @@ namespace KidsLearning
         {
             return arithmetic.result < 0 || arithmetic.result > 20 ||
             !(Math.Abs(arithmetic.result % 1) < double.Epsilon) ||
-            (arithmetic.result == 0 && arithmetic.operatorUsed == '/');
+            (arithmetic.result == 0 && arithmetic.operatorUsed == '÷');
         }
 
         private Arithmetic GenerateProblem(char operatorUsed = ' ')
@@ -67,9 +67,9 @@ namespace KidsLearning
                 case 1:
                     return '-';
                 case 2:
-                    return '*';
+                    return 'x';
                 case 3:
-                    return '/';
+                    return '÷';
                 default:
                     throw new InvalidOperationException("Invalid operator index");
             }
@@ -83,9 +83,9 @@ namespace KidsLearning
                     return num1 + num2;
                 case '-':
                     return num1 - num2;
-                case '*':
+                case 'x':
                     return (float)num1 * num2;
-                case '/':
+                case '÷':
                     return (float)num1 / num2;
                 default:
                     throw new InvalidOperationException("Invalid operator");

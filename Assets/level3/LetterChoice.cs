@@ -31,6 +31,11 @@ namespace KidsLearning.Assets.level3
             _rectTransform = GetComponent<RectTransform>();
             _originalSizeDelta = _rectTransform.sizeDelta;
             _indexBeforeDragging = transform.GetSiblingIndex();
+            iTween.ScaleTo(gameObject, iTween.Hash(
+                "scale", Vector3.one,
+                "time", 0.4f,
+                "easetype", iTween.EaseType.easeInOutCubic
+            ));
         }
 
         public void OnBeginDrag(PointerEventData eventData)

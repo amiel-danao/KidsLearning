@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,10 +8,8 @@ namespace KidsLearning
     public class DragManager : MonoBehaviour
     {
         [SerializeField] private QuestionLogic _questionLogic;
-        [SerializeField]
-        private RectTransform
-            _defaultLayer = null,
-            _dragLayer = null;
+        [SerializeField] private RectTransform _dragLayer = null;
+        private RectTransform _defaultLayer= null;
 
         private Rect _boundingBox;
 
@@ -20,12 +19,17 @@ namespace KidsLearning
         [SerializeField] private AudioSource _soundEffect;
         [SerializeField] private AudioClip _clickSound, _unClickSound;
 
-        private void Awake()
+        private void Start()
         {
+            OnShapeFinished();
             SetBoundingBoxRect(_dragLayer);
+            _questionLogic.ShapeFinishedEvent += OnShapeFinished;
         }
 
-
+        private void OnShapeFinished()
+        {
+            _defaultLayer = _questionLogic.GetCurrentLevelTransform().Find("answer_choices").GetComponent<RectTransform>();
+        }
 
         public void RegisterDraggedObject(AnswerChoice drag)
         {
