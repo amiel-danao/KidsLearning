@@ -25,7 +25,7 @@ namespace KidsLearning
         [SerializeField] private GameObject _congratsPanel;
         private int _currentWordIndex = -1;
         public Action<WordGuess> CorrectAnsweredEvent;
-
+        public Action<bool> BeginPuzzleEvent;
         public Action LevelFinishedEvent;
 
 
@@ -120,6 +120,7 @@ namespace KidsLearning
                         "looptype", "pingpong",
                         "easetype", iTween.EaseType.easeInOutCubic
                     ));
+                    BeginPuzzleEvent?.Invoke(true);
                 }
                 else
                 {
@@ -129,6 +130,7 @@ namespace KidsLearning
                     _soundEffect.PlayOneShot(_yaySound);
                     _congratsPanel.SetActive(true);
                     Debug.Log("Level Finished!");
+                    BeginPuzzleEvent?.Invoke(false);
                 }
             }
             catch (IndexOutOfRangeException exception)

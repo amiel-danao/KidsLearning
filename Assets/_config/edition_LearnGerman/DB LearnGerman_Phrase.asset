@@ -1,0 +1,1490 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6b8dc816d8d6e54d8325fbac00e0782, type: 3}
+  m_Name: DB LearnGerman_Phrase
+  m_EditorClassIdentifier: 
+  table:
+    innerList:
+    - _Id: Phrase_apple
+      _Active: 1
+      _Text: "Der APFEL w\xE4chst am Baum"
+      _Category: 14
+      _Linked: 
+      _Words:
+      - apple
+      - tree
+      _Answers:
+      - apple
+      _Complexity: 0
+      _PlaySessionLink:
+      - Food
+    - _Id: Phrase_arm
+      _Active: 1
+      _Text: Dein ARM ist sehr lang
+      _Category: 15
+      _Linked: 
+      _Words:
+      - arm
+      _Answers:
+      - arm
+      _Complexity: 0
+      _PlaySessionLink:
+      - Body
+    - _Id: Phrase_aunt
+      _Active: 1
+      _Text: "Meine TANTE wohnt in einer gro\xDFen Stadt"
+      _Category: 13
+      _Linked: 
+      _Words:
+      - aunt
+      - city
+      _Answers:
+      - aunt
+      _Complexity: 0
+      _PlaySessionLink:
+      - Family
+    - _Id: Phrase_ball
+      _Active: 1
+      _Text: Am Strand liegt ein BALL
+      _Category: 10
+      _Linked: 
+      _Words:
+      - ball
+      - beach
+      _Answers:
+      - ball
+      _Complexity: 0
+      _PlaySessionLink:
+      - Objects
+    - _Id: Phrase_banana
+      _Active: 1
+      _Text: Diese BANANE ist gelb
+      _Category: 14
+      _Linked: 
+      _Words:
+      - banana
+      - color_yellow
+      _Answers:
+      - banana
+      _Complexity: 0
+      _PlaySessionLink:
+      - Food
+    - _Id: Phrase_bed
+      _Active: 1
+      _Text: Das BETT ist rot
+      _Category: 9
+      _Linked: 
+      _Words:
+      - bed
+      - color_red
+      _Answers:
+      - bed
+      _Complexity: 0
+      _PlaySessionLink:
+      - Home
+    - _Id: Phrase_bedroom
+      _Active: 1
+      _Text: Eine Katze spielt im SCHLAFZIMMER
+      _Category: 9
+      _Linked: 
+      _Words:
+      - bedroom
+      - cat
+      _Answers:
+      - bedroom
+      _Complexity: 0
+      _PlaySessionLink:
+      - Home
+    - _Id: Phrase_belly
+      _Active: 1
+      _Text: Mein BAUCH tut weh
+      _Category: 15
+      _Linked: 
+      _Words:
+      - belly
+      _Answers:
+      - belly
+      _Complexity: 0
+      _PlaySessionLink:
+      - Body
+    - _Id: Phrase_bicycle
+      _Active: 1
+      _Text: Das FAHRRAD ist alt
+      _Category: 12
+      _Linked: 
+      _Words:
+      - bicycle
+      _Answers:
+      - bicycle
+      _Complexity: 0
+      _PlaySessionLink:
+      - City
+    - _Id: Phrase_bird
+      _Active: 1
+      _Text: Ein VOGEL singt im Wald
+      _Category: 8
+      _Linked: 
+      _Words:
+      - bird
+      - forest
+      _Answers:
+      - bird
+      _Complexity: 0
+      _PlaySessionLink:
+      - Animals
+    - _Id: Phrase_book
+      _Active: 1
+      _Text: Auf dem Tisch liegt ein BUCH
+      _Category: 10
+      _Linked: 
+      _Words:
+      - book
+      - table
+      _Answers:
+      - book
+      _Complexity: 0
+      _PlaySessionLink:
+      - Objects
+    - _Id: Phrase_box
+      _Active: 1
+      _Text: "Das ist eine gro\xDFe KISTE"
+      _Category: 10
+      _Linked: 
+      _Words:
+      - box
+      _Answers:
+      - box
+      _Complexity: 0
+      _PlaySessionLink:
+      - Objects
+    - _Id: Phrase_boy
+      _Active: 1
+      _Text: Ein JUNGE singt im Auto
+      _Category: 13
+      _Linked: 
+      _Words:
+      - boy
+      - car
+      _Answers:
+      - boy
+      _Complexity: 0
+      _PlaySessionLink:
+      - Family
+    - _Id: Phrase_brain
+      _Active: 1
+      _Text: Das GEHIRN ist im Kopf
+      _Category: 15
+      _Linked: 
+      _Words:
+      - brain
+      - head
+      _Answers:
+      - brain
+      _Complexity: 0
+      _PlaySessionLink:
+      - Body
+    - _Id: Phrase_brother
+      _Active: 1
+      _Text: Dein BRUDER ist jung
+      _Category: 13
+      _Linked: 
+      _Words:
+      - brother
+      _Answers:
+      - brother
+      _Complexity: 0
+      _PlaySessionLink:
+      - Family
+    - _Id: Phrase_bus
+      _Active: 1
+      _Text: "Der BUS ist gr\xFCn"
+      _Category: 12
+      _Linked: 
+      _Words:
+      - bus
+      - color_green
+      _Answers:
+      - bus
+      _Complexity: 0
+      _PlaySessionLink:
+      - City
+    - _Id: Phrase_cake
+      _Active: 1
+      _Text: "Im K\xFChlschrank ist ein KUCHEN"
+      _Category: 14
+      _Linked: 
+      _Words:
+      - cake
+      - fridge
+      _Answers:
+      - cake
+      _Complexity: 0
+      _PlaySessionLink:
+      - Food
+    - _Id: Phrase_camel
+      _Active: 1
+      _Text: "Das KAMEL lebt in der W\xFCste"
+      _Category: 8
+      _Linked: 
+      _Words:
+      - camel
+      - desert
+      _Answers:
+      - camel
+      _Complexity: 0
+      _PlaySessionLink:
+      - Animals
+    - _Id: Phrase_carrot
+      _Active: 1
+      _Text: Die KAROTTE ist gesund
+      _Category: 14
+      _Linked: 
+      _Words:
+      - carrot
+      _Answers:
+      - carrot
+      _Complexity: 0
+      _PlaySessionLink:
+      - Food
+    - _Id: Phrase_castle
+      _Active: 1
+      _Text: "Das SCHLOSS ist sch\xF6n"
+      _Category: 12
+      _Linked: 
+      _Words:
+      - castle
+      _Answers:
+      - castle
+      _Complexity: 0
+      _PlaySessionLink:
+      - City
+    - _Id: Phrase_cat
+      _Active: 1
+      _Text: Die KATZE ist klein
+      _Category: 8
+      _Linked: 
+      _Words:
+      - cat
+      _Answers:
+      - cat
+      _Complexity: 0
+      _PlaySessionLink:
+      - Animals
+    - _Id: Phrase_chair
+      _Active: 1
+      _Text: Das ist ein kleiner STUHL
+      _Category: 9
+      _Linked: 
+      _Words:
+      - chair
+      _Answers:
+      - chair
+      _Complexity: 0
+      _PlaySessionLink:
+      - Home
+    - _Id: Phrase_cheese
+      _Active: 1
+      _Text: "Ich mag K\xC4SE"
+      _Category: 14
+      _Linked: 
+      _Words:
+      - cheese
+      _Answers:
+      - cheese
+      _Complexity: 0
+      _PlaySessionLink:
+      - Food
+    - _Id: Phrase_chickpea
+      _Active: 1
+      _Text: Die KICHERERBSE ist klein
+      _Category: 14
+      _Linked: 
+      _Words:
+      - chickpea
+      _Answers:
+      - chickpea
+      _Complexity: 0
+      _PlaySessionLink:
+      - Food
+    - _Id: Phrase_classroom
+      _Active: 1
+      _Text: Im KLASSENZIMMER steht ein Stuhl
+      _Category: 12
+      _Linked: 
+      _Words:
+      - classroom
+      - chair
+      _Answers:
+      - classroom
+      _Complexity: 0
+      _PlaySessionLink:
+      - City
+    - _Id: Phrase_closet
+      _Active: 1
+      _Text: "Im SCHRANK h\xE4ngt ein Rock"
+      _Category: 9
+      _Linked: 
+      _Words:
+      - skirt
+      - closet
+      _Answers:
+      - closet
+      _Complexity: 0
+      _PlaySessionLink:
+      - Home
+    - _Id: Phrase_cloud
+      _Active: 1
+      _Text: "Die WOLKE ist wei\xDF"
+      _Category: 7
+      _Linked: 
+      _Words:
+      - cloud
+      - color_white
+      _Answers:
+      - cloud
+      _Complexity: 0
+      _PlaySessionLink:
+      - Nature
+    - _Id: Phrase_coat
+      _Active: 1
+      _Text: Der MANTEL ist sehr alt
+      _Category: 11
+      _Linked: 
+      _Words:
+      - coat
+      _Answers:
+      - coat
+      _Complexity: 0
+      _PlaySessionLink:
+      - Clothes
+    - _Id: Phrase_coffee
+      _Active: 1
+      _Text: Meine Mutter trinkt KAFFEE
+      _Category: 14
+      _Linked: 
+      _Words:
+      - coffee
+      - mother
+      _Answers:
+      - coffee
+      _Complexity: 0
+      _PlaySessionLink:
+      - Food
+    - _Id: Phrase_computer
+      _Active: 1
+      _Text: Der COMPUTER ist an
+      _Category: 9
+      _Linked: 
+      _Words:
+      - computer
+      _Answers:
+      - computer
+      _Complexity: 0
+      _PlaySessionLink:
+      - Home
+    - _Id: Phrase_cow
+      _Active: 1
+      _Text: Die KUH gibt Milch
+      _Category: 8
+      _Linked: 
+      _Words:
+      - cow
+      _Answers:
+      - cow
+      _Complexity: 0
+      _PlaySessionLink:
+      - Animals
+    - _Id: Phrase_cup
+      _Active: 1
+      _Text: Meine TASSE ist voll
+      _Category: 9
+      _Linked: 
+      _Words:
+      - cup
+      _Answers:
+      - cup
+      _Complexity: 0
+      _PlaySessionLink:
+      - Home
+    - _Id: Phrase_daughter
+      _Active: 1
+      _Text: Meine TOCHTER sieht fern
+      _Category: 13
+      _Linked: 
+      _Words:
+      - daughter
+      - television
+      _Answers:
+      - daughter
+      _Complexity: 0
+      _PlaySessionLink:
+      - Family
+    - _Id: Phrase_dog
+      _Active: 1
+      _Text: Das ist ein brauner HUND
+      _Category: 8
+      _Linked: 
+      _Words:
+      - dog
+      - color_brown
+      _Answers:
+      - dog
+      _Complexity: 0
+      _PlaySessionLink:
+      - Animals
+    - _Id: Phrase_door
+      _Active: 1
+      _Text: "Eine T\xDCR ist geschlossen"
+      _Category: 9
+      _Linked: 
+      _Words:
+      - door
+      _Answers:
+      - door
+      _Complexity: 0
+      _PlaySessionLink:
+      - Home
+    - _Id: Phrase_elephant
+      _Active: 1
+      _Text: "Der ELEFANT ist gro\xDF"
+      _Category: 8
+      _Linked: 
+      _Words:
+      - elephant
+      _Answers:
+      - elephant
+      _Complexity: 0
+      _PlaySessionLink:
+      - Animals
+    - _Id: Phrase_eye
+      _Active: 1
+      _Text: Das ist ein blaues AUGE
+      _Category: 15
+      _Linked: 
+      _Words:
+      - eye
+      - color_blue
+      _Answers:
+      - eye
+      _Complexity: 0
+      _PlaySessionLink:
+      - Body
+    - _Id: Phrase_face
+      _Active: 1
+      _Text: "Ich habe ein fr\xF6hliches GESICHT"
+      _Category: 15
+      _Linked: 
+      _Words:
+      - face
+      _Answers:
+      - face
+      _Complexity: 0
+      _PlaySessionLink:
+      - Body
+    - _Id: Phrase_father
+      _Active: 1
+      _Text: Dein VATER arbeitet in einem Krankenhaus
+      _Category: 13
+      _Linked: 
+      _Words:
+      - father
+      - hospital
+      _Answers:
+      - father
+      _Complexity: 0
+      _PlaySessionLink:
+      - Family
+    - _Id: Phrase_finger
+      _Active: 1
+      _Text: Dein FINGER ist sehr kurz
+      _Category: 15
+      _Linked: 
+      _Words:
+      - finger
+      _Answers:
+      - finger
+      _Complexity: 0
+      _PlaySessionLink:
+      - Body
+    - _Id: Phrase_flower
+      _Active: 1
+      _Text: "Das ist ein sch\xF6ne BLUME"
+      _Category: 7
+      _Linked: 
+      _Words:
+      - flower
+      _Answers:
+      - flower
+      _Complexity: 0
+      _PlaySessionLink:
+      - Nature
+    - _Id: Phrase_food
+      _Active: 1
+      _Text: Das ESSEN ist wichtig
+      _Category: 14
+      _Linked: 
+      _Words:
+      - food
+      _Answers:
+      - food
+      _Complexity: 0
+      _PlaySessionLink:
+      - Food
+    - _Id: Phrase_forest
+      _Active: 1
+      _Text: Der WALD ist dunkel
+      _Category: 7
+      _Linked: 
+      _Words:
+      - forest
+      _Answers:
+      - forest
+      _Complexity: 0
+      _PlaySessionLink:
+      - Nature
+    - _Id: Phrase_frog
+      _Active: 1
+      _Text: Im Fluss schwimmt ein FROSCH
+      _Category: 8
+      _Linked: 
+      _Words:
+      - frog
+      - river
+      _Answers:
+      - frog
+      _Complexity: 0
+      _PlaySessionLink:
+      - Animals
+    - _Id: Phrase_garden
+      _Active: 1
+      _Text: Im GARTEN steht ein Baum
+      _Category: 12
+      _Linked: 
+      _Words:
+      - garden
+      - tree
+      _Answers:
+      - garden
+      _Complexity: 0
+      _PlaySessionLink:
+      - City
+    - _Id: Phrase_girl
+      _Active: 1
+      _Text: "Ein M\xC4DCHEN f\xE4hrt Fahrrad"
+      _Category: 13
+      _Linked: 
+      _Words:
+      - girl
+      - bicycle
+      _Answers:
+      - girl
+      _Complexity: 0
+      _PlaySessionLink:
+      - Family
+    - _Id: Phrase_gloves
+      _Active: 1
+      _Text: "Ein Junge tr\xE4gt HANDSCHUHE"
+      _Category: 11
+      _Linked: 
+      _Words:
+      - boy
+      - gloves
+      _Answers:
+      - gloves
+      _Complexity: 0
+      _PlaySessionLink:
+      - Clothes
+    - _Id: Phrase_goat
+      _Active: 1
+      _Text: Die ZIEGE frisst eine Pflanze
+      _Category: 8
+      _Linked: 
+      _Words:
+      - goat
+      - plant
+      _Answers:
+      - goat
+      _Complexity: 0
+      _PlaySessionLink:
+      - Animals
+    - _Id: Phrase_grandfather
+      _Active: 1
+      _Text: "Dein GRO\u1E9EVATER ist sehr alt"
+      _Category: 13
+      _Linked: 
+      _Words:
+      - grandfather
+      _Answers:
+      - grandfather
+      _Complexity: 0
+      _PlaySessionLink:
+      - Family
+    - _Id: Phrase_grandmother
+      _Active: 1
+      _Text: "Meine GRO\u1E9EMUTTER nimmt den Bus"
+      _Category: 13
+      _Linked: 
+      _Words:
+      - grandmother
+      - bus
+      _Answers:
+      - grandmother
+      _Complexity: 0
+      _PlaySessionLink:
+      - Family
+    - _Id: Phrase_hair
+      _Active: 1
+      _Text: Meine HAARE sind schwarz
+      _Category: 15
+      _Linked: 
+      _Words:
+      - hair
+      - color_black
+      _Answers:
+      - hair
+      _Complexity: 0
+      _PlaySessionLink:
+      - Body
+    - _Id: Phrase_hand
+      _Active: 1
+      _Text: Meine HAND ist klein
+      _Category: 15
+      _Linked: 
+      _Words:
+      - hand
+      _Answers:
+      - hand
+      _Complexity: 0
+      _PlaySessionLink:
+      - Body
+    - _Id: Phrase_hat
+      _Active: 1
+      _Text: Der HUT ist klein
+      _Category: 11
+      _Linked: 
+      _Words:
+      - hat
+      _Answers:
+      - hat
+      _Complexity: 0
+      _PlaySessionLink:
+      - Clothes
+    - _Id: Phrase_head
+      _Active: 1
+      _Text: Das Huhn bewegt den KOPF
+      _Category: 15
+      _Linked: 
+      _Words:
+      - head
+      - chicken
+      _Answers:
+      - head
+      _Complexity: 0
+      _PlaySessionLink:
+      - Body
+    - _Id: Phrase_horse
+      _Active: 1
+      _Text: Das ist ein schwarzes PFERD
+      _Category: 8
+      _Linked: 
+      _Words:
+      - horse
+      - color_black
+      _Answers:
+      - horse
+      _Complexity: 0
+      _PlaySessionLink:
+      - Animals
+    - _Id: Phrase_house
+      _Active: 1
+      _Text: Das HAUS steht auf der Insel
+      _Category: 12
+      _Linked: 
+      _Words:
+      - house
+      - island
+      _Answers:
+      - house
+      _Complexity: 0
+      _PlaySessionLink:
+      - City
+    - _Id: Phrase_island
+      _Active: 1
+      _Text: Die INSEL liegt im Meer
+      _Category: 7
+      _Linked: 
+      _Words:
+      - island
+      - sea
+      _Answers:
+      - island
+      _Complexity: 0
+      _PlaySessionLink:
+      - Nature
+    - _Id: Phrase_jacket
+      _Active: 1
+      _Text: Die JACKE ist gelb
+      _Category: 11
+      _Linked: 
+      _Words:
+      - jacket
+      - color_yellow
+      _Answers:
+      - jacket
+      _Complexity: 0
+      _PlaySessionLink:
+      - Clothes
+    - _Id: Phrase_kitchen
+      _Active: 1
+      _Text: "In der K\xDCCHE ist ein Hund"
+      _Category: 9
+      _Linked: 
+      _Words:
+      - kitchen
+      - dog
+      _Answers:
+      - kitchen
+      _Complexity: 0
+      _PlaySessionLink:
+      - Home
+    - _Id: Phrase_lamp
+      _Active: 1
+      _Text: Die LAMPE ist aus
+      _Category: 9
+      _Linked: 
+      _Words:
+      - lamp
+      _Answers:
+      - lamp
+      _Complexity: 0
+      _PlaySessionLink:
+      - Home
+    - _Id: Phrase_lips
+      _Active: 1
+      _Text: Die LIPPEN sind rot
+      _Category: 15
+      _Linked: 
+      _Words:
+      - lips
+      - color_red
+      _Answers:
+      - lips
+      _Complexity: 0
+      _PlaySessionLink:
+      - Body
+    - _Id: Phrase_man
+      _Active: 1
+      _Text: Ein MANN spaziert im Park
+      _Category: 13
+      _Linked: 
+      _Words:
+      - man
+      - park
+      _Answers:
+      - man
+      _Complexity: 0
+      _PlaySessionLink:
+      - Family
+    - _Id: Phrase_meat
+      _Active: 1
+      _Text: "Der L\xF6we frisst FLEISCH"
+      _Category: 14
+      _Linked: 
+      _Words:
+      - lion
+      - meat
+      _Answers:
+      - meat
+      _Complexity: 0
+      _PlaySessionLink:
+      - Food
+    - _Id: Phrase_monkey
+      _Active: 1
+      _Text: Der AFFE ist witzig
+      _Category: 8
+      _Linked: 
+      _Words:
+      - monkey
+      _Answers:
+      - monkey
+      _Complexity: 0
+      _PlaySessionLink:
+      - Animals
+    - _Id: Phrase_moon
+      _Active: 1
+      _Text: Ein Mann beobachtet den MOND
+      _Category: 7
+      _Linked: 
+      _Words:
+      - moon
+      - man
+      _Answers:
+      - moon
+      _Complexity: 0
+      _PlaySessionLink:
+      - Nature
+    - _Id: Phrase_mother
+      _Active: 1
+      _Text: Meine MUTTER liebt mich
+      _Category: 13
+      _Linked: 
+      _Words:
+      - mother
+      _Answers:
+      - mother
+      _Complexity: 0
+      _PlaySessionLink:
+      - Family
+    - _Id: Phrase_motorbike
+      _Active: 1
+      _Text: Das ist ein neues MOTORRAD
+      _Category: 12
+      _Linked: 
+      _Words:
+      - motorbike
+      _Answers:
+      - motorbike
+      _Complexity: 0
+      _PlaySessionLink:
+      - City
+    - _Id: Phrase_mountain
+      _Active: 1
+      _Text: Der BERG ist hoch
+      _Category: 7
+      _Linked: 
+      _Words:
+      - mountain
+      _Answers:
+      - mountain
+      _Complexity: 0
+      _PlaySessionLink:
+      - Nature
+    - _Id: Phrase_mouth
+      _Active: 1
+      _Text: Im MUND ist Essen
+      _Category: 15
+      _Linked: 
+      _Words:
+      - mouth
+      - food
+      _Answers:
+      - mouth
+      _Complexity: 0
+      _PlaySessionLink:
+      - Body
+    - _Id: Phrase_museum
+      _Active: 1
+      _Text: "Das MUSEUM hat ein gro\xDFes Fenster"
+      _Category: 12
+      _Linked: 
+      _Words:
+      - museum
+      - window
+      _Answers:
+      - museum
+      _Complexity: 0
+      _PlaySessionLink:
+      - City
+    - _Id: Phrase_nail
+      _Active: 1
+      _Text: Ich haben einen abgebrochenen NAGEL
+      _Category: 15
+      _Linked: 
+      _Words:
+      - nail
+      _Answers:
+      - nail
+      _Complexity: 0
+      _PlaySessionLink:
+      - Body
+    - _Id: Phrase_needle
+      _Active: 1
+      _Text: Die NADEL ist sehr klein
+      _Category: 10
+      _Linked: 
+      _Words:
+      - needle
+      _Answers:
+      - needle
+      _Complexity: 0
+      _PlaySessionLink:
+      - Objects
+    - _Id: Phrase_nose
+      _Active: 1
+      _Text: "Der Mann hat eine gro\xDFe NASE"
+      _Category: 15
+      _Linked: 
+      _Words:
+      - nose
+      - man
+      _Answers:
+      - nose
+      _Complexity: 0
+      _PlaySessionLink:
+      - Body
+    - _Id: Phrase_oil
+      _Active: 1
+      _Text: "Auf dem Boden ist \xD6L"
+      _Category: 14
+      _Linked: 
+      _Words:
+      - oil
+      - floor
+      _Answers:
+      - oil
+      _Complexity: 0
+      _PlaySessionLink:
+      - Food
+    - _Id: Phrase_oven
+      _Active: 1
+      _Text: "Der OFEN ist hei\xDF"
+      _Category: 9
+      _Linked: 
+      _Words:
+      - oven
+      _Answers:
+      - oven
+      _Complexity: 0
+      _PlaySessionLink:
+      - Home
+    - _Id: Phrase_paper
+      _Active: 1
+      _Text: "Ein M\xE4dchen schreibt auf PAPIER"
+      _Category: 10
+      _Linked: 
+      _Words:
+      - paper
+      - girl
+      _Answers:
+      - paper
+      _Complexity: 0
+      _PlaySessionLink:
+      - Objects
+    - _Id: Phrase_parrot
+      _Active: 1
+      _Text: Im Baum sitzt ein PAPAGEI
+      _Category: 8
+      _Linked: 
+      _Words:
+      - parrot
+      - tree
+      _Answers:
+      - parrot
+      _Complexity: 0
+      _PlaySessionLink:
+      - Animals
+    - _Id: Phrase_pencil
+      _Active: 1
+      _Text: Der BLEISTIFT ist neu
+      _Category: 10
+      _Linked: 
+      _Words:
+      - pencil
+      _Answers:
+      - pencil
+      _Complexity: 0
+      _PlaySessionLink:
+      - Objects
+    - _Id: Phrase_penguin
+      _Active: 1
+      _Text: Ein PINGUIN schwimmt im Meer
+      _Category: 8
+      _Linked: 
+      _Words:
+      - penguin
+      - sea
+      _Answers:
+      - penguin
+      _Complexity: 0
+      _PlaySessionLink:
+      - Animals
+    - _Id: Phrase_pet
+      _Active: 1
+      _Text: Ich liebe mein HAUSTIER
+      _Category: 13
+      _Linked: 
+      _Words:
+      - pet
+      _Answers:
+      - pet
+      _Complexity: 0
+      _PlaySessionLink:
+      - Family
+    - _Id: Phrase_plane
+      _Active: 1
+      _Text: Ein FLUGZEUG fliegt im Himmel
+      _Category: 12
+      _Linked: 
+      _Words:
+      - plane
+      - sky
+      _Answers:
+      - plane
+      _Complexity: 0
+      _PlaySessionLink:
+      - City
+    - _Id: Phrase_plant
+      _Active: 1
+      _Text: "Die PFLANZE ist gr\xFCn"
+      _Category: 7
+      _Linked: 
+      _Words:
+      - plant
+      - color_green
+      _Answers:
+      - plant
+      _Complexity: 0
+      _PlaySessionLink:
+      - Nature
+    - _Id: Phrase_port
+      _Active: 1
+      _Text: Der HAFEN liegt am Meer
+      _Category: 12
+      _Linked: 
+      _Words:
+      - port
+      - sea
+      _Answers:
+      - port
+      _Complexity: 0
+      _PlaySessionLink:
+      - City
+    - _Id: Phrase_potato
+      _Active: 1
+      _Text: "Das ist eine gro\xDFe KARTOFFEL"
+      _Category: 14
+      _Linked: 
+      _Words:
+      - potato
+      _Answers:
+      - potato
+      _Complexity: 0
+      _PlaySessionLink:
+      - Food
+    - _Id: Phrase_restaurant
+      _Active: 1
+      _Text: Ich mag dieses RESTAURANT
+      _Category: 12
+      _Linked: 
+      _Words:
+      - restaurant
+      _Answers:
+      - restaurant
+      _Complexity: 0
+      _PlaySessionLink:
+      - City
+    - _Id: Phrase_river
+      _Active: 1
+      _Text: "Ein Junge fischt im FLU\u1E9E"
+      _Category: 7
+      _Linked: 
+      _Words:
+      - river
+      _Answers:
+      - river
+      _Complexity: 0
+      _PlaySessionLink:
+      - Nature
+    - _Id: Phrase_scarf
+      _Active: 1
+      _Text: Der SCHAL ist rosa
+      _Category: 11
+      _Linked: 
+      _Words:
+      - scarf
+      - color_pink
+      _Answers:
+      - scarf
+      _Complexity: 0
+      _PlaySessionLink:
+      - Clothes
+    - _Id: Phrase_school
+      _Active: 1
+      _Text: Der Junge geht zur SCHULE
+      _Category: 12
+      _Linked: 
+      _Words:
+      - school
+      - boy
+      _Answers:
+      - school
+      _Complexity: 0
+      _PlaySessionLink:
+      - City
+    - _Id: Phrase_shirt
+      _Active: 1
+      _Text: Im Schrank ist ein HEMD
+      _Category: 11
+      _Linked: 
+      _Words:
+      - shirt
+      - closet
+      _Answers:
+      - shirt
+      _Complexity: 0
+      _PlaySessionLink:
+      - Clothes
+    - _Id: Phrase_shoes
+      _Active: 1
+      _Text: Die SCHUHE sind grau
+      _Category: 11
+      _Linked: 
+      _Words:
+      - shoes
+      - color_grey
+      _Answers:
+      - shoes
+      _Complexity: 0
+      _PlaySessionLink:
+      - Clothes
+    - _Id: Phrase_sister
+      _Active: 1
+      _Text: "Meine SCHWESTER spielt Fu\xDFball"
+      _Category: 13
+      _Linked: 
+      _Words:
+      - sister
+      _Answers:
+      - sister
+      _Complexity: 0
+      _PlaySessionLink:
+      - Family
+    - _Id: Phrase_skirt
+      _Active: 1
+      _Text: Ich mag diesen ROCK
+      _Category: 11
+      _Linked: 
+      _Words:
+      - skirt
+      _Answers:
+      - skirt
+      _Complexity: 0
+      _PlaySessionLink:
+      - Clothes
+    - _Id: Phrase_sky
+      _Active: 1
+      _Text: Der HIMMEL ist blau
+      _Category: 7
+      _Linked: 
+      _Words:
+      - sky
+      _Answers:
+      - sky
+      _Complexity: 0
+      _PlaySessionLink:
+      - Nature
+    - _Id: Phrase_snake
+      _Active: 1
+      _Text: Die SCHLANGE frisst eine Ratte
+      _Category: 8
+      _Linked: 
+      _Words:
+      - snake
+      - rat
+      _Answers:
+      - snake
+      _Complexity: 0
+      _PlaySessionLink:
+      - Animals
+    - _Id: Phrase_snow
+      _Active: 1
+      _Text: Auf dem Berg liegt SCHNEE
+      _Category: 7
+      _Linked: 
+      _Words:
+      - snow
+      - mountain
+      _Answers:
+      - snow
+      _Complexity: 0
+      _PlaySessionLink:
+      - Nature
+    - _Id: Phrase_son
+      _Active: 1
+      _Text: Mein SOHN mag Joghurt
+      _Category: 13
+      _Linked: 
+      _Words:
+      - son
+      - yogurt
+      _Answers:
+      - son
+      _Complexity: 0
+      _PlaySessionLink:
+      - Family
+    - _Id: Phrase_squirrel
+      _Active: 1
+      _Text: "Das EICHH\xD6RNCHEN klettert auf einen Baum"
+      _Category: 8
+      _Linked: 
+      _Words:
+      - squirrel
+      - tree
+      _Answers:
+      - squirrel
+      _Complexity: 0
+      _PlaySessionLink:
+      - Animals
+    - _Id: Phrase_star
+      _Active: 1
+      _Text: Im Himmel ist ein STERN
+      _Category: 7
+      _Linked: 
+      _Words:
+      - star
+      - sky
+      _Answers:
+      - star
+      _Complexity: 0
+      _PlaySessionLink:
+      - Nature
+    - _Id: Phrase_stone
+      _Active: 1
+      _Text: Das ist ein kleiner STEIN
+      _Category: 7
+      _Linked: 
+      _Words:
+      - stone
+      _Answers:
+      - stone
+      _Complexity: 0
+      _PlaySessionLink:
+      - Nature
+    - _Id: Phrase_stove
+      _Active: 1
+      _Text: Im HERD brennt ein Feuer
+      _Category: 9
+      _Linked: 
+      _Words:
+      - stove
+      - fire
+      _Answers:
+      - stove
+      _Complexity: 0
+      _PlaySessionLink:
+      - Home
+    - _Id: Phrase_sun
+      _Active: 1
+      _Text: Die SONNE steht am Himmel
+      _Category: 7
+      _Linked: 
+      _Words:
+      - sun
+      - sky
+      _Answers:
+      - sun
+      _Complexity: 0
+      _PlaySessionLink:
+      - Nature
+    - _Id: Phrase_television
+      _Active: 1
+      _Text: "Ein M\xE4dchen schaut FERNSEHEN"
+      _Category: 9
+      _Linked: 
+      _Words:
+      - girl
+      - television
+      _Answers:
+      - television
+      _Complexity: 0
+      _PlaySessionLink:
+      - Home
+    - _Id: Phrase_tiger
+      _Active: 1
+      _Text: Der TIGER lebt im Dschungel
+      _Category: 8
+      _Linked: 
+      _Words:
+      - tiger
+      _Answers:
+      - tiger
+      _Complexity: 0
+      _PlaySessionLink:
+      - Animals
+    - _Id: Phrase_tomato
+      _Active: 1
+      _Text: Das ist eine rote TOMATE
+      _Category: 14
+      _Linked: 
+      _Words:
+      - tomato
+      - color_red
+      _Answers:
+      - tomato
+      _Complexity: 0
+      _PlaySessionLink:
+      - Food
+    - _Id: Phrase_tongue
+      _Active: 1
+      _Text: Die ZUNGE ist im Mund
+      _Category: 15
+      _Linked: 
+      _Words:
+      - tongue
+      - mouth
+      _Answers:
+      - tongue
+      _Complexity: 0
+      _PlaySessionLink:
+      - Body
+    - _Id: Phrase_tooth
+      _Active: 1
+      _Text: Der ZAHN ist gebrochen
+      _Category: 15
+      _Linked: 
+      _Words:
+      - tooth
+      _Answers:
+      - tooth
+      _Complexity: 0
+      _PlaySessionLink:
+      - Body
+    - _Id: Phrase_toy
+      _Active: 1
+      _Text: Auf dem Bett liegt ein SPIELZEUG
+      _Category: 10
+      _Linked: 
+      _Words:
+      - toy
+      - bed
+      _Answers:
+      - toy
+      _Complexity: 0
+      _PlaySessionLink:
+      - Objects
+    - _Id: Phrase_train
+      _Active: 1
+      _Text: "Der ZUG h\xE4lt am Bahnhof"
+      _Category: 12
+      _Linked: 
+      _Words:
+      - train
+      - station
+      _Answers:
+      - train
+      _Complexity: 0
+      _PlaySessionLink:
+      - City
+    - _Id: Phrase_tree
+      _Active: 1
+      _Text: "Das ist ein gro\xDFer BAUM"
+      _Category: 7
+      _Linked: 
+      _Words:
+      - tree
+      _Answers:
+      - tree
+      _Complexity: 0
+      _PlaySessionLink:
+      - Nature
+    - _Id: Phrase_truck
+      _Active: 1
+      _Text: Das ist ein oranger LASTWAGEN
+      _Category: 12
+      _Linked: 
+      _Words:
+      - truck
+      - color_orange
+      _Answers:
+      - truck
+      _Complexity: 0
+      _PlaySessionLink:
+      - City
+    - _Id: Phrase_uncle
+      _Active: 1
+      _Text: Mein ONKEL lebt in der Stadt
+      _Category: 13
+      _Linked: 
+      _Words:
+      - uncle
+      - city
+      _Answers:
+      - uncle
+      _Complexity: 0
+      _PlaySessionLink:
+      - Family
+    - _Id: Phrase_volcano
+      _Active: 1
+      _Text: "Ein VULKAN ist gef\xE4hrlich"
+      _Category: 7
+      _Linked: 
+      _Words:
+      - volcano
+      _Answers:
+      - volcano
+      _Complexity: 0
+      _PlaySessionLink:
+      - Nature
+    - _Id: Phrase_water
+      _Active: 1
+      _Text: Im Fluss ist WASSER
+      _Category: 14
+      _Linked: 
+      _Words:
+      - water
+      - river
+      _Answers:
+      - water
+      _Complexity: 0
+      _PlaySessionLink:
+      - Food
+    - _Id: Phrase_watermelon
+      _Active: 1
+      _Text: "Das M\xE4dchen mag WASSERMELONE"
+      _Category: 14
+      _Linked: 
+      _Words:
+      - watermelon
+      - girl
+      _Answers:
+      - watermelon
+      _Complexity: 0
+      _PlaySessionLink:
+      - Food
+    - _Id: Phrase_window
+      _Active: 1
+      _Text: Ein FENSTER ist offen
+      _Category: 9
+      _Linked: 
+      _Words:
+      - window
+      _Answers:
+      - window
+      _Complexity: 0
+      _PlaySessionLink:
+      - Home
+    - _Id: Phrase_woman
+      _Active: 1
+      _Text: "Eine FRAU tr\xE4gt einen Mantel"
+      _Category: 13
+      _Linked: 
+      _Words:
+      - woman
+      - coat
+      _Answers:
+      - woman
+      _Complexity: 0
+      _PlaySessionLink:
+      - Family
+    - _Id: Phrase_zoo
+      _Active: 1
+      _Text: Ein Tiger lebt im ZOO
+      _Category: 12
+      _Linked: 
+      _Words:
+      - zoo
+      - tiger
+      _Answers:
+      - zoo
+      _Complexity: 0
+      _PlaySessionLink:
+      - City

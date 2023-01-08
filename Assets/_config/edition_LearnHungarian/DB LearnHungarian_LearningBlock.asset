@@ -1,0 +1,1213 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78a2719a8a5479e4a849371e4751e4d1, type: 3}
+  m_Name: DB LearnHungarian_LearningBlock
+  m_EditorClassIdentifier: 
+  table:
+    innerList:
+    - _Id: 1.1
+      _Stage: 1
+      _LearningBlock: 1
+      _NumberOfPlaySessions: 2
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: "Discover Letters A,\xC1,E,\xC9,K,L,R,T"
+      _Title_LearningLang: "Fedezd fel az A,\xC1,E,\xC9,K,L,R,T bet\u0171ket!"
+      _Title_Ar: 
+      _AudioFile: Map_Intro_LB_Alphabet
+      _Focus: 1
+    - _Id: 1.2
+      _Stage: 1
+      _LearningBlock: 2
+      _NumberOfPlaySessions: 2
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: "Recognize Letters A,\xC1,E,\xC9,K,L,R,T"
+      _Title_LearningLang: "Ismerd fel az A,\xC1,E,\xC9,K,L,R,T bet\u0171ket!"
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 1.3
+      _Stage: 1
+      _LearningBlock: 3
+      _NumberOfPlaySessions: 2
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: "Discover Words with A,\xC1,E,\xC9,K,L,R,T"
+      _Title_LearningLang: "Fedezd fel az A,\xC1,E,\xC9,K,L,R,T bet\u0171kb\u0151l
+        k\xE9pzett szavakat!"
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 4
+    - _Id: 1.4
+      _Stage: 1
+      _LearningBlock: 4
+      _NumberOfPlaySessions: 2
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: Discover Letters B,C,CS,D,F
+      _Title_LearningLang: "Fedezd fel az B,C,CS,D,F bet\u0171ket!"
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 1.5
+      _Stage: 1
+      _LearningBlock: 5
+      _NumberOfPlaySessions: 2
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: Recognize Letters B,C,CS,D,F
+      _Title_LearningLang: "Ismerd fel az B,C,CS,D,F bet\u0171ket!"
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 1.6
+      _Stage: 1
+      _LearningBlock: 6
+      _NumberOfPlaySessions: 2
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: Discover Words with B,C,CS,D,F
+      _Title_LearningLang: "Fedezd fel az B,C,CS,D,F bet\u0171kb\u0151l k\xE9pzett
+        szavakat!"
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 4
+    - _Id: 1.7
+      _Stage: 1
+      _LearningBlock: 7
+      _NumberOfPlaySessions: 2
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: "Discover Letters G,GY,H,I,\xCD,J,M"
+      _Title_LearningLang: "Fedezd fel az G,GY,H,I,\xCD,J,M bet\u0171ket!"
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 1.8
+      _Stage: 1
+      _LearningBlock: 8
+      _NumberOfPlaySessions: 2
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: "Recognize Letters G,GY,H,I,\xCD,J,M"
+      _Title_LearningLang: "Ismerd fel az G,GY,H,I,\xCD,J,M bet\u0171ket!"
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 1.9
+      _Stage: 1
+      _LearningBlock: 9
+      _NumberOfPlaySessions: 2
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: "Discover Words with G,GY,H,I,\xCD,J,M"
+      _Title_LearningLang: "Fedezd fel az G,GY,H,I,\xCD,J,M bet\u0171kb\u0151l k\xE9pzett
+        szavakat!"
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 4
+    - _Id: 1.10
+      _Stage: 1
+      _LearningBlock: 10
+      _NumberOfPlaySessions: 2
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: "Discover Letters N,O,\xD3,\xD6,\u0150"
+      _Title_LearningLang: "Fedezd fel az N,O,\xD3,\xD6,\u0150 bet\u0171ket!"
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 1.11
+      _Stage: 1
+      _LearningBlock: 11
+      _NumberOfPlaySessions: 2
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: "Recognize Letters N,O,\xD3,\xD6,\u0150"
+      _Title_LearningLang: "Ismerd fel az N,O,\xD3,\xD6,\u0150 bet\u0171ket!"
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 1.12
+      _Stage: 1
+      _LearningBlock: 12
+      _NumberOfPlaySessions: 2
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: "Discover Words with N,O,\xD3,\xD6,\u0150"
+      _Title_LearningLang: "Fedezd fel az N,O,\xD3,\xD6,\u0150 bet\u0171kb\u0151l
+        k\xE9pzett szavakat!"
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 4
+    - _Id: 1.13
+      _Stage: 1
+      _LearningBlock: 13
+      _NumberOfPlaySessions: 2
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: Discover Letters LY,NY,P,S,SZ
+      _Title_LearningLang: "Fedezd fel az LY,NY,P,S,SZ bet\u0171ket!"
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 1.14
+      _Stage: 1
+      _LearningBlock: 14
+      _NumberOfPlaySessions: 2
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: Recognize Letters LY,NY,P,S,SZ
+      _Title_LearningLang: "Ismerd fel az LY,NY,P,S,SZ bet\u0171ket!"
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 1.15
+      _Stage: 1
+      _LearningBlock: 15
+      _NumberOfPlaySessions: 2
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: Discover Words with LY,NY,P,S,SZ
+      _Title_LearningLang: "Fedezd fel az LY,NY,P,S,SZ bet\u0171kb\u0151l k\xE9pzett
+        szavakat!"
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 4
+    - _Id: 1.16
+      _Stage: 1
+      _LearningBlock: 16
+      _NumberOfPlaySessions: 2
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: "Discover Letters Q,U,\xDA,\xDC,\u0170,V,TY"
+      _Title_LearningLang: "Fedezd fel az Q,U,\xDA,\xDC,\u0170,V,TY bet\u0171ket!"
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 1.17
+      _Stage: 1
+      _LearningBlock: 17
+      _NumberOfPlaySessions: 2
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: "Recognize Letters Q,U,\xDA,\xDC,\u0170,V,TY"
+      _Title_LearningLang: "Ismerd fel az Q,U,\xDA,\xDC,\u0170,V,TY bet\u0171ket!"
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 1.18
+      _Stage: 1
+      _LearningBlock: 18
+      _NumberOfPlaySessions: 2
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: "Discover Words with Q,U,\xDA,\xDC,\u0170,V,TY"
+      _Title_LearningLang: "Fedezd fel az Q,U,\xDA,\xDC,\u0170,V,TY bet\u0171kb\u0151l
+        k\xE9pzett szavakat!"
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 4
+    - _Id: 1.19
+      _Stage: 1
+      _LearningBlock: 19
+      _NumberOfPlaySessions: 2
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: Discover Letters W,X,Y,Z,ZS,DZ,DZS
+      _Title_LearningLang: "Fedezd fel az W,X,Y,Z,ZS,DZ,DZS bet\u0171ket!"
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 1.20
+      _Stage: 1
+      _LearningBlock: 20
+      _NumberOfPlaySessions: 2
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: Recognize Letters W,X,Y,Z,ZS,DZ,DZS
+      _Title_LearningLang: "Ismerd fel az W,X,Y,Z,ZS,DZ,DZS bet\u0171ket!"
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 1.21
+      _Stage: 1
+      _LearningBlock: 21
+      _NumberOfPlaySessions: 2
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: Discover Words with W,X,Y,Z,ZS,DZ,DZS
+      _Title_LearningLang: "Fedezd fel az W,X,Y,Z,ZS,DZ,DZS bet\u0171kb\u0151l k\xE9pzett
+        szavakat!"
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 4
+    - _Id: 2.1
+      _Stage: 2
+      _LearningBlock: 1
+      _NumberOfPlaySessions: 3
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Discover & Recognize Words: NATURE 1'
+      _Title_LearningLang: "Fedezd fel \xE9s ismerd fel a szavakat: TERM\xC9SZET
+        1."
+      _Title_Ar: 
+      _AudioFile: Map_Intro_LB_Nature
+      _Focus: 1
+    - _Id: 2.2
+      _Stage: 2
+      _LearningBlock: 2
+      _NumberOfPlaySessions: 2
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Write Words: NATURE 1'
+      _Title_LearningLang: "\xCDrj szavakat: TERM\xC9SZET 1."
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 2.3
+      _Stage: 2
+      _LearningBlock: 3
+      _NumberOfPlaySessions: 2
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Read Words: NATURE 1'
+      _Title_LearningLang: "Olvass szavakat: TERM\xC9SZET 1."
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 2.4
+      _Stage: 2
+      _LearningBlock: 4
+      _NumberOfPlaySessions: 3
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Discover & Recognize Words: NATURE 2'
+      _Title_LearningLang: "Fedezd fel \xE9s ismerd fel a szavakat: TERM\xC9SZET
+        2."
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 2.5
+      _Stage: 2
+      _LearningBlock: 5
+      _NumberOfPlaySessions: 2
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Write Words: NATURE 2'
+      _Title_LearningLang: "\xCDrj szavakat: TERM\xC9SZET 2."
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 2.6
+      _Stage: 2
+      _LearningBlock: 6
+      _NumberOfPlaySessions: 2
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Read Words: NATURE 2'
+      _Title_LearningLang: "Olvass szavakat: TERM\xC9SZET 2."
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 2.7
+      _Stage: 2
+      _LearningBlock: 7
+      _NumberOfPlaySessions: 1
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Recap Words: NATURE'
+      _Title_LearningLang: "Ism\xE9telj szavakat: TERM\xC9SZET"
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 2.8
+      _Stage: 2
+      _LearningBlock: 8
+      _NumberOfPlaySessions: 3
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Discover & Recognize Words: ANIMALS 1'
+      _Title_LearningLang: "Fedezd fel \xE9s ismerd fel a szavakat: \xC1LLATOK 1."
+      _Title_Ar: 
+      _AudioFile: Map_Intro_LB_Animals
+      _Focus: 1
+    - _Id: 2.9
+      _Stage: 2
+      _LearningBlock: 9
+      _NumberOfPlaySessions: 2
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Write Words: ANIMALS 1'
+      _Title_LearningLang: "\xCDrj szavakat: \xC1LLATOK 1."
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 2.10
+      _Stage: 2
+      _LearningBlock: 10
+      _NumberOfPlaySessions: 2
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Read Words: ANIMALS 1'
+      _Title_LearningLang: "Olvass szavakat: \xC1LLATOK 1."
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 2.11
+      _Stage: 2
+      _LearningBlock: 11
+      _NumberOfPlaySessions: 3
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Discover & Recognize Words: ANIMALS 2'
+      _Title_LearningLang: "Fedezd fel \xE9s ismerd fel a szavakat: \xC1LLATOK 2."
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 2.12
+      _Stage: 2
+      _LearningBlock: 12
+      _NumberOfPlaySessions: 2
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Write Words: ANIMALS 2'
+      _Title_LearningLang: "\xCDrj szavakat: \xC1LLATOK 2."
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 2.13
+      _Stage: 2
+      _LearningBlock: 13
+      _NumberOfPlaySessions: 2
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Read Words: ANIMALS 2'
+      _Title_LearningLang: "Olvass szavakat: \xC1LLATOK 2."
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 2.14
+      _Stage: 2
+      _LearningBlock: 14
+      _NumberOfPlaySessions: 3
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Discover & Recognize Words: ANIMALS 3'
+      _Title_LearningLang: "Fedezd fel \xE9s ismerd fel a szavakat: \xC1LLATOK 3."
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 2.15
+      _Stage: 2
+      _LearningBlock: 15
+      _NumberOfPlaySessions: 2
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Write Words: ANIMALS 3'
+      _Title_LearningLang: "\xCDrj szavakat: \xC1LLATOK 3."
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 2.16
+      _Stage: 2
+      _LearningBlock: 16
+      _NumberOfPlaySessions: 2
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Read Words: ANIMALS 3'
+      _Title_LearningLang: "Olvass szavakat: \xC1LLATOK 3."
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 2.17
+      _Stage: 2
+      _LearningBlock: 17
+      _NumberOfPlaySessions: 1
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Recap Words: ANIMALS'
+      _Title_LearningLang: "Ism\xE9telj szavakat: \xC1LLATOK"
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 3.1
+      _Stage: 3
+      _LearningBlock: 1
+      _NumberOfPlaySessions: 3
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Discover & Recognize Words: HOME 1'
+      _Title_LearningLang: "Fedezd fel \xE9s ismerd fel a szavakat: OTTHON 1."
+      _Title_Ar: 
+      _AudioFile: Map_Intro_LB_Home
+      _Focus: 1
+    - _Id: 3.2
+      _Stage: 3
+      _LearningBlock: 2
+      _NumberOfPlaySessions: 2
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Write Words: HOME 1'
+      _Title_LearningLang: "\xCDrj szavakat: OTTHON 1."
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 3.3
+      _Stage: 3
+      _LearningBlock: 3
+      _NumberOfPlaySessions: 2
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Read Words: HOME 1'
+      _Title_LearningLang: 'Olvass szavakat: OTTHON 1.'
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 3.4
+      _Stage: 3
+      _LearningBlock: 4
+      _NumberOfPlaySessions: 3
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Discover & Recognize Words: HOME 2'
+      _Title_LearningLang: "Fedezd fel \xE9s ismerd fel a szavakat: OTTHON 2."
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 3.5
+      _Stage: 3
+      _LearningBlock: 5
+      _NumberOfPlaySessions: 2
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Write Words: HOME 2'
+      _Title_LearningLang: "\xCDrj szavakat: OTTHON 2."
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 3.6
+      _Stage: 3
+      _LearningBlock: 6
+      _NumberOfPlaySessions: 2
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Read Words: HOME 2'
+      _Title_LearningLang: 'Olvass szavakat: OTTHON 2.'
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 3.7
+      _Stage: 3
+      _LearningBlock: 7
+      _NumberOfPlaySessions: 3
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Discover & Recognize Words: HOME 3'
+      _Title_LearningLang: "Fedezd fel \xE9s ismerd fel a szavakat: OTTHON 3."
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 3.8
+      _Stage: 3
+      _LearningBlock: 8
+      _NumberOfPlaySessions: 2
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Write Words: HOME 3'
+      _Title_LearningLang: "\xCDrj szavakat: OTTHON 3."
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 3.9
+      _Stage: 3
+      _LearningBlock: 9
+      _NumberOfPlaySessions: 2
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Read Words: HOME 3'
+      _Title_LearningLang: 'Olvass szavakat: OTTHON 3.'
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 3.10
+      _Stage: 3
+      _LearningBlock: 10
+      _NumberOfPlaySessions: 1
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Recap Words: HOME'
+      _Title_LearningLang: "Ism\xE9telj szavakat: OTTHON"
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 3.11
+      _Stage: 3
+      _LearningBlock: 11
+      _NumberOfPlaySessions: 3
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Discover & Recognize Words: OBJECTS'
+      _Title_LearningLang: "Fedezd fel \xE9s ismerd fel a szavakat: T\xC1RGYAK"
+      _Title_Ar: 
+      _AudioFile: Map_Intro_LB_Objects
+      _Focus: 1
+    - _Id: 3.12
+      _Stage: 3
+      _LearningBlock: 12
+      _NumberOfPlaySessions: 2
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Write Words: OBJECTS'
+      _Title_LearningLang: "\xCDrj szavakat: T\xC1RGYAK"
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 3.13
+      _Stage: 3
+      _LearningBlock: 13
+      _NumberOfPlaySessions: 2
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Read Words: OBJECTS'
+      _Title_LearningLang: "Olvass szavakat: T\xC1RGYAK"
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 3.14
+      _Stage: 3
+      _LearningBlock: 14
+      _NumberOfPlaySessions: 3
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Discover & Recognize Words: CLOTHES'
+      _Title_LearningLang: "Fedezd fel \xE9s ismerd fel a szavakat: RUH\xC1K"
+      _Title_Ar: 
+      _AudioFile: Map_Intro_LB_Clothes
+      _Focus: 1
+    - _Id: 3.15
+      _Stage: 3
+      _LearningBlock: 15
+      _NumberOfPlaySessions: 2
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Write Words: CLOTHES'
+      _Title_LearningLang: "\xCDrj szavakat: RUH\xC1K"
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 3.16
+      _Stage: 3
+      _LearningBlock: 16
+      _NumberOfPlaySessions: 2
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Read Words: CLOTHES'
+      _Title_LearningLang: "Olvass szavakat: RUH\xC1K"
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 3.17
+      _Stage: 3
+      _LearningBlock: 17
+      _NumberOfPlaySessions: 1
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Recap Words: OBJECTS & CLOTHES'
+      _Title_LearningLang: "Ism\xE9telj szavakat: T\xC1RGYAK \xC9S RUH\xC1K"
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 4.1
+      _Stage: 4
+      _LearningBlock: 1
+      _NumberOfPlaySessions: 3
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Discover & Recognize Words: CITY 1'
+      _Title_LearningLang: "Fedezd fel \xE9s ismerd fel a szavakat: V\xC1ROS 1."
+      _Title_Ar: 
+      _AudioFile: Map_Intro_LB_City
+      _Focus: 1
+    - _Id: 4.2
+      _Stage: 4
+      _LearningBlock: 2
+      _NumberOfPlaySessions: 2
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Write Words: CITY 1'
+      _Title_LearningLang: "\xCDrj szavakat: V\xC1ROS 1."
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 4.3
+      _Stage: 4
+      _LearningBlock: 3
+      _NumberOfPlaySessions: 2
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Read Words: CITY 1'
+      _Title_LearningLang: "Olvass szavakat: V\xC1ROS 1."
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 4.4
+      _Stage: 4
+      _LearningBlock: 4
+      _NumberOfPlaySessions: 3
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Discover & Recognize Words: CITY 2'
+      _Title_LearningLang: "Fedezd fel \xE9s ismerd fel a szavakat: V\xC1ROS 2."
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 4.5
+      _Stage: 4
+      _LearningBlock: 5
+      _NumberOfPlaySessions: 2
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Write Words: CITY 2'
+      _Title_LearningLang: "\xCDrj szavakat: V\xC1ROS 2."
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 4.6
+      _Stage: 4
+      _LearningBlock: 6
+      _NumberOfPlaySessions: 2
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Read Words: CITY 2'
+      _Title_LearningLang: "Olvass szavakat: V\xC1ROS 2."
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 4.7
+      _Stage: 4
+      _LearningBlock: 7
+      _NumberOfPlaySessions: 3
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Discover & Recognize Words: CITY 3'
+      _Title_LearningLang: "Fedezd fel \xE9s ismerd fel a szavakat: V\xC1ROS 3."
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 4.8
+      _Stage: 4
+      _LearningBlock: 8
+      _NumberOfPlaySessions: 2
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Write Words: CITY 3'
+      _Title_LearningLang: "\xCDrj szavakat: V\xC1ROS 3."
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 4.9
+      _Stage: 4
+      _LearningBlock: 9
+      _NumberOfPlaySessions: 2
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Read Words: CITY 3'
+      _Title_LearningLang: "Olvass szavakat: V\xC1ROS 3."
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 4.10
+      _Stage: 4
+      _LearningBlock: 10
+      _NumberOfPlaySessions: 1
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Recap Words: CITY'
+      _Title_LearningLang: "Ism\xE9telj szavakat: V\xC1ROS"
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 4.11
+      _Stage: 4
+      _LearningBlock: 11
+      _NumberOfPlaySessions: 3
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Discover & Recognize Words: FAMILY 1'
+      _Title_LearningLang: "Fedezd fel \xE9s ismerd fel a szavakat: CSAL\xC1D 1."
+      _Title_Ar: 
+      _AudioFile: Map_Intro_LB_Family
+      _Focus: 1
+    - _Id: 4.12
+      _Stage: 4
+      _LearningBlock: 12
+      _NumberOfPlaySessions: 2
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Write Words: FAMILY 1'
+      _Title_LearningLang: "\xCDrj szavakat: CSAL\xC1D 1."
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 4.13
+      _Stage: 4
+      _LearningBlock: 13
+      _NumberOfPlaySessions: 2
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Read Words: FAMILY 1'
+      _Title_LearningLang: "Olvass szavakat: CSAL\xC1D 1."
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 4.14
+      _Stage: 4
+      _LearningBlock: 14
+      _NumberOfPlaySessions: 3
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Discover & Recognize Words: FAMILY 2'
+      _Title_LearningLang: "Fedezd fel \xE9s ismerd fel a szavakat: CSAL\xC1D 2."
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 4.15
+      _Stage: 4
+      _LearningBlock: 15
+      _NumberOfPlaySessions: 2
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Write Words: FAMILY 2'
+      _Title_LearningLang: "\xCDrj szavakat: CSAL\xC1D 2."
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 4.16
+      _Stage: 4
+      _LearningBlock: 16
+      _NumberOfPlaySessions: 2
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Read Words: FAMILY 2'
+      _Title_LearningLang: "Olvass szavakat: CSAL\xC1D 2."
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 4.17
+      _Stage: 4
+      _LearningBlock: 17
+      _NumberOfPlaySessions: 1
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Recap Words: FAMILY'
+      _Title_LearningLang: "Ism\xE9telj szavakat: CSAL\xC1D"
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 5.1
+      _Stage: 5
+      _LearningBlock: 1
+      _NumberOfPlaySessions: 3
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Discover & Recognize Words: BODY 1'
+      _Title_LearningLang: "Fedezd fel \xE9s ismerd fel a szavakat: TEST 1."
+      _Title_Ar: 
+      _AudioFile: Map_Intro_LB_Body
+      _Focus: 1
+    - _Id: 5.2
+      _Stage: 5
+      _LearningBlock: 2
+      _NumberOfPlaySessions: 2
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Write Words: BODY 1'
+      _Title_LearningLang: "\xCDrj szavakat: TEST 1."
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 5.3
+      _Stage: 5
+      _LearningBlock: 3
+      _NumberOfPlaySessions: 2
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Read Words: BODY 1'
+      _Title_LearningLang: 'Olvass szavakat: TEST 1.'
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 5.4
+      _Stage: 5
+      _LearningBlock: 4
+      _NumberOfPlaySessions: 3
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Discover & Recognize Words: BODY 2'
+      _Title_LearningLang: "Fedezd fel \xE9s ismerd fel a szavakat: TEST 2."
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 5.5
+      _Stage: 5
+      _LearningBlock: 5
+      _NumberOfPlaySessions: 2
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Write Words: BODY 2'
+      _Title_LearningLang: "\xCDrj szavakat: TEST 2."
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 5.6
+      _Stage: 5
+      _LearningBlock: 6
+      _NumberOfPlaySessions: 2
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Read Words: BODY 2'
+      _Title_LearningLang: 'Olvass szavakat: TEST 2.'
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 5.7
+      _Stage: 5
+      _LearningBlock: 7
+      _NumberOfPlaySessions: 1
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Recap Words: BODY'
+      _Title_LearningLang: "Ism\xE9telj szavakat: TEST"
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 5.8
+      _Stage: 5
+      _LearningBlock: 8
+      _NumberOfPlaySessions: 3
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Discover & Recognize Words: FOOD 1'
+      _Title_LearningLang: "Fedezd fel \xE9s ismerd fel a szavakat: \xC9TELEK 1."
+      _Title_Ar: 
+      _AudioFile: Map_Intro_LB_Food
+      _Focus: 1
+    - _Id: 5.9
+      _Stage: 5
+      _LearningBlock: 9
+      _NumberOfPlaySessions: 2
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Write Words: FOOD 1'
+      _Title_LearningLang: "\xCDrj szavakat: \xC9TELEK 1."
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 5.10
+      _Stage: 5
+      _LearningBlock: 10
+      _NumberOfPlaySessions: 2
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Read Words: FOOD 1'
+      _Title_LearningLang: "Olvass szavakat: \xC9TELEK 1."
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 5.11
+      _Stage: 5
+      _LearningBlock: 11
+      _NumberOfPlaySessions: 3
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Discover & Recognize Words: FOOD 2'
+      _Title_LearningLang: "Fedezd fel \xE9s ismerd fel a szavakat: \xC9TELEK 2."
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 5.12
+      _Stage: 5
+      _LearningBlock: 12
+      _NumberOfPlaySessions: 2
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Write Words: FOOD 2'
+      _Title_LearningLang: "\xCDrj szavakat: \xC9TELEK 2."
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 5.13
+      _Stage: 5
+      _LearningBlock: 13
+      _NumberOfPlaySessions: 2
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Read Words: FOOD 2'
+      _Title_LearningLang: "Olvass szavakat: \xC9TELEK 2."
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 5.14
+      _Stage: 5
+      _LearningBlock: 14
+      _NumberOfPlaySessions: 3
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Discover & Recognize Words: FOOD 3'
+      _Title_LearningLang: "Fedezd fel \xE9s ismerd fel a szavakat: \xC9TELEK 3."
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 5.15
+      _Stage: 5
+      _LearningBlock: 15
+      _NumberOfPlaySessions: 2
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Write Words: FOOD 3'
+      _Title_LearningLang: "\xCDrj szavakat: \xC9TELEK 3."
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 5.16
+      _Stage: 5
+      _LearningBlock: 16
+      _NumberOfPlaySessions: 2
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Read Words: FOOD 3'
+      _Title_LearningLang: "Olvass szavakat: \xC9TELEK 3."
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 5.17
+      _Stage: 5
+      _LearningBlock: 17
+      _NumberOfPlaySessions: 1
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Recap Words: FOOD'
+      _Title_LearningLang: "Ism\xE9telj szavakat: \xC9TELEK"
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 6.1
+      _Stage: 6
+      _LearningBlock: 1
+      _NumberOfPlaySessions: 3
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Discover & Recognize Words : COLOURS'
+      _Title_LearningLang: "Fedezd fel \xE9s ismerd fel a szavakat: SZ\xCDNEK"
+      _Title_Ar: 
+      _AudioFile: Map_Intro_LB_Colors
+      _Focus: 1
+    - _Id: 6.2
+      _Stage: 6
+      _LearningBlock: 2
+      _NumberOfPlaySessions: 2
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Write Words : COLOURS'
+      _Title_LearningLang: "\xCDrj szavakat: SZ\xCDNEK"
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 6.3
+      _Stage: 6
+      _LearningBlock: 3
+      _NumberOfPlaySessions: 2
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Read Words : COLOURS'
+      _Title_LearningLang: "Olvass szavakat: SZ\xCDNEK"
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 6.4
+      _Stage: 6
+      _LearningBlock: 4
+      _NumberOfPlaySessions: 3
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Discover & Recognize Words : NUMBERS 1'
+      _Title_LearningLang: "Fedezd fel \xE9s ismerd fel a szavakat: SZ\xC1MOK 1."
+      _Title_Ar: 
+      _AudioFile: Map_Intro_LB_Numbers
+      _Focus: 1
+    - _Id: 6.5
+      _Stage: 6
+      _LearningBlock: 5
+      _NumberOfPlaySessions: 2
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Write Words : NUMBERS 1'
+      _Title_LearningLang: "\xCDrj szavakat: SZ\xC1MOK 1."
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 6.6
+      _Stage: 6
+      _LearningBlock: 6
+      _NumberOfPlaySessions: 2
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Read Words : NUMBERS 1'
+      _Title_LearningLang: "Olvass szavakat: SZ\xC1MOK 1."
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 6.7
+      _Stage: 6
+      _LearningBlock: 7
+      _NumberOfPlaySessions: 3
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Discover & Recognize Words : NUMBERS 2'
+      _Title_LearningLang: "Fedezd fel \xE9s ismerd fel a szavakat: SZ\xC1MOK 2."
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 6.8
+      _Stage: 6
+      _LearningBlock: 8
+      _NumberOfPlaySessions: 2
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Write Words : NUMBERS 2'
+      _Title_LearningLang: "\xCDrj szavakat: SZ\xC1MOK 2."
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 6.9
+      _Stage: 6
+      _LearningBlock: 9
+      _NumberOfPlaySessions: 2
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Read Words : NUMBERS 2'
+      _Title_LearningLang: "Olvass szavakat: SZ\xC1MOK 2."
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 6.10
+      _Stage: 6
+      _LearningBlock: 10
+      _NumberOfPlaySessions: 3
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Discover & Recognize Words : MATH'
+      _Title_LearningLang: "Fedezd fel \xE9s ismerd fel a szavakat: MATEMATIKA"
+      _Title_Ar: 
+      _AudioFile: Map_Intro_LB_Math
+      _Focus: 1
+    - _Id: 6.11
+      _Stage: 6
+      _LearningBlock: 11
+      _NumberOfPlaySessions: 2
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Write Words : MATH'
+      _Title_LearningLang: "\xCDrj szavakat: MATEMATIKA"
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 6.12
+      _Stage: 6
+      _LearningBlock: 12
+      _NumberOfPlaySessions: 2
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Read Words : MATH'
+      _Title_LearningLang: 'Olvass szavakat: MATEMATIKA'
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 6.13
+      _Stage: 6
+      _LearningBlock: 13
+      _NumberOfPlaySessions: 3
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Discover & Recognize Words : DAYS & SEASONS'
+      _Title_LearningLang: "Fedezd fel \xE9s ismerd fel a szavakat: NAPOK \xC9S \xC9VSZAKOK"
+      _Title_Ar: 
+      _AudioFile: Map_Intro_LB_Days_Seasons
+      _Focus: 1
+    - _Id: 6.14
+      _Stage: 6
+      _LearningBlock: 14
+      _NumberOfPlaySessions: 2
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Write Words : DAYS & SEASONS'
+      _Title_LearningLang: "\xCDrj szavakat: NAPOK \xC9S \xC9VSZAKOK"
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 6.15
+      _Stage: 6
+      _LearningBlock: 15
+      _NumberOfPlaySessions: 2
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Read Words : DAYS & SEASONS'
+      _Title_LearningLang: "Olvass szavakat: NAPOK \xC9S \xC9VSZAKOK"
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 6.16
+      _Stage: 6
+      _LearningBlock: 16
+      _NumberOfPlaySessions: 3
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Discover & Recognize Words : MONTHS'
+      _Title_LearningLang: "Fedezd fel \xE9s ismerd fel a szavakat: H\xD3NAPOK"
+      _Title_Ar: 
+      _AudioFile: Map_Intro_LB_Months
+      _Focus: 1
+    - _Id: 6.17
+      _Stage: 6
+      _LearningBlock: 17
+      _NumberOfPlaySessions: 2
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Write Words : MONTHS'
+      _Title_LearningLang: "\xCDrj szavakat: H\xD3NAPOK"
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 6.18
+      _Stage: 6
+      _LearningBlock: 18
+      _NumberOfPlaySessions: 2
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: 'Read Words : MONTHS'
+      _Title_LearningLang: "Olvass szavakat: H\xD3NAPOK"
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 1
+    - _Id: 6.19
+      _Stage: 6
+      _LearningBlock: 19
+      _NumberOfPlaySessions: 1
+      _Description_En: 
+      _Description_Ar: 
+      _Title_En: The End!
+      _Title_LearningLang: "V\xE9ge!"
+      _Title_Ar: 
+      _AudioFile: 
+      _Focus: 0

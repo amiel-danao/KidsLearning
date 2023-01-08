@@ -21,8 +21,9 @@ namespace KidsLearning
         private List<Arithmetic> _questions = new List<Arithmetic>();
         private int _currentQuestionIndex = -1;
 
-        public Action<AnswerParts> CorrectAnsweredEvent;
+        public Action<Arithmetic> CorrectAnsweredEvent;
         public Action LevelFinishedEvent;
+        public Action<bool> BeginPuzzleEvent;
         public Action ShapeFinishedEvent;
         [SerializeField] private AudioSource _soundEffect;
         [SerializeField] private AudioClip _correctSound;
@@ -105,7 +106,7 @@ namespace KidsLearning
             {
                 var previousAnswer = _allAnswerParts[previousIndex];
                 _soundEffect.PlayOneShot(_correctSound);
-                CorrectAnsweredEvent?.Invoke(previousAnswer);
+                CorrectAnsweredEvent?.Invoke(_questions[previousIndex]);
             }
             catch (IndexOutOfRangeException)
             {
@@ -123,6 +124,7 @@ namespace KidsLearning
                     string[] words = _questions[_currentQuestionIndex].ToString().Split('=');
                     _questionText.text = $"{words[0]} = ?";
                     _allAnswerParts[_currentQuestionIndex].SetAsCurrent();
+                    BeginPuzzleEvent?.Invoke(true);
                 }
                 else
                 {
@@ -135,6 +137,7 @@ namespace KidsLearning
                         _currentQuestionIndex = -1;
                         AssembleLevel();
                         NextQuestion();
+                        BeginPuzzleEvent?.Invoke(false);
                     }
                     else
                     {
@@ -142,7 +145,9 @@ namespace KidsLearning
                         LevelFinishedEvent?.Invoke();
                         _congratsPanel.SetActive(true);
                         Debug.Log("Level Finished!");
+                        BeginPuzzleEvent?.Invoke(false);
                     }
+                    
                 }
             }
             catch (IndexOutOfRangeException exception)

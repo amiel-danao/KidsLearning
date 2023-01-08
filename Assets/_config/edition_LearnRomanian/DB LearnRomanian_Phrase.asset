@@ -1,0 +1,1490 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6b8dc816d8d6e54d8325fbac00e0782, type: 3}
+  m_Name: DB LearnRomanian_Phrase
+  m_EditorClassIdentifier: 
+  table:
+    innerList:
+    - _Id: Phrase_apple
+      _Active: 1
+      _Text: "M\u0102RUL cre\u0219te \xEEn pom"
+      _Category: 14
+      _Linked: 
+      _Words:
+      - apple
+      - tree
+      _Answers:
+      - apple
+      _Complexity: 0
+      _PlaySessionLink:
+      - Food
+    - _Id: Phrase_arm
+      _Active: 1
+      _Text: "BRA\u021AUL t\u0103u este foarte lung"
+      _Category: 15
+      _Linked: 
+      _Words:
+      - arm
+      _Answers:
+      - arm
+      _Complexity: 0
+      _PlaySessionLink:
+      - Body
+    - _Id: Phrase_aunt
+      _Active: 1
+      _Text: "M\u0102TU\u0218A mea locuie\u0219te \xEEntr-un ora\u0219 mare"
+      _Category: 13
+      _Linked: 
+      _Words:
+      - aunt
+      - city
+      _Answers:
+      - aunt
+      _Complexity: 0
+      _PlaySessionLink:
+      - Family
+    - _Id: Phrase_ball
+      _Active: 1
+      _Text: "Pe plaj\u0103 este o MINGE"
+      _Category: 10
+      _Linked: 
+      _Words:
+      - ball
+      - beach
+      _Answers:
+      - ball
+      _Complexity: 0
+      _PlaySessionLink:
+      - Objects
+    - _Id: Phrase_banana
+      _Active: 1
+      _Text: "BANANA este galben\u0103"
+      _Category: 14
+      _Linked: 
+      _Words:
+      - banana
+      - color_yellow
+      _Answers:
+      - banana
+      _Complexity: 0
+      _PlaySessionLink:
+      - Food
+    - _Id: Phrase_bed
+      _Active: 1
+      _Text: "PATUL este ro\u0219u"
+      _Category: 9
+      _Linked: 
+      _Words:
+      - bed
+      - color_red
+      _Answers:
+      - bed
+      _Complexity: 0
+      _PlaySessionLink:
+      - Home
+    - _Id: Phrase_bedroom
+      _Active: 1
+      _Text: "O pisic\u0103 se joac\u0103 \xEEn DORMITOR"
+      _Category: 9
+      _Linked: 
+      _Words:
+      - bedroom
+      - cat
+      _Answers:
+      - bedroom
+      _Complexity: 0
+      _PlaySessionLink:
+      - Home
+    - _Id: Phrase_belly
+      _Active: 1
+      _Text: "M\u0103 doare BURTA"
+      _Category: 15
+      _Linked: 
+      _Words:
+      - belly
+      _Answers:
+      - belly
+      _Complexity: 0
+      _PlaySessionLink:
+      - Body
+    - _Id: Phrase_bicycle
+      _Active: 1
+      _Text: BICICLETA este veche
+      _Category: 12
+      _Linked: 
+      _Words:
+      - bicycle
+      _Answers:
+      - bicycle
+      _Complexity: 0
+      _PlaySessionLink:
+      - City
+    - _Id: Phrase_bird
+      _Active: 1
+      _Text: "PAS\u0102REA c\xE2nt\u0103 \xEEn p\u0103dure"
+      _Category: 8
+      _Linked: 
+      _Words:
+      - bird
+      - forest
+      _Answers:
+      - bird
+      _Complexity: 0
+      _PlaySessionLink:
+      - Animals
+    - _Id: Phrase_book
+      _Active: 1
+      _Text: "Pe mas\u0103 este o CARTE"
+      _Category: 10
+      _Linked: 
+      _Words:
+      - book
+      - table
+      _Answers:
+      - book
+      _Complexity: 0
+      _PlaySessionLink:
+      - Objects
+    - _Id: Phrase_box
+      _Active: 1
+      _Text: Aceasta este o CUTIE mare
+      _Category: 10
+      _Linked: 
+      _Words:
+      - box
+      _Answers:
+      - box
+      _Complexity: 0
+      _PlaySessionLink:
+      - Objects
+    - _Id: Phrase_boy
+      _Active: 1
+      _Text: "Un B\u0102IAT c\xE2nt\u0103 \xEEn ma\u0219in\u0103"
+      _Category: 13
+      _Linked: 
+      _Words:
+      - boy
+      - car
+      _Answers:
+      - boy
+      _Complexity: 0
+      _PlaySessionLink:
+      - Family
+    - _Id: Phrase_brain
+      _Active: 1
+      _Text: "CREIERUL este \xEEn cap"
+      _Category: 15
+      _Linked: 
+      _Words:
+      - brain
+      - head
+      _Answers:
+      - brain
+      _Complexity: 0
+      _PlaySessionLink:
+      - Body
+    - _Id: Phrase_brother
+      _Active: 1
+      _Text: "FRATELE t\u0103u este t\xE2n\u0103r"
+      _Category: 13
+      _Linked: 
+      _Words:
+      - brother
+      _Answers:
+      - brother
+      _Complexity: 0
+      _PlaySessionLink:
+      - Family
+    - _Id: Phrase_bus
+      _Active: 1
+      _Text: AUTOBUZUL este verde
+      _Category: 12
+      _Linked: 
+      _Words:
+      - bus
+      - color_green
+      _Answers:
+      - bus
+      _Complexity: 0
+      _PlaySessionLink:
+      - City
+    - _Id: Phrase_cake
+      _Active: 1
+      _Text: "\xCEn frigider este un TORT"
+      _Category: 14
+      _Linked: 
+      _Words:
+      - cake
+      - fridge
+      _Answers:
+      - cake
+      _Complexity: 0
+      _PlaySessionLink:
+      - Food
+    - _Id: Phrase_camel
+      _Active: 1
+      _Text: "C\u0102MILA tr\u0103ie\u0219te \xEEn de\u0219ert"
+      _Category: 8
+      _Linked: 
+      _Words:
+      - camel
+      - desert
+      _Answers:
+      - camel
+      _Complexity: 0
+      _PlaySessionLink:
+      - Animals
+    - _Id: Phrase_carrot
+      _Active: 1
+      _Text: "MORCOVUL este s\u0103n\u0103tos"
+      _Category: 14
+      _Linked: 
+      _Words:
+      - carrot
+      _Answers:
+      - carrot
+      _Complexity: 0
+      _PlaySessionLink:
+      - Food
+    - _Id: Phrase_castle
+      _Active: 1
+      _Text: CASTELUL este frumos
+      _Category: 12
+      _Linked: 
+      _Words:
+      - castle
+      _Answers:
+      - castle
+      _Complexity: 0
+      _PlaySessionLink:
+      - City
+    - _Id: Phrase_cat
+      _Active: 1
+      _Text: "PISICA este mic\u0103"
+      _Category: 8
+      _Linked: 
+      _Words:
+      - cat
+      _Answers:
+      - cat
+      _Complexity: 0
+      _PlaySessionLink:
+      - Animals
+    - _Id: Phrase_chair
+      _Active: 1
+      _Text: Acesta este un SCAUN mic
+      _Category: 9
+      _Linked: 
+      _Words:
+      - chair
+      _Answers:
+      - chair
+      _Complexity: 0
+      _PlaySessionLink:
+      - Home
+    - _Id: Phrase_cheese
+      _Active: 1
+      _Text: "\xCEmi place BR\xC2NZA"
+      _Category: 14
+      _Linked: 
+      _Words:
+      - cheese
+      _Answers:
+      - cheese
+      _Complexity: 0
+      _PlaySessionLink:
+      - Food
+    - _Id: Phrase_chickpea
+      _Active: 1
+      _Text: "N\u0102UTUL este mic"
+      _Category: 14
+      _Linked: 
+      _Words:
+      - chickpea
+      _Answers:
+      - chickpea
+      _Complexity: 0
+      _PlaySessionLink:
+      - Food
+    - _Id: Phrase_classroom
+      _Active: 1
+      _Text: "\xCEn SALA DE CLAS\u0102 este un scaun"
+      _Category: 12
+      _Linked: 
+      _Words:
+      - classroom
+      - chair
+      _Answers:
+      - classroom
+      _Complexity: 0
+      _PlaySessionLink:
+      - City
+    - _Id: Phrase_closet
+      _Active: 1
+      _Text: "\xCEn dulap este o FUST\u0102"
+      _Category: 9
+      _Linked: 
+      _Words:
+      - skirt
+      - closet
+      _Answers:
+      - closet
+      _Complexity: 0
+      _PlaySessionLink:
+      - Home
+    - _Id: Phrase_cloud
+      _Active: 1
+      _Text: NORUL este alb
+      _Category: 7
+      _Linked: 
+      _Words:
+      - cloud
+      - color_white
+      _Answers:
+      - cloud
+      _Complexity: 0
+      _PlaySessionLink:
+      - Nature
+    - _Id: Phrase_coat
+      _Active: 1
+      _Text: PALTONUL este foarte vechi
+      _Category: 11
+      _Linked: 
+      _Words:
+      - coat
+      _Answers:
+      - coat
+      _Complexity: 0
+      _PlaySessionLink:
+      - Clothes
+    - _Id: Phrase_coffee
+      _Active: 1
+      _Text: Mama mea bea CAFEA
+      _Category: 14
+      _Linked: 
+      _Words:
+      - coffee
+      - mother
+      _Answers:
+      - coffee
+      _Complexity: 0
+      _PlaySessionLink:
+      - Food
+    - _Id: Phrase_computer
+      _Active: 1
+      _Text: COMPUTERUL este pornit
+      _Category: 9
+      _Linked: 
+      _Words:
+      - computer
+      _Answers:
+      - computer
+      _Complexity: 0
+      _PlaySessionLink:
+      - Home
+    - _Id: Phrase_couch
+      _Active: 1
+      _Text: "Aceast\u0103 CANAPEA este verde"
+      _Category: 9
+      _Linked: 
+      _Words:
+      - couch
+      - color_green
+      _Answers:
+      - couch
+      _Complexity: 0
+      _PlaySessionLink:
+      - Home
+    - _Id: Phrase_cow
+      _Active: 1
+      _Text: "VACA d\u0103 lapte"
+      _Category: 8
+      _Linked: 
+      _Words:
+      - cow
+      _Answers:
+      - cow
+      _Complexity: 0
+      _PlaySessionLink:
+      - Animals
+    - _Id: Phrase_cup
+      _Active: 1
+      _Text: "CANA este plin\u0103"
+      _Category: 9
+      _Linked: 
+      _Words:
+      - cup
+      _Answers:
+      - cup
+      _Complexity: 0
+      _PlaySessionLink:
+      - Home
+    - _Id: Phrase_daughter
+      _Active: 1
+      _Text: "FIICA mea se uit\u0103 la televizor"
+      _Category: 13
+      _Linked: 
+      _Words:
+      - daughter
+      - television
+      _Answers:
+      - daughter
+      _Complexity: 0
+      _PlaySessionLink:
+      - Family
+    - _Id: Phrase_dog
+      _Active: 1
+      _Text: "Acesta este un C\xC2INE maro"
+      _Category: 8
+      _Linked: 
+      _Words:
+      - dog
+      - color_brown
+      _Answers:
+      - dog
+      _Complexity: 0
+      _PlaySessionLink:
+      - Animals
+    - _Id: Phrase_door
+      _Active: 1
+      _Text: "O U\u0218\u0102 este \xEEnchis\u0103"
+      _Category: 9
+      _Linked: 
+      _Words:
+      - door
+      _Answers:
+      - door
+      _Complexity: 0
+      _PlaySessionLink:
+      - Home
+    - _Id: Phrase_elephant
+      _Active: 1
+      _Text: ELEFANTUL este mare
+      _Category: 8
+      _Linked: 
+      _Words:
+      - elephant
+      _Answers:
+      - elephant
+      _Complexity: 0
+      _PlaySessionLink:
+      - Animals
+    - _Id: Phrase_eye
+      _Active: 1
+      _Text: Acesta este un OCHI albastru
+      _Category: 15
+      _Linked: 
+      _Words:
+      - eye
+      - color_blue
+      _Answers:
+      - eye
+      _Complexity: 0
+      _PlaySessionLink:
+      - Body
+    - _Id: Phrase_face
+      _Active: 1
+      _Text: "Am o FA\u021A\u0102 fericit\u0103"
+      _Category: 15
+      _Linked: 
+      _Words:
+      - face
+      _Answers:
+      - face
+      _Complexity: 0
+      _PlaySessionLink:
+      - Body
+    - _Id: Phrase_father
+      _Active: 1
+      _Text: "TAT\u0102L t\u0103u lucreaz\u0103 \xEEntr-un spital"
+      _Category: 13
+      _Linked: 
+      _Words:
+      - father
+      - hospital
+      _Answers:
+      - father
+      _Complexity: 0
+      _PlaySessionLink:
+      - Family
+    - _Id: Phrase_finger
+      _Active: 1
+      _Text: "DEGETUL t\u0103u este foarte scurt"
+      _Category: 15
+      _Linked: 
+      _Words:
+      - finger
+      _Answers:
+      - finger
+      _Complexity: 0
+      _PlaySessionLink:
+      - Body
+    - _Id: Phrase_flower
+      _Active: 1
+      _Text: "Aceasta este o FLOARE frumoas\u0103"
+      _Category: 7
+      _Linked: 
+      _Words:
+      - flower
+      _Answers:
+      - flower
+      _Complexity: 0
+      _PlaySessionLink:
+      - Nature
+    - _Id: Phrase_food
+      _Active: 1
+      _Text: "M\xC2NCAREA este important\u0103"
+      _Category: 14
+      _Linked: 
+      _Words:
+      - food
+      _Answers:
+      - food
+      _Complexity: 0
+      _PlaySessionLink:
+      - Food
+    - _Id: Phrase_forest
+      _Active: 1
+      _Text: "P\u0102DUREA este \xEEntunecat\u0103"
+      _Category: 7
+      _Linked: 
+      _Words:
+      - forest
+      _Answers:
+      - forest
+      _Complexity: 0
+      _PlaySessionLink:
+      - Nature
+    - _Id: Phrase_fork
+      _Active: 1
+      _Text: "Aceasta este o FURCULI\u021A\u0102 de plastic"
+      _Category: 9
+      _Linked: 
+      _Words:
+      - fork
+      _Answers:
+      - fork
+      _Complexity: 0
+      _PlaySessionLink:
+      - Home
+    - _Id: Phrase_frog
+      _Active: 1
+      _Text: "\xCEn r\xE2u este o BROASC\u0102"
+      _Category: 8
+      _Linked: 
+      _Words:
+      - frog
+      - river
+      _Answers:
+      - frog
+      _Complexity: 0
+      _PlaySessionLink:
+      - Animals
+    - _Id: Phrase_girl
+      _Active: 1
+      _Text: "O FAT\u0102 merge pe biciclet\u0103"
+      _Category: 13
+      _Linked: 
+      _Words:
+      - girl
+      - bicycle
+      _Answers:
+      - girl
+      _Complexity: 0
+      _PlaySessionLink:
+      - Family
+    - _Id: Phrase_gloves
+      _Active: 1
+      _Text: "Un b\u0103iat poart\u0103 M\u0102NU\u0218I"
+      _Category: 11
+      _Linked: 
+      _Words:
+      - boy
+      - gloves
+      _Answers:
+      - gloves
+      _Complexity: 0
+      _PlaySessionLink:
+      - Clothes
+    - _Id: Phrase_goat
+      _Active: 1
+      _Text: "CAPRA m\u0103n\xE2nc\u0103 o plant\u0103"
+      _Category: 8
+      _Linked: 
+      _Words:
+      - goat
+      - plant
+      _Answers:
+      - goat
+      _Complexity: 0
+      _PlaySessionLink:
+      - Animals
+    - _Id: Phrase_grandfather
+      _Active: 1
+      _Text: "BUNICUL t\u0103u este foarte b\u0103tr\xE2n"
+      _Category: 13
+      _Linked: 
+      _Words:
+      - grandfather
+      _Answers:
+      - grandfather
+      _Complexity: 0
+      _PlaySessionLink:
+      - Family
+    - _Id: Phrase_grandmother
+      _Active: 1
+      _Text: BUNICA mea merge cu autobuzul
+      _Category: 13
+      _Linked: 
+      _Words:
+      - grandmother
+      - bus
+      _Answers:
+      - grandmother
+      _Complexity: 0
+      _PlaySessionLink:
+      - Family
+    - _Id: Phrase_hair
+      _Active: 1
+      _Text: "P\u0102RUL meu este negru"
+      _Category: 15
+      _Linked: 
+      _Words:
+      - hair
+      - color_black
+      _Answers:
+      - hair
+      _Complexity: 0
+      _PlaySessionLink:
+      - Body
+    - _Id: Phrase_hat
+      _Active: 1
+      _Text: "P\u0102L\u0102RIA este mic\u0103"
+      _Category: 11
+      _Linked: 
+      _Words:
+      - hat
+      _Answers:
+      - hat
+      _Complexity: 0
+      _PlaySessionLink:
+      - Clothes
+    - _Id: Phrase_head
+      _Active: 1
+      _Text: "PUIUL \xEE\u0219i mi\u0219c\u0103 capul"
+      _Category: 15
+      _Linked: 
+      _Words:
+      - head
+      - chicken
+      _Answers:
+      - head
+      _Complexity: 0
+      _PlaySessionLink:
+      - Body
+    - _Id: Phrase_horse
+      _Active: 1
+      _Text: Acesta este un CAL negru
+      _Category: 8
+      _Linked: 
+      _Words:
+      - horse
+      - color_black
+      _Answers:
+      - horse
+      _Complexity: 0
+      _PlaySessionLink:
+      - Animals
+    - _Id: Phrase_house
+      _Active: 1
+      _Text: "CASA este pe insul\u0103"
+      _Category: 12
+      _Linked: 
+      _Words:
+      - house
+      - island
+      _Answers:
+      - house
+      _Complexity: 0
+      _PlaySessionLink:
+      - City
+    - _Id: Phrase_island
+      _Active: 1
+      _Text: INSULA este pe mare
+      _Category: 7
+      _Linked: 
+      _Words:
+      - island
+      - sea
+      _Answers:
+      - island
+      _Complexity: 0
+      _PlaySessionLink:
+      - Nature
+    - _Id: Phrase_jacket
+      _Active: 1
+      _Text: "GEACA este galben\u0103"
+      _Category: 11
+      _Linked: 
+      _Words:
+      - jacket
+      - color_yellow
+      _Answers:
+      - jacket
+      _Complexity: 0
+      _PlaySessionLink:
+      - Clothes
+    - _Id: Phrase_kitchen
+      _Active: 1
+      _Text: "\xCEn BUC\u0102T\u0102RIE este un c\xE2ine"
+      _Category: 9
+      _Linked: 
+      _Words:
+      - kitchen
+      - dog
+      _Answers:
+      - kitchen
+      _Complexity: 0
+      _PlaySessionLink:
+      - Home
+    - _Id: Phrase_lamp
+      _Active: 1
+      _Text: "LAMPA este stins\u0103"
+      _Category: 9
+      _Linked: 
+      _Words:
+      - lamp
+      _Answers:
+      - lamp
+      _Complexity: 0
+      _PlaySessionLink:
+      - Home
+    - _Id: Phrase_lips
+      _Active: 1
+      _Text: "BUZELE sunt ro\u0219ii"
+      _Category: 15
+      _Linked: 
+      _Words:
+      - lips
+      - color_red
+      _Answers:
+      - lips
+      _Complexity: 0
+      _PlaySessionLink:
+      - Body
+    - _Id: Phrase_man
+      _Active: 1
+      _Text: "Un B\u0102RBAT se plimb\u0103 prin parc"
+      _Category: 13
+      _Linked: 
+      _Words:
+      - man
+      - park
+      _Answers:
+      - man
+      _Complexity: 0
+      _PlaySessionLink:
+      - Family
+    - _Id: Phrase_meat
+      _Active: 1
+      _Text: "Leul m\u0103n\xE2nc\u0103 CARNE"
+      _Category: 14
+      _Linked: 
+      _Words:
+      - lion
+      - meat
+      _Answers:
+      - meat
+      _Complexity: 0
+      _PlaySessionLink:
+      - Food
+    - _Id: Phrase_monkey
+      _Active: 1
+      _Text: "MAIMU\u021AA este amuzant\u0103"
+      _Category: 8
+      _Linked: 
+      _Words:
+      - monkey
+      _Answers:
+      - monkey
+      _Complexity: 0
+      _PlaySessionLink:
+      - Animals
+    - _Id: Phrase_moon
+      _Active: 1
+      _Text: "Un b\u0103rbat se uit\u0103 la LUN\u0102"
+      _Category: 7
+      _Linked: 
+      _Words:
+      - moon
+      - man
+      _Answers:
+      - moon
+      _Complexity: 0
+      _PlaySessionLink:
+      - Nature
+    - _Id: Phrase_mother
+      _Active: 1
+      _Text: "MAMA mea m\u0103 iube\u0219te"
+      _Category: 13
+      _Linked: 
+      _Words:
+      - mother
+      _Answers:
+      - mother
+      _Complexity: 0
+      _PlaySessionLink:
+      - Family
+    - _Id: Phrase_motorbike
+      _Active: 1
+      _Text: "Aceasta este o MOTOCICLET\u0102 nou\u0103"
+      _Category: 12
+      _Linked: 
+      _Words:
+      - motorbike
+      _Answers:
+      - motorbike
+      _Complexity: 0
+      _PlaySessionLink:
+      - City
+    - _Id: Phrase_mountain
+      _Active: 1
+      _Text: "MUNTELE este \xEEnalt"
+      _Category: 7
+      _Linked: 
+      _Words:
+      - mountain
+      _Answers:
+      - mountain
+      _Complexity: 0
+      _PlaySessionLink:
+      - Nature
+    - _Id: Phrase_mouth
+      _Active: 1
+      _Text: "\xCEn GUR\u0102 este m\xE2ncare"
+      _Category: 15
+      _Linked: 
+      _Words:
+      - mouth
+      - food
+      _Answers:
+      - mouth
+      _Complexity: 0
+      _PlaySessionLink:
+      - Body
+    - _Id: Phrase_museum
+      _Active: 1
+      _Text: "MUZEUL are o oglind\u0103 mare"
+      _Category: 12
+      _Linked: 
+      _Words:
+      - museum
+      - window
+      _Answers:
+      - museum
+      _Complexity: 0
+      _PlaySessionLink:
+      - City
+    - _Id: Phrase_nail
+      _Active: 1
+      _Text: "Am o UNGHIE rupt\u0103"
+      _Category: 15
+      _Linked: 
+      _Words:
+      - nail
+      _Answers:
+      - nail
+      _Complexity: 0
+      _PlaySessionLink:
+      - Body
+    - _Id: Phrase_needle
+      _Active: 1
+      _Text: ACUL este foarte mic
+      _Category: 10
+      _Linked: 
+      _Words:
+      - needle
+      _Answers:
+      - needle
+      _Complexity: 0
+      _PlaySessionLink:
+      - Objects
+    - _Id: Phrase_nose
+      _Active: 1
+      _Text: "B\u0103rbatul are un NAS mare"
+      _Category: 15
+      _Linked: 
+      _Words:
+      - nose
+      - man
+      _Answers:
+      - nose
+      _Complexity: 0
+      _PlaySessionLink:
+      - Body
+    - _Id: Phrase_oil
+      _Active: 1
+      _Text: Pe jos este ULEI
+      _Category: 14
+      _Linked: 
+      _Words:
+      - oil
+      - floor
+      _Answers:
+      - oil
+      _Complexity: 0
+      _PlaySessionLink:
+      - Food
+    - _Id: Phrase_oven
+      _Active: 1
+      _Text: "CUPTORUL este \xEEncins"
+      _Category: 9
+      _Linked: 
+      _Words:
+      - oven
+      _Answers:
+      - oven
+      _Complexity: 0
+      _PlaySessionLink:
+      - Home
+    - _Id: Phrase_paper
+      _Active: 1
+      _Text: "O fat\u0103 scrie pe H\xC2RTIE"
+      _Category: 10
+      _Linked: 
+      _Words:
+      - paper
+      - girl
+      _Answers:
+      - paper
+      _Complexity: 0
+      _PlaySessionLink:
+      - Objects
+    - _Id: Phrase_parrot
+      _Active: 1
+      _Text: "\xCEn copac este un PAPAGAL"
+      _Category: 8
+      _Linked: 
+      _Words:
+      - parrot
+      - tree
+      _Answers:
+      - parrot
+      _Complexity: 0
+      _PlaySessionLink:
+      - Animals
+    - _Id: Phrase_pencil
+      _Active: 1
+      _Text: CREIONUL este nou
+      _Category: 10
+      _Linked: 
+      _Words:
+      - pencil
+      _Answers:
+      - pencil
+      _Complexity: 0
+      _PlaySessionLink:
+      - Objects
+    - _Id: Phrase_penguin
+      _Active: 1
+      _Text: "PINGUINUL \xEEnoat\u0103 \xEEn mare"
+      _Category: 8
+      _Linked: 
+      _Words:
+      - penguin
+      - sea
+      _Answers:
+      - penguin
+      _Complexity: 0
+      _PlaySessionLink:
+      - Animals
+    - _Id: Phrase_pepper
+      _Active: 1
+      _Text: ARDEIUL este verde
+      _Category: 14
+      _Linked: 
+      _Words:
+      - pepper
+      - color_green
+      _Answers:
+      - pepper
+      _Complexity: 0
+      _PlaySessionLink:
+      - Food
+    - _Id: Phrase_pet
+      _Active: 1
+      _Text: "\xCEmi iubesc ANIMALUL DE COMPANIE"
+      _Category: 13
+      _Linked: 
+      _Words:
+      - pet
+      _Answers:
+      - pet
+      _Complexity: 0
+      _PlaySessionLink:
+      - Family
+    - _Id: Phrase_plane
+      _Active: 1
+      _Text: "Un AVION zboar\u0103 pe cer"
+      _Category: 12
+      _Linked: 
+      _Words:
+      - plane
+      - sky
+      _Answers:
+      - plane
+      _Complexity: 0
+      _PlaySessionLink:
+      - City
+    - _Id: Phrase_plant
+      _Active: 1
+      _Text: PLANTA este verde
+      _Category: 7
+      _Linked: 
+      _Words:
+      - plant
+      - color_green
+      _Answers:
+      - plant
+      _Complexity: 0
+      _PlaySessionLink:
+      - Nature
+    - _Id: Phrase_port
+      _Active: 1
+      _Text: "PORTUL este \xEEn mare"
+      _Category: 12
+      _Linked: 
+      _Words:
+      - port
+      - sea
+      _Answers:
+      - port
+      _Complexity: 0
+      _PlaySessionLink:
+      - City
+    - _Id: Phrase_potato
+      _Active: 1
+      _Text: Acesta este un CARTOF mare
+      _Category: 14
+      _Linked: 
+      _Words:
+      - potato
+      _Answers:
+      - potato
+      _Complexity: 0
+      _PlaySessionLink:
+      - Food
+    - _Id: Phrase_restaurant
+      _Active: 1
+      _Text: "\xCEmi place RESTAURANTUL acesta"
+      _Category: 12
+      _Linked: 
+      _Words:
+      - restaurant
+      _Answers:
+      - restaurant
+      _Complexity: 0
+      _PlaySessionLink:
+      - City
+    - _Id: Phrase_river
+      _Active: 1
+      _Text: "Un b\u0103iat pescuie\u0219te \xEEn R\xC2U"
+      _Category: 7
+      _Linked: 
+      _Words:
+      - river
+      _Answers:
+      - river
+      _Complexity: 0
+      _PlaySessionLink:
+      - Nature
+    - _Id: Phrase_scarf
+      _Active: 1
+      _Text: "E\u0218ARFA este roz"
+      _Category: 11
+      _Linked: 
+      _Words:
+      - scarf
+      - color_pink
+      _Answers:
+      - scarf
+      _Complexity: 0
+      _PlaySessionLink:
+      - Clothes
+    - _Id: Phrase_school
+      _Active: 1
+      _Text: "B\u0103iatul merge la \u0218COAL\u0102"
+      _Category: 12
+      _Linked: 
+      _Words:
+      - school
+      - boy
+      _Answers:
+      - school
+      _Complexity: 0
+      _PlaySessionLink:
+      - City
+    - _Id: Phrase_shoes
+      _Active: 1
+      _Text: PANTOFII sunt gri
+      _Category: 11
+      _Linked: 
+      _Words:
+      - shoes
+      - color_grey
+      _Answers:
+      - shoes
+      _Complexity: 0
+      _PlaySessionLink:
+      - Clothes
+    - _Id: Phrase_sister
+      _Active: 1
+      _Text: "SORA mea joac\u0103 fotbal"
+      _Category: 13
+      _Linked: 
+      _Words:
+      - sister
+      _Answers:
+      - sister
+      _Complexity: 0
+      _PlaySessionLink:
+      - Family
+    - _Id: Phrase_skirt
+      _Active: 1
+      _Text: "\xCEmi place FUSTA aceasta"
+      _Category: 11
+      _Linked: 
+      _Words:
+      - skirt
+      _Answers:
+      - skirt
+      _Complexity: 0
+      _PlaySessionLink:
+      - Clothes
+    - _Id: Phrase_sky
+      _Active: 1
+      _Text: CERUL este albastru
+      _Category: 7
+      _Linked: 
+      _Words:
+      - sky
+      _Answers:
+      - sky
+      _Complexity: 0
+      _PlaySessionLink:
+      - Nature
+    - _Id: Phrase_snake
+      _Active: 1
+      _Text: "\u0218ARPELE m\u0103n\xE2nc\u0103 un \u0219obolan"
+      _Category: 8
+      _Linked: 
+      _Words:
+      - snake
+      - rat
+      _Answers:
+      - snake
+      _Complexity: 0
+      _PlaySessionLink:
+      - Animals
+    - _Id: Phrase_snow
+      _Active: 1
+      _Text: "Este Z\u0102PAD\u0102 pe munte"
+      _Category: 7
+      _Linked: 
+      _Words:
+      - snow
+      - mountain
+      _Answers:
+      - snow
+      _Complexity: 0
+      _PlaySessionLink:
+      - Nature
+    - _Id: Phrase_son
+      _Active: 1
+      _Text: "FIULUI meu \xEEi place iaurtul"
+      _Category: 13
+      _Linked: 
+      _Words:
+      - son
+      - yogurt
+      _Answers:
+      - son
+      _Complexity: 0
+      _PlaySessionLink:
+      - Family
+    - _Id: Phrase_squirrel
+      _Active: 1
+      _Text: "VEVERI\u021AA se ca\u021B\u0103r\u0103 \xEEn copac"
+      _Category: 8
+      _Linked: 
+      _Words:
+      - squirrel
+      - tree
+      _Answers:
+      - squirrel
+      _Complexity: 0
+      _PlaySessionLink:
+      - Animals
+    - _Id: Phrase_star
+      _Active: 1
+      _Text: Pe cer este o STEA
+      _Category: 7
+      _Linked: 
+      _Words:
+      - star
+      - sky
+      _Answers:
+      - star
+      _Complexity: 0
+      _PlaySessionLink:
+      - Nature
+    - _Id: Phrase_stone
+      _Active: 1
+      _Text: "Aceasta este o PIATR\u0102 mic\u0103"
+      _Category: 7
+      _Linked: 
+      _Words:
+      - stone
+      _Answers:
+      - stone
+      _Complexity: 0
+      _PlaySessionLink:
+      - Nature
+    - _Id: Phrase_stove
+      _Active: 1
+      _Text: "\xCEn cuptor este FOC"
+      _Category: 9
+      _Linked: 
+      _Words:
+      - stove
+      - fire
+      _Answers:
+      - stove
+      _Complexity: 0
+      _PlaySessionLink:
+      - Home
+    - _Id: Phrase_sun
+      _Active: 1
+      _Text: SOARELE este pe cer
+      _Category: 7
+      _Linked: 
+      _Words:
+      - sun
+      - sky
+      _Answers:
+      - sun
+      _Complexity: 0
+      _PlaySessionLink:
+      - Nature
+    - _Id: Phrase_television
+      _Active: 1
+      _Text: "O fat\u0103 se uit\u0103 la TELEVIZOR"
+      _Category: 9
+      _Linked: 
+      _Words:
+      - girl
+      - television
+      _Answers:
+      - television
+      _Complexity: 0
+      _PlaySessionLink:
+      - Home
+    - _Id: Phrase_tiger
+      _Active: 1
+      _Text: "TIGRUL tr\u0103ie\u0219te \xEEn jungl\u0103"
+      _Category: 8
+      _Linked: 
+      _Words:
+      - tiger
+      _Answers:
+      - tiger
+      _Complexity: 0
+      _PlaySessionLink:
+      - Animals
+    - _Id: Phrase_tomato
+      _Active: 1
+      _Text: "Aceasta este o RO\u0218IE ro\u0219ie"
+      _Category: 14
+      _Linked: 
+      _Words:
+      - tomato
+      - color_red
+      _Answers:
+      - tomato
+      _Complexity: 0
+      _PlaySessionLink:
+      - Food
+    - _Id: Phrase_tongue
+      _Active: 1
+      _Text: "LIMBA este \xEEn gur\u0103"
+      _Category: 15
+      _Linked: 
+      _Words:
+      - tongue
+      - mouth
+      _Answers:
+      - tongue
+      _Complexity: 0
+      _PlaySessionLink:
+      - Body
+    - _Id: Phrase_tooth
+      _Active: 1
+      _Text: DINTELE este spart
+      _Category: 15
+      _Linked: 
+      _Words:
+      - tooth
+      _Answers:
+      - tooth
+      _Complexity: 0
+      _PlaySessionLink:
+      - Body
+    - _Id: Phrase_toy
+      _Active: 1
+      _Text: "Pe pat este o JUC\u0102RIE"
+      _Category: 10
+      _Linked: 
+      _Words:
+      - toy
+      - bed
+      _Answers:
+      - toy
+      _Complexity: 0
+      _PlaySessionLink:
+      - Objects
+    - _Id: Phrase_train
+      _Active: 1
+      _Text: "TRENUL se opre\u0219te \xEEn sta\u021Bie"
+      _Category: 12
+      _Linked: 
+      _Words:
+      - train
+      - station
+      _Answers:
+      - train
+      _Complexity: 0
+      _PlaySessionLink:
+      - City
+    - _Id: Phrase_tree
+      _Active: 1
+      _Text: Acesta este un COPAC mare
+      _Category: 7
+      _Linked: 
+      _Words:
+      - tree
+      _Answers:
+      - tree
+      _Complexity: 0
+      _PlaySessionLink:
+      - Nature
+    - _Id: Phrase_truck
+      _Active: 1
+      _Text: Acesta este un CAMION portocaliu
+      _Category: 12
+      _Linked: 
+      _Words:
+      - truck
+      - color_orange
+      _Answers:
+      - truck
+      _Complexity: 0
+      _PlaySessionLink:
+      - City
+    - _Id: Phrase_uncle
+      _Active: 1
+      _Text: "UNCHIUL meu locuie\u0219te \xEEn ora\u0219"
+      _Category: 13
+      _Linked: 
+      _Words:
+      - uncle
+      - city
+      _Answers:
+      - uncle
+      _Complexity: 0
+      _PlaySessionLink:
+      - Family
+    - _Id: Phrase_volcano
+      _Active: 1
+      _Text: Un VULCAN este periculos
+      _Category: 7
+      _Linked: 
+      _Words:
+      - volcano
+      _Answers:
+      - volcano
+      _Complexity: 0
+      _PlaySessionLink:
+      - Nature
+    - _Id: Phrase_water
+      _Active: 1
+      _Text: "\xCEn r\xE2u este AP\u0102"
+      _Category: 14
+      _Linked: 
+      _Words:
+      - water
+      - river
+      _Answers:
+      - water
+      _Complexity: 0
+      _PlaySessionLink:
+      - Food
+    - _Id: Phrase_watermelon
+      _Active: 1
+      _Text: "Fetei \xEEi place PEPENELE RO\u0218U"
+      _Category: 14
+      _Linked: 
+      _Words:
+      - watermelon
+      - girl
+      _Answers:
+      - watermelon
+      _Complexity: 0
+      _PlaySessionLink:
+      - Food
+    - _Id: Phrase_window
+      _Active: 1
+      _Text: "O FEREASTR\u0102 este deschis\u0103"
+      _Category: 9
+      _Linked: 
+      _Words:
+      - window
+      _Answers:
+      - window
+      _Complexity: 0
+      _PlaySessionLink:
+      - Home
+    - _Id: Phrase_woman
+      _Active: 1
+      _Text: "O FEMEIE poart\u0103 un palton"
+      _Category: 13
+      _Linked: 
+      _Words:
+      - woman
+      - coat
+      _Answers:
+      - woman
+      _Complexity: 0
+      _PlaySessionLink:
+      - Family
+    - _Id: Phrase_zoo
+      _Active: 1
+      _Text: "Un tigru tr\u0103ie\u0219te la GR\u0102DINA ZOOLOGIC\u0102"
+      _Category: 12
+      _Linked: 
+      _Words:
+      - zoo
+      - tiger
+      _Answers:
+      - zoo
+      _Complexity: 0
+      _PlaySessionLink:
+      - City

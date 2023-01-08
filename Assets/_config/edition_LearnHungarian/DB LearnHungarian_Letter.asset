@@ -1,0 +1,1708 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca41d8ae0ca60b949930fbc37c689ee9, type: 3}
+  m_Name: DB LearnHungarian_Letter
+  m_EditorClassIdentifier: 
+  table:
+    innerList:
+    - _Id: A
+      _Active: 1
+      _InBook: 1
+      _Number: 1
+      _Title: A
+      _Kind: 1
+      _BaseLetter: A
+      _LigatureSplit: []
+      _Symbol: 
+      _Type: 1
+      _Tag: 
+      _PlaySessionLink:
+      - LetterGroup1
+      _Notes: 
+      _SunMoon: 0
+      _Sound: A
+      _NameSound: A
+      _PhonemeSound: A
+      _SoundZone: 
+      _Isolated_Unicode: 0041
+      _Initial_Unicode: 
+      _Medial_Unicode: 
+      _Final_Unicode: 
+      _Symbol_Unicode: 
+      _InitialFix: 
+      _FinalFix: 
+      _MedialFix: 
+      _HasDot: 0
+      _HasDiacritic: 0
+      _HasAccent: 0
+      _Orientations: 0
+      _Complexity: 1
+      _CanConnectBefore: 0
+      _CanConnectAfter: 0
+      _LinkedWords: []
+      ForcedLetterForm: 0
+    - _Id: "\xC1"
+      _Active: 1
+      _InBook: 1
+      _Number: 2
+      _Title: "\xC1"
+      _Kind: 1
+      _BaseLetter: "\xC1"
+      _LigatureSplit: []
+      _Symbol: 
+      _Type: 1
+      _Tag: 
+      _PlaySessionLink:
+      - LetterGroup1
+      _Notes: 
+      _SunMoon: 0
+      _Sound: "\xC1"
+      _NameSound: "\xC1"
+      _PhonemeSound: "\xC1"
+      _SoundZone: 
+      _Isolated_Unicode: 00C1
+      _Initial_Unicode: 
+      _Medial_Unicode: 
+      _Final_Unicode: 
+      _Symbol_Unicode: 
+      _InitialFix: 
+      _FinalFix: 
+      _MedialFix: 
+      _HasDot: 0
+      _HasDiacritic: 0
+      _HasAccent: 0
+      _Orientations: 0
+      _Complexity: 1
+      _CanConnectBefore: 0
+      _CanConnectAfter: 0
+      _LinkedWords: []
+      ForcedLetterForm: 0
+    - _Id: B
+      _Active: 1
+      _InBook: 1
+      _Number: 3
+      _Title: B
+      _Kind: 1
+      _BaseLetter: B
+      _LigatureSplit: []
+      _Symbol: 
+      _Type: 2
+      _Tag: 
+      _PlaySessionLink:
+      - LetterGroup2
+      _Notes: 
+      _SunMoon: 0
+      _Sound: B
+      _NameSound: B
+      _PhonemeSound: B
+      _SoundZone: 
+      _Isolated_Unicode: 0042
+      _Initial_Unicode: 
+      _Medial_Unicode: 
+      _Final_Unicode: 
+      _Symbol_Unicode: 
+      _InitialFix: 
+      _FinalFix: 
+      _MedialFix: 
+      _HasDot: 0
+      _HasDiacritic: 0
+      _HasAccent: 0
+      _Orientations: 0
+      _Complexity: 1
+      _CanConnectBefore: 0
+      _CanConnectAfter: 0
+      _LinkedWords: []
+      ForcedLetterForm: 0
+    - _Id: C
+      _Active: 1
+      _InBook: 1
+      _Number: 4
+      _Title: C
+      _Kind: 1
+      _BaseLetter: C
+      _LigatureSplit: []
+      _Symbol: 
+      _Type: 2
+      _Tag: 
+      _PlaySessionLink:
+      - LetterGroup2
+      _Notes: 
+      _SunMoon: 0
+      _Sound: C
+      _NameSound: C
+      _PhonemeSound: C
+      _SoundZone: 
+      _Isolated_Unicode: 0043
+      _Initial_Unicode: 
+      _Medial_Unicode: 
+      _Final_Unicode: 
+      _Symbol_Unicode: 
+      _InitialFix: 
+      _FinalFix: 
+      _MedialFix: 
+      _HasDot: 0
+      _HasDiacritic: 0
+      _HasAccent: 0
+      _Orientations: 0
+      _Complexity: 1
+      _CanConnectBefore: 0
+      _CanConnectAfter: 0
+      _LinkedWords: []
+      ForcedLetterForm: 0
+    - _Id: CS
+      _Active: 1
+      _InBook: 1
+      _Number: 5
+      _Title: CS
+      _Kind: 1
+      _BaseLetter: CS
+      _LigatureSplit: []
+      _Symbol: 
+      _Type: 2
+      _Tag: 
+      _PlaySessionLink:
+      - LetterGroup2
+      _Notes: 
+      _SunMoon: 0
+      _Sound: CS
+      _NameSound: CS
+      _PhonemeSound: CS
+      _SoundZone: 
+      _Isolated_Unicode: 00430053
+      _Initial_Unicode: 
+      _Medial_Unicode: 
+      _Final_Unicode: 
+      _Symbol_Unicode: 
+      _InitialFix: 
+      _FinalFix: 
+      _MedialFix: 
+      _HasDot: 0
+      _HasDiacritic: 0
+      _HasAccent: 0
+      _Orientations: 0
+      _Complexity: 1
+      _CanConnectBefore: 0
+      _CanConnectAfter: 0
+      _LinkedWords: []
+      ForcedLetterForm: 0
+    - _Id: D
+      _Active: 1
+      _InBook: 1
+      _Number: 6
+      _Title: D
+      _Kind: 1
+      _BaseLetter: D
+      _LigatureSplit: []
+      _Symbol: 
+      _Type: 2
+      _Tag: 
+      _PlaySessionLink:
+      - LetterGroup2
+      _Notes: 
+      _SunMoon: 0
+      _Sound: D
+      _NameSound: D
+      _PhonemeSound: D
+      _SoundZone: 
+      _Isolated_Unicode: 0044
+      _Initial_Unicode: 
+      _Medial_Unicode: 
+      _Final_Unicode: 
+      _Symbol_Unicode: 
+      _InitialFix: 
+      _FinalFix: 
+      _MedialFix: 
+      _HasDot: 0
+      _HasDiacritic: 0
+      _HasAccent: 0
+      _Orientations: 0
+      _Complexity: 1
+      _CanConnectBefore: 0
+      _CanConnectAfter: 0
+      _LinkedWords: []
+      ForcedLetterForm: 0
+    - _Id: DZ
+      _Active: 1
+      _InBook: 1
+      _Number: 7
+      _Title: DZ
+      _Kind: 1
+      _BaseLetter: DZ
+      _LigatureSplit: []
+      _Symbol: 
+      _Type: 2
+      _Tag: 
+      _PlaySessionLink:
+      - LetterGroup7
+      _Notes: 
+      _SunMoon: 0
+      _Sound: DZ
+      _NameSound: DZ
+      _PhonemeSound: DZ
+      _SoundZone: 
+      _Isolated_Unicode: 0044005A
+      _Initial_Unicode: 
+      _Medial_Unicode: 
+      _Final_Unicode: 
+      _Symbol_Unicode: 
+      _InitialFix: 
+      _FinalFix: 
+      _MedialFix: 
+      _HasDot: 0
+      _HasDiacritic: 0
+      _HasAccent: 0
+      _Orientations: 0
+      _Complexity: 1
+      _CanConnectBefore: 0
+      _CanConnectAfter: 0
+      _LinkedWords: []
+      ForcedLetterForm: 0
+    - _Id: DZS
+      _Active: 1
+      _InBook: 1
+      _Number: 8
+      _Title: DZS
+      _Kind: 1
+      _BaseLetter: DZS
+      _LigatureSplit: []
+      _Symbol: 
+      _Type: 2
+      _Tag: 
+      _PlaySessionLink:
+      - LetterGroup7
+      _Notes: 
+      _SunMoon: 0
+      _Sound: DZS
+      _NameSound: DZS
+      _PhonemeSound: DZS
+      _SoundZone: 
+      _Isolated_Unicode: 0044005A0053
+      _Initial_Unicode: 
+      _Medial_Unicode: 
+      _Final_Unicode: 
+      _Symbol_Unicode: 
+      _InitialFix: 
+      _FinalFix: 
+      _MedialFix: 
+      _HasDot: 0
+      _HasDiacritic: 0
+      _HasAccent: 0
+      _Orientations: 0
+      _Complexity: 1
+      _CanConnectBefore: 0
+      _CanConnectAfter: 0
+      _LinkedWords: []
+      ForcedLetterForm: 0
+    - _Id: E
+      _Active: 1
+      _InBook: 1
+      _Number: 9
+      _Title: E
+      _Kind: 1
+      _BaseLetter: E
+      _LigatureSplit: []
+      _Symbol: 
+      _Type: 1
+      _Tag: 
+      _PlaySessionLink:
+      - LetterGroup1
+      _Notes: 
+      _SunMoon: 0
+      _Sound: E
+      _NameSound: E
+      _PhonemeSound: E
+      _SoundZone: 
+      _Isolated_Unicode: 0045
+      _Initial_Unicode: 
+      _Medial_Unicode: 
+      _Final_Unicode: 
+      _Symbol_Unicode: 
+      _InitialFix: 
+      _FinalFix: 
+      _MedialFix: 
+      _HasDot: 0
+      _HasDiacritic: 0
+      _HasAccent: 0
+      _Orientations: 0
+      _Complexity: 1
+      _CanConnectBefore: 0
+      _CanConnectAfter: 0
+      _LinkedWords: []
+      ForcedLetterForm: 0
+    - _Id: "\xC9"
+      _Active: 1
+      _InBook: 1
+      _Number: 10
+      _Title: "\xC9"
+      _Kind: 1
+      _BaseLetter: "\xC9"
+      _LigatureSplit: []
+      _Symbol: 
+      _Type: 1
+      _Tag: 
+      _PlaySessionLink:
+      - LetterGroup1
+      _Notes: 
+      _SunMoon: 0
+      _Sound: "\xC9"
+      _NameSound: "\xC9"
+      _PhonemeSound: "\xC9"
+      _SoundZone: 
+      _Isolated_Unicode: 00C9
+      _Initial_Unicode: 
+      _Medial_Unicode: 
+      _Final_Unicode: 
+      _Symbol_Unicode: 
+      _InitialFix: 
+      _FinalFix: 
+      _MedialFix: 
+      _HasDot: 0
+      _HasDiacritic: 0
+      _HasAccent: 0
+      _Orientations: 0
+      _Complexity: 1
+      _CanConnectBefore: 0
+      _CanConnectAfter: 0
+      _LinkedWords: []
+      ForcedLetterForm: 0
+    - _Id: F
+      _Active: 1
+      _InBook: 1
+      _Number: 11
+      _Title: F
+      _Kind: 1
+      _BaseLetter: F
+      _LigatureSplit: []
+      _Symbol: 
+      _Type: 2
+      _Tag: 
+      _PlaySessionLink:
+      - LetterGroup2
+      _Notes: 
+      _SunMoon: 0
+      _Sound: F
+      _NameSound: F
+      _PhonemeSound: F
+      _SoundZone: 
+      _Isolated_Unicode: 0046
+      _Initial_Unicode: 
+      _Medial_Unicode: 
+      _Final_Unicode: 
+      _Symbol_Unicode: 
+      _InitialFix: 
+      _FinalFix: 
+      _MedialFix: 
+      _HasDot: 0
+      _HasDiacritic: 0
+      _HasAccent: 0
+      _Orientations: 0
+      _Complexity: 1
+      _CanConnectBefore: 0
+      _CanConnectAfter: 0
+      _LinkedWords: []
+      ForcedLetterForm: 0
+    - _Id: G
+      _Active: 1
+      _InBook: 1
+      _Number: 12
+      _Title: G
+      _Kind: 1
+      _BaseLetter: G
+      _LigatureSplit: []
+      _Symbol: 
+      _Type: 2
+      _Tag: 
+      _PlaySessionLink:
+      - LetterGroup3
+      _Notes: 
+      _SunMoon: 0
+      _Sound: G
+      _NameSound: G
+      _PhonemeSound: G
+      _SoundZone: 
+      _Isolated_Unicode: 0047
+      _Initial_Unicode: 
+      _Medial_Unicode: 
+      _Final_Unicode: 
+      _Symbol_Unicode: 
+      _InitialFix: 
+      _FinalFix: 
+      _MedialFix: 
+      _HasDot: 0
+      _HasDiacritic: 0
+      _HasAccent: 0
+      _Orientations: 0
+      _Complexity: 1
+      _CanConnectBefore: 0
+      _CanConnectAfter: 0
+      _LinkedWords: []
+      ForcedLetterForm: 0
+    - _Id: GY
+      _Active: 1
+      _InBook: 1
+      _Number: 13
+      _Title: GY
+      _Kind: 1
+      _BaseLetter: GY
+      _LigatureSplit: []
+      _Symbol: 
+      _Type: 2
+      _Tag: 
+      _PlaySessionLink:
+      - LetterGroup3
+      _Notes: 
+      _SunMoon: 0
+      _Sound: GY
+      _NameSound: GY
+      _PhonemeSound: GY
+      _SoundZone: 
+      _Isolated_Unicode: 00470059
+      _Initial_Unicode: 
+      _Medial_Unicode: 
+      _Final_Unicode: 
+      _Symbol_Unicode: 
+      _InitialFix: 
+      _FinalFix: 
+      _MedialFix: 
+      _HasDot: 0
+      _HasDiacritic: 0
+      _HasAccent: 0
+      _Orientations: 0
+      _Complexity: 1
+      _CanConnectBefore: 0
+      _CanConnectAfter: 0
+      _LinkedWords: []
+      ForcedLetterForm: 0
+    - _Id: H
+      _Active: 1
+      _InBook: 1
+      _Number: 14
+      _Title: H
+      _Kind: 1
+      _BaseLetter: H
+      _LigatureSplit: []
+      _Symbol: 
+      _Type: 2
+      _Tag: 
+      _PlaySessionLink:
+      - LetterGroup3
+      _Notes: 
+      _SunMoon: 0
+      _Sound: H
+      _NameSound: H
+      _PhonemeSound: H
+      _SoundZone: 
+      _Isolated_Unicode: 0048
+      _Initial_Unicode: 
+      _Medial_Unicode: 
+      _Final_Unicode: 
+      _Symbol_Unicode: 
+      _InitialFix: 
+      _FinalFix: 
+      _MedialFix: 
+      _HasDot: 0
+      _HasDiacritic: 0
+      _HasAccent: 0
+      _Orientations: 0
+      _Complexity: 1
+      _CanConnectBefore: 0
+      _CanConnectAfter: 0
+      _LinkedWords: []
+      ForcedLetterForm: 0
+    - _Id: I
+      _Active: 1
+      _InBook: 1
+      _Number: 15
+      _Title: I
+      _Kind: 1
+      _BaseLetter: I
+      _LigatureSplit: []
+      _Symbol: 
+      _Type: 1
+      _Tag: 
+      _PlaySessionLink:
+      - LetterGroup3
+      _Notes: 
+      _SunMoon: 0
+      _Sound: I
+      _NameSound: I
+      _PhonemeSound: I
+      _SoundZone: 
+      _Isolated_Unicode: 0049
+      _Initial_Unicode: 
+      _Medial_Unicode: 
+      _Final_Unicode: 
+      _Symbol_Unicode: 
+      _InitialFix: 
+      _FinalFix: 
+      _MedialFix: 
+      _HasDot: 0
+      _HasDiacritic: 0
+      _HasAccent: 0
+      _Orientations: 0
+      _Complexity: 1
+      _CanConnectBefore: 0
+      _CanConnectAfter: 0
+      _LinkedWords: []
+      ForcedLetterForm: 0
+    - _Id: "\xCD"
+      _Active: 1
+      _InBook: 1
+      _Number: 16
+      _Title: "\xCD"
+      _Kind: 1
+      _BaseLetter: "\xCD"
+      _LigatureSplit: []
+      _Symbol: 
+      _Type: 1
+      _Tag: 
+      _PlaySessionLink:
+      - LetterGroup3
+      _Notes: 
+      _SunMoon: 0
+      _Sound: "\xCD"
+      _NameSound: "\xCD"
+      _PhonemeSound: "\xCD"
+      _SoundZone: 
+      _Isolated_Unicode: 00CD
+      _Initial_Unicode: 
+      _Medial_Unicode: 
+      _Final_Unicode: 
+      _Symbol_Unicode: 
+      _InitialFix: 
+      _FinalFix: 
+      _MedialFix: 
+      _HasDot: 0
+      _HasDiacritic: 0
+      _HasAccent: 0
+      _Orientations: 0
+      _Complexity: 1
+      _CanConnectBefore: 0
+      _CanConnectAfter: 0
+      _LinkedWords: []
+      ForcedLetterForm: 0
+    - _Id: J
+      _Active: 1
+      _InBook: 1
+      _Number: 17
+      _Title: J
+      _Kind: 1
+      _BaseLetter: J
+      _LigatureSplit: []
+      _Symbol: 
+      _Type: 2
+      _Tag: 
+      _PlaySessionLink:
+      - LetterGroup3
+      _Notes: 
+      _SunMoon: 0
+      _Sound: J
+      _NameSound: J
+      _PhonemeSound: J
+      _SoundZone: 
+      _Isolated_Unicode: 004A
+      _Initial_Unicode: 
+      _Medial_Unicode: 
+      _Final_Unicode: 
+      _Symbol_Unicode: 
+      _InitialFix: 
+      _FinalFix: 
+      _MedialFix: 
+      _HasDot: 0
+      _HasDiacritic: 0
+      _HasAccent: 0
+      _Orientations: 0
+      _Complexity: 1
+      _CanConnectBefore: 0
+      _CanConnectAfter: 0
+      _LinkedWords: []
+      ForcedLetterForm: 0
+    - _Id: K
+      _Active: 1
+      _InBook: 1
+      _Number: 18
+      _Title: K
+      _Kind: 1
+      _BaseLetter: K
+      _LigatureSplit: []
+      _Symbol: 
+      _Type: 2
+      _Tag: 
+      _PlaySessionLink:
+      - LetterGroup1
+      _Notes: 
+      _SunMoon: 0
+      _Sound: K
+      _NameSound: K
+      _PhonemeSound: K
+      _SoundZone: 
+      _Isolated_Unicode: 004B
+      _Initial_Unicode: 
+      _Medial_Unicode: 
+      _Final_Unicode: 
+      _Symbol_Unicode: 
+      _InitialFix: 
+      _FinalFix: 
+      _MedialFix: 
+      _HasDot: 0
+      _HasDiacritic: 0
+      _HasAccent: 0
+      _Orientations: 0
+      _Complexity: 1
+      _CanConnectBefore: 0
+      _CanConnectAfter: 0
+      _LinkedWords: []
+      ForcedLetterForm: 0
+    - _Id: L
+      _Active: 1
+      _InBook: 1
+      _Number: 19
+      _Title: L
+      _Kind: 1
+      _BaseLetter: L
+      _LigatureSplit: []
+      _Symbol: 
+      _Type: 2
+      _Tag: 
+      _PlaySessionLink:
+      - LetterGroup1
+      _Notes: 
+      _SunMoon: 0
+      _Sound: L
+      _NameSound: L
+      _PhonemeSound: L
+      _SoundZone: 
+      _Isolated_Unicode: 004C
+      _Initial_Unicode: 
+      _Medial_Unicode: 
+      _Final_Unicode: 
+      _Symbol_Unicode: 
+      _InitialFix: 
+      _FinalFix: 
+      _MedialFix: 
+      _HasDot: 0
+      _HasDiacritic: 0
+      _HasAccent: 0
+      _Orientations: 0
+      _Complexity: 1
+      _CanConnectBefore: 0
+      _CanConnectAfter: 0
+      _LinkedWords: []
+      ForcedLetterForm: 0
+    - _Id: LY
+      _Active: 1
+      _InBook: 1
+      _Number: 20
+      _Title: LY
+      _Kind: 1
+      _BaseLetter: LY
+      _LigatureSplit: []
+      _Symbol: 
+      _Type: 2
+      _Tag: 
+      _PlaySessionLink:
+      - LetterGroup5
+      _Notes: 
+      _SunMoon: 0
+      _Sound: LY
+      _NameSound: LY
+      _PhonemeSound: LY
+      _SoundZone: 
+      _Isolated_Unicode: 004C0059
+      _Initial_Unicode: 
+      _Medial_Unicode: 
+      _Final_Unicode: 
+      _Symbol_Unicode: 
+      _InitialFix: 
+      _FinalFix: 
+      _MedialFix: 
+      _HasDot: 0
+      _HasDiacritic: 0
+      _HasAccent: 0
+      _Orientations: 0
+      _Complexity: 1
+      _CanConnectBefore: 0
+      _CanConnectAfter: 0
+      _LinkedWords: []
+      ForcedLetterForm: 0
+    - _Id: M
+      _Active: 1
+      _InBook: 1
+      _Number: 21
+      _Title: M
+      _Kind: 1
+      _BaseLetter: M
+      _LigatureSplit: []
+      _Symbol: 
+      _Type: 2
+      _Tag: 
+      _PlaySessionLink:
+      - LetterGroup3
+      _Notes: 
+      _SunMoon: 0
+      _Sound: M
+      _NameSound: M
+      _PhonemeSound: M
+      _SoundZone: 
+      _Isolated_Unicode: 004D
+      _Initial_Unicode: 
+      _Medial_Unicode: 
+      _Final_Unicode: 
+      _Symbol_Unicode: 
+      _InitialFix: 
+      _FinalFix: 
+      _MedialFix: 
+      _HasDot: 0
+      _HasDiacritic: 0
+      _HasAccent: 0
+      _Orientations: 0
+      _Complexity: 1
+      _CanConnectBefore: 0
+      _CanConnectAfter: 0
+      _LinkedWords: []
+      ForcedLetterForm: 0
+    - _Id: N
+      _Active: 1
+      _InBook: 1
+      _Number: 22
+      _Title: N
+      _Kind: 1
+      _BaseLetter: N
+      _LigatureSplit: []
+      _Symbol: 
+      _Type: 2
+      _Tag: 
+      _PlaySessionLink:
+      - LetterGroup4
+      _Notes: 
+      _SunMoon: 0
+      _Sound: N
+      _NameSound: N
+      _PhonemeSound: N
+      _SoundZone: 
+      _Isolated_Unicode: 004E
+      _Initial_Unicode: 
+      _Medial_Unicode: 
+      _Final_Unicode: 
+      _Symbol_Unicode: 
+      _InitialFix: 
+      _FinalFix: 
+      _MedialFix: 
+      _HasDot: 0
+      _HasDiacritic: 0
+      _HasAccent: 0
+      _Orientations: 0
+      _Complexity: 1
+      _CanConnectBefore: 0
+      _CanConnectAfter: 0
+      _LinkedWords: []
+      ForcedLetterForm: 0
+    - _Id: NY
+      _Active: 1
+      _InBook: 1
+      _Number: 23
+      _Title: NY
+      _Kind: 1
+      _BaseLetter: NY
+      _LigatureSplit: []
+      _Symbol: 
+      _Type: 2
+      _Tag: 
+      _PlaySessionLink:
+      - LetterGroup5
+      _Notes: 
+      _SunMoon: 0
+      _Sound: NY
+      _NameSound: NY
+      _PhonemeSound: NY
+      _SoundZone: 
+      _Isolated_Unicode: 004E0059
+      _Initial_Unicode: 
+      _Medial_Unicode: 
+      _Final_Unicode: 
+      _Symbol_Unicode: 
+      _InitialFix: 
+      _FinalFix: 
+      _MedialFix: 
+      _HasDot: 0
+      _HasDiacritic: 0
+      _HasAccent: 0
+      _Orientations: 0
+      _Complexity: 1
+      _CanConnectBefore: 0
+      _CanConnectAfter: 0
+      _LinkedWords: []
+      ForcedLetterForm: 0
+    - _Id: O
+      _Active: 1
+      _InBook: 1
+      _Number: 24
+      _Title: O
+      _Kind: 1
+      _BaseLetter: O
+      _LigatureSplit: []
+      _Symbol: 
+      _Type: 1
+      _Tag: 
+      _PlaySessionLink:
+      - LetterGroup4
+      _Notes: 
+      _SunMoon: 0
+      _Sound: O
+      _NameSound: O
+      _PhonemeSound: O
+      _SoundZone: 
+      _Isolated_Unicode: 004F
+      _Initial_Unicode: 
+      _Medial_Unicode: 
+      _Final_Unicode: 
+      _Symbol_Unicode: 
+      _InitialFix: 
+      _FinalFix: 
+      _MedialFix: 
+      _HasDot: 0
+      _HasDiacritic: 0
+      _HasAccent: 0
+      _Orientations: 1
+      _Complexity: 1
+      _CanConnectBefore: 0
+      _CanConnectAfter: 0
+      _LinkedWords: []
+      ForcedLetterForm: 0
+    - _Id: "\xD3"
+      _Active: 1
+      _InBook: 1
+      _Number: 25
+      _Title: "\xD3"
+      _Kind: 1
+      _BaseLetter: "\xD3"
+      _LigatureSplit: []
+      _Symbol: 
+      _Type: 1
+      _Tag: 
+      _PlaySessionLink:
+      - LetterGroup4
+      _Notes: 
+      _SunMoon: 0
+      _Sound: "\xD3"
+      _NameSound: "\xD3"
+      _PhonemeSound: "\xD3"
+      _SoundZone: 
+      _Isolated_Unicode: 00D3
+      _Initial_Unicode: 
+      _Medial_Unicode: 
+      _Final_Unicode: 
+      _Symbol_Unicode: 
+      _InitialFix: 
+      _FinalFix: 
+      _MedialFix: 
+      _HasDot: 0
+      _HasDiacritic: 0
+      _HasAccent: 0
+      _Orientations: 1
+      _Complexity: 1
+      _CanConnectBefore: 0
+      _CanConnectAfter: 0
+      _LinkedWords: []
+      ForcedLetterForm: 0
+    - _Id: "\xD6"
+      _Active: 1
+      _InBook: 1
+      _Number: 26
+      _Title: "\xD6"
+      _Kind: 1
+      _BaseLetter: "\xD6"
+      _LigatureSplit: []
+      _Symbol: 
+      _Type: 1
+      _Tag: 
+      _PlaySessionLink:
+      - LetterGroup4
+      _Notes: 
+      _SunMoon: 0
+      _Sound: "\xD6"
+      _NameSound: "\xD6"
+      _PhonemeSound: "\xD6"
+      _SoundZone: 
+      _Isolated_Unicode: 00D6
+      _Initial_Unicode: 
+      _Medial_Unicode: 
+      _Final_Unicode: 
+      _Symbol_Unicode: 
+      _InitialFix: 
+      _FinalFix: 
+      _MedialFix: 
+      _HasDot: 0
+      _HasDiacritic: 0
+      _HasAccent: 0
+      _Orientations: 1
+      _Complexity: 1
+      _CanConnectBefore: 0
+      _CanConnectAfter: 0
+      _LinkedWords: []
+      ForcedLetterForm: 0
+    - _Id: "\u0150"
+      _Active: 1
+      _InBook: 1
+      _Number: 27
+      _Title: "\u0150"
+      _Kind: 1
+      _BaseLetter: "\u0150"
+      _LigatureSplit: []
+      _Symbol: 
+      _Type: 1
+      _Tag: 
+      _PlaySessionLink:
+      - LetterGroup4
+      _Notes: 
+      _SunMoon: 0
+      _Sound: "\u0150"
+      _NameSound: "\u0150"
+      _PhonemeSound: "\u0150"
+      _SoundZone: 
+      _Isolated_Unicode: 0150
+      _Initial_Unicode: 
+      _Medial_Unicode: 
+      _Final_Unicode: 
+      _Symbol_Unicode: 
+      _InitialFix: 
+      _FinalFix: 
+      _MedialFix: 
+      _HasDot: 0
+      _HasDiacritic: 0
+      _HasAccent: 0
+      _Orientations: 1
+      _Complexity: 1
+      _CanConnectBefore: 0
+      _CanConnectAfter: 0
+      _LinkedWords: []
+      ForcedLetterForm: 0
+    - _Id: P
+      _Active: 1
+      _InBook: 1
+      _Number: 28
+      _Title: P
+      _Kind: 1
+      _BaseLetter: P
+      _LigatureSplit: []
+      _Symbol: 
+      _Type: 2
+      _Tag: 
+      _PlaySessionLink:
+      - LetterGroup5
+      _Notes: 
+      _SunMoon: 0
+      _Sound: P
+      _NameSound: P
+      _PhonemeSound: P
+      _SoundZone: 
+      _Isolated_Unicode: 0050
+      _Initial_Unicode: 
+      _Medial_Unicode: 
+      _Final_Unicode: 
+      _Symbol_Unicode: 
+      _InitialFix: 
+      _FinalFix: 
+      _MedialFix: 
+      _HasDot: 0
+      _HasDiacritic: 0
+      _HasAccent: 0
+      _Orientations: 0
+      _Complexity: 1
+      _CanConnectBefore: 0
+      _CanConnectAfter: 0
+      _LinkedWords: []
+      ForcedLetterForm: 0
+    - _Id: Q
+      _Active: 1
+      _InBook: 0
+      _Number: 29
+      _Title: Q
+      _Kind: 1
+      _BaseLetter: Q
+      _LigatureSplit: []
+      _Symbol: 
+      _Type: 2
+      _Tag: 
+      _PlaySessionLink:
+      - LetterGroup6
+      _Notes: 
+      _SunMoon: 0
+      _Sound: Q
+      _NameSound: Q
+      _PhonemeSound: Q
+      _SoundZone: 
+      _Isolated_Unicode: 0051
+      _Initial_Unicode: 
+      _Medial_Unicode: 
+      _Final_Unicode: 
+      _Symbol_Unicode: 
+      _InitialFix: 
+      _FinalFix: 
+      _MedialFix: 
+      _HasDot: 0
+      _HasDiacritic: 0
+      _HasAccent: 0
+      _Orientations: 0
+      _Complexity: 1
+      _CanConnectBefore: 0
+      _CanConnectAfter: 0
+      _LinkedWords: []
+      ForcedLetterForm: 0
+    - _Id: R
+      _Active: 1
+      _InBook: 1
+      _Number: 30
+      _Title: R
+      _Kind: 1
+      _BaseLetter: R
+      _LigatureSplit: []
+      _Symbol: 
+      _Type: 2
+      _Tag: 
+      _PlaySessionLink:
+      - LetterGroup1
+      _Notes: 
+      _SunMoon: 0
+      _Sound: R
+      _NameSound: R
+      _PhonemeSound: R
+      _SoundZone: 
+      _Isolated_Unicode: 0052
+      _Initial_Unicode: 
+      _Medial_Unicode: 
+      _Final_Unicode: 
+      _Symbol_Unicode: 
+      _InitialFix: 
+      _FinalFix: 
+      _MedialFix: 
+      _HasDot: 0
+      _HasDiacritic: 0
+      _HasAccent: 0
+      _Orientations: 0
+      _Complexity: 1
+      _CanConnectBefore: 0
+      _CanConnectAfter: 0
+      _LinkedWords: []
+      ForcedLetterForm: 0
+    - _Id: S
+      _Active: 1
+      _InBook: 1
+      _Number: 31
+      _Title: S
+      _Kind: 1
+      _BaseLetter: S
+      _LigatureSplit: []
+      _Symbol: 
+      _Type: 2
+      _Tag: 
+      _PlaySessionLink:
+      - LetterGroup5
+      _Notes: 
+      _SunMoon: 0
+      _Sound: S
+      _NameSound: S
+      _PhonemeSound: S
+      _SoundZone: 
+      _Isolated_Unicode: 0053
+      _Initial_Unicode: 
+      _Medial_Unicode: 
+      _Final_Unicode: 
+      _Symbol_Unicode: 
+      _InitialFix: 
+      _FinalFix: 
+      _MedialFix: 
+      _HasDot: 0
+      _HasDiacritic: 0
+      _HasAccent: 0
+      _Orientations: 0
+      _Complexity: 1
+      _CanConnectBefore: 0
+      _CanConnectAfter: 0
+      _LinkedWords: []
+      ForcedLetterForm: 0
+    - _Id: SZ
+      _Active: 1
+      _InBook: 1
+      _Number: 32
+      _Title: SZ
+      _Kind: 1
+      _BaseLetter: SZ
+      _LigatureSplit: []
+      _Symbol: 
+      _Type: 2
+      _Tag: 
+      _PlaySessionLink:
+      - LetterGroup5
+      _Notes: 
+      _SunMoon: 0
+      _Sound: SZ
+      _NameSound: SZ
+      _PhonemeSound: SZ
+      _SoundZone: 
+      _Isolated_Unicode: 0053005A
+      _Initial_Unicode: 
+      _Medial_Unicode: 
+      _Final_Unicode: 
+      _Symbol_Unicode: 
+      _InitialFix: 
+      _FinalFix: 
+      _MedialFix: 
+      _HasDot: 0
+      _HasDiacritic: 0
+      _HasAccent: 0
+      _Orientations: 0
+      _Complexity: 1
+      _CanConnectBefore: 0
+      _CanConnectAfter: 0
+      _LinkedWords: []
+      ForcedLetterForm: 0
+    - _Id: T
+      _Active: 1
+      _InBook: 1
+      _Number: 33
+      _Title: T
+      _Kind: 1
+      _BaseLetter: T
+      _LigatureSplit: []
+      _Symbol: 
+      _Type: 2
+      _Tag: 
+      _PlaySessionLink:
+      - LetterGroup1
+      _Notes: 
+      _SunMoon: 0
+      _Sound: T
+      _NameSound: T
+      _PhonemeSound: T
+      _SoundZone: 
+      _Isolated_Unicode: 0054
+      _Initial_Unicode: 
+      _Medial_Unicode: 
+      _Final_Unicode: 
+      _Symbol_Unicode: 
+      _InitialFix: 
+      _FinalFix: 
+      _MedialFix: 
+      _HasDot: 0
+      _HasDiacritic: 0
+      _HasAccent: 0
+      _Orientations: 0
+      _Complexity: 1
+      _CanConnectBefore: 0
+      _CanConnectAfter: 0
+      _LinkedWords: []
+      ForcedLetterForm: 0
+    - _Id: TY
+      _Active: 1
+      _InBook: 1
+      _Number: 34
+      _Title: TY
+      _Kind: 1
+      _BaseLetter: TY
+      _LigatureSplit: []
+      _Symbol: 
+      _Type: 2
+      _Tag: 
+      _PlaySessionLink:
+      - LetterGroup6
+      _Notes: 
+      _SunMoon: 0
+      _Sound: TY
+      _NameSound: TY
+      _PhonemeSound: TY
+      _SoundZone: 
+      _Isolated_Unicode: 00540059
+      _Initial_Unicode: 
+      _Medial_Unicode: 
+      _Final_Unicode: 
+      _Symbol_Unicode: 
+      _InitialFix: 
+      _FinalFix: 
+      _MedialFix: 
+      _HasDot: 0
+      _HasDiacritic: 0
+      _HasAccent: 0
+      _Orientations: 0
+      _Complexity: 1
+      _CanConnectBefore: 0
+      _CanConnectAfter: 0
+      _LinkedWords: []
+      ForcedLetterForm: 0
+    - _Id: U
+      _Active: 1
+      _InBook: 1
+      _Number: 35
+      _Title: U
+      _Kind: 1
+      _BaseLetter: U
+      _LigatureSplit: []
+      _Symbol: 
+      _Type: 1
+      _Tag: 
+      _PlaySessionLink:
+      - LetterGroup6
+      _Notes: 
+      _SunMoon: 0
+      _Sound: U
+      _NameSound: U
+      _PhonemeSound: U
+      _SoundZone: 
+      _Isolated_Unicode: 0055
+      _Initial_Unicode: 
+      _Medial_Unicode: 
+      _Final_Unicode: 
+      _Symbol_Unicode: 
+      _InitialFix: 
+      _FinalFix: 
+      _MedialFix: 
+      _HasDot: 0
+      _HasDiacritic: 0
+      _HasAccent: 0
+      _Orientations: 0
+      _Complexity: 1
+      _CanConnectBefore: 0
+      _CanConnectAfter: 0
+      _LinkedWords: []
+      ForcedLetterForm: 0
+    - _Id: "\xDA"
+      _Active: 1
+      _InBook: 1
+      _Number: 36
+      _Title: "\xDA"
+      _Kind: 1
+      _BaseLetter: "\xDA"
+      _LigatureSplit: []
+      _Symbol: 
+      _Type: 1
+      _Tag: 
+      _PlaySessionLink:
+      - LetterGroup6
+      _Notes: 
+      _SunMoon: 0
+      _Sound: "\xDA"
+      _NameSound: "\xDA"
+      _PhonemeSound: "\xDA"
+      _SoundZone: 
+      _Isolated_Unicode: 00DA
+      _Initial_Unicode: 
+      _Medial_Unicode: 
+      _Final_Unicode: 
+      _Symbol_Unicode: 
+      _InitialFix: 
+      _FinalFix: 
+      _MedialFix: 
+      _HasDot: 0
+      _HasDiacritic: 0
+      _HasAccent: 0
+      _Orientations: 0
+      _Complexity: 1
+      _CanConnectBefore: 0
+      _CanConnectAfter: 0
+      _LinkedWords: []
+      ForcedLetterForm: 0
+    - _Id: "\xDC"
+      _Active: 1
+      _InBook: 1
+      _Number: 37
+      _Title: "\xDC"
+      _Kind: 1
+      _BaseLetter: "\xDC"
+      _LigatureSplit: []
+      _Symbol: 
+      _Type: 1
+      _Tag: 
+      _PlaySessionLink:
+      - LetterGroup6
+      _Notes: 
+      _SunMoon: 0
+      _Sound: "\xDC"
+      _NameSound: "\xDC"
+      _PhonemeSound: "\xDC"
+      _SoundZone: 
+      _Isolated_Unicode: 00DC
+      _Initial_Unicode: 
+      _Medial_Unicode: 
+      _Final_Unicode: 
+      _Symbol_Unicode: 
+      _InitialFix: 
+      _FinalFix: 
+      _MedialFix: 
+      _HasDot: 0
+      _HasDiacritic: 0
+      _HasAccent: 0
+      _Orientations: 0
+      _Complexity: 1
+      _CanConnectBefore: 0
+      _CanConnectAfter: 0
+      _LinkedWords: []
+      ForcedLetterForm: 0
+    - _Id: "\u0170"
+      _Active: 1
+      _InBook: 1
+      _Number: 38
+      _Title: "\u0170"
+      _Kind: 1
+      _BaseLetter: "\u0170"
+      _LigatureSplit: []
+      _Symbol: 
+      _Type: 1
+      _Tag: 
+      _PlaySessionLink:
+      - LetterGroup6
+      _Notes: 
+      _SunMoon: 0
+      _Sound: "\u0170"
+      _NameSound: "\u0170"
+      _PhonemeSound: "\u0170"
+      _SoundZone: 
+      _Isolated_Unicode: 0170
+      _Initial_Unicode: 
+      _Medial_Unicode: 
+      _Final_Unicode: 
+      _Symbol_Unicode: 
+      _InitialFix: 
+      _FinalFix: 
+      _MedialFix: 
+      _HasDot: 0
+      _HasDiacritic: 0
+      _HasAccent: 0
+      _Orientations: 0
+      _Complexity: 1
+      _CanConnectBefore: 0
+      _CanConnectAfter: 0
+      _LinkedWords: []
+      ForcedLetterForm: 0
+    - _Id: V
+      _Active: 1
+      _InBook: 1
+      _Number: 39
+      _Title: V
+      _Kind: 1
+      _BaseLetter: V
+      _LigatureSplit: []
+      _Symbol: 
+      _Type: 2
+      _Tag: 
+      _PlaySessionLink:
+      - LetterGroup6
+      _Notes: 
+      _SunMoon: 0
+      _Sound: V
+      _NameSound: V
+      _PhonemeSound: V
+      _SoundZone: 
+      _Isolated_Unicode: 0056
+      _Initial_Unicode: 
+      _Medial_Unicode: 
+      _Final_Unicode: 
+      _Symbol_Unicode: 
+      _InitialFix: 
+      _FinalFix: 
+      _MedialFix: 
+      _HasDot: 0
+      _HasDiacritic: 0
+      _HasAccent: 0
+      _Orientations: 0
+      _Complexity: 1
+      _CanConnectBefore: 0
+      _CanConnectAfter: 0
+      _LinkedWords: []
+      ForcedLetterForm: 0
+    - _Id: W
+      _Active: 1
+      _InBook: 0
+      _Number: 40
+      _Title: W
+      _Kind: 1
+      _BaseLetter: W
+      _LigatureSplit: []
+      _Symbol: 
+      _Type: 2
+      _Tag: 
+      _PlaySessionLink:
+      - LetterGroup7
+      _Notes: 
+      _SunMoon: 0
+      _Sound: W
+      _NameSound: W
+      _PhonemeSound: W
+      _SoundZone: 
+      _Isolated_Unicode: 0057
+      _Initial_Unicode: 
+      _Medial_Unicode: 
+      _Final_Unicode: 
+      _Symbol_Unicode: 
+      _InitialFix: 
+      _FinalFix: 
+      _MedialFix: 
+      _HasDot: 0
+      _HasDiacritic: 0
+      _HasAccent: 0
+      _Orientations: 0
+      _Complexity: 1
+      _CanConnectBefore: 0
+      _CanConnectAfter: 0
+      _LinkedWords: []
+      ForcedLetterForm: 0
+    - _Id: X
+      _Active: 1
+      _InBook: 0
+      _Number: 41
+      _Title: X
+      _Kind: 1
+      _BaseLetter: X
+      _LigatureSplit: []
+      _Symbol: 
+      _Type: 2
+      _Tag: 
+      _PlaySessionLink:
+      - LetterGroup7
+      _Notes: 
+      _SunMoon: 0
+      _Sound: X
+      _NameSound: X
+      _PhonemeSound: X
+      _SoundZone: 
+      _Isolated_Unicode: 0058
+      _Initial_Unicode: 
+      _Medial_Unicode: 
+      _Final_Unicode: 
+      _Symbol_Unicode: 
+      _InitialFix: 
+      _FinalFix: 
+      _MedialFix: 
+      _HasDot: 0
+      _HasDiacritic: 0
+      _HasAccent: 0
+      _Orientations: 1
+      _Complexity: 1
+      _CanConnectBefore: 0
+      _CanConnectAfter: 0
+      _LinkedWords: []
+      ForcedLetterForm: 0
+    - _Id: Y
+      _Active: 1
+      _InBook: 0
+      _Number: 42
+      _Title: Y
+      _Kind: 1
+      _BaseLetter: Y
+      _LigatureSplit: []
+      _Symbol: 
+      _Type: 2
+      _Tag: 
+      _PlaySessionLink:
+      - LetterGroup7
+      _Notes: 
+      _SunMoon: 0
+      _Sound: Y
+      _NameSound: Y
+      _PhonemeSound: Y
+      _SoundZone: 
+      _Isolated_Unicode: 0059
+      _Initial_Unicode: 
+      _Medial_Unicode: 
+      _Final_Unicode: 
+      _Symbol_Unicode: 
+      _InitialFix: 
+      _FinalFix: 
+      _MedialFix: 
+      _HasDot: 0
+      _HasDiacritic: 0
+      _HasAccent: 0
+      _Orientations: 0
+      _Complexity: 1
+      _CanConnectBefore: 0
+      _CanConnectAfter: 0
+      _LinkedWords: []
+      ForcedLetterForm: 0
+    - _Id: Z
+      _Active: 1
+      _InBook: 1
+      _Number: 43
+      _Title: Z
+      _Kind: 1
+      _BaseLetter: Z
+      _LigatureSplit: []
+      _Symbol: 
+      _Type: 2
+      _Tag: 
+      _PlaySessionLink:
+      - LetterGroup7
+      _Notes: 
+      _SunMoon: 0
+      _Sound: Z
+      _NameSound: Z
+      _PhonemeSound: Z
+      _SoundZone: 
+      _Isolated_Unicode: 005A
+      _Initial_Unicode: 
+      _Medial_Unicode: 
+      _Final_Unicode: 
+      _Symbol_Unicode: 
+      _InitialFix: 
+      _FinalFix: 
+      _MedialFix: 
+      _HasDot: 0
+      _HasDiacritic: 0
+      _HasAccent: 0
+      _Orientations: 0
+      _Complexity: 1
+      _CanConnectBefore: 0
+      _CanConnectAfter: 0
+      _LinkedWords: []
+      ForcedLetterForm: 0
+    - _Id: ZS
+      _Active: 1
+      _InBook: 1
+      _Number: 44
+      _Title: ZS
+      _Kind: 1
+      _BaseLetter: ZS
+      _LigatureSplit: []
+      _Symbol: 
+      _Type: 2
+      _Tag: 
+      _PlaySessionLink:
+      - LetterGroup7
+      _Notes: 
+      _SunMoon: 0
+      _Sound: ZS
+      _NameSound: ZS
+      _PhonemeSound: ZS
+      _SoundZone: 
+      _Isolated_Unicode: 005A0053
+      _Initial_Unicode: 
+      _Medial_Unicode: 
+      _Final_Unicode: 
+      _Symbol_Unicode: 
+      _InitialFix: 
+      _FinalFix: 
+      _MedialFix: 
+      _HasDot: 0
+      _HasDiacritic: 0
+      _HasAccent: 0
+      _Orientations: 0
+      _Complexity: 1
+      _CanConnectBefore: 0
+      _CanConnectAfter: 0
+      _LinkedWords: []
+      ForcedLetterForm: 0
+    - _Id: '-'
+      _Active: 1
+      _InBook: 0
+      _Number: 51
+      _Title: dash
+      _Kind: 7
+      _BaseLetter: 
+      _LigatureSplit: []
+      _Symbol: 
+      _Type: 0
+      _Tag: 
+      _PlaySessionLink:
+      - LetterGroup1
+      _Notes: 
+      _SunMoon: 0
+      _Sound: 
+      _NameSound: 
+      _PhonemeSound: 
+      _SoundZone: 
+      _Isolated_Unicode: 
+      _Initial_Unicode: 
+      _Medial_Unicode: 
+      _Final_Unicode: 
+      _Symbol_Unicode: 
+      _InitialFix: 
+      _FinalFix: 
+      _MedialFix: 
+      _HasDot: 0
+      _HasDiacritic: 0
+      _HasAccent: 0
+      _Orientations: 0
+      _Complexity: 1
+      _CanConnectBefore: 0
+      _CanConnectAfter: 0
+      _LinkedWords: []
+      ForcedLetterForm: 0
+    - _Id: _
+      _Active: 1
+      _InBook: 0
+      _Number: 52
+      _Title: underscore
+      _Kind: 7
+      _BaseLetter: 
+      _LigatureSplit: []
+      _Symbol: 
+      _Type: 0
+      _Tag: 
+      _PlaySessionLink:
+      - LetterGroup1
+      _Notes: 
+      _SunMoon: 0
+      _Sound: 
+      _NameSound: 
+      _PhonemeSound: 
+      _SoundZone: 
+      _Isolated_Unicode: 
+      _Initial_Unicode: 
+      _Medial_Unicode: 
+      _Final_Unicode: 
+      _Symbol_Unicode: 
+      _InitialFix: 
+      _FinalFix: 
+      _MedialFix: 
+      _HasDot: 0
+      _HasDiacritic: 0
+      _HasAccent: 0
+      _Orientations: 0
+      _Complexity: 1
+      _CanConnectBefore: 0
+      _CanConnectAfter: 0
+      _LinkedWords: []
+      ForcedLetterForm: 0
+    - _Id: ' '
+      _Active: 1
+      _InBook: 0
+      _Number: 53
+      _Title: space
+      _Kind: 7
+      _BaseLetter: 
+      _LigatureSplit: []
+      _Symbol: 
+      _Type: 0
+      _Tag: 
+      _PlaySessionLink:
+      - LetterGroup1
+      _Notes: 
+      _SunMoon: 0
+      _Sound: 
+      _NameSound: 
+      _PhonemeSound: 
+      _SoundZone: 
+      _Isolated_Unicode: 
+      _Initial_Unicode: 
+      _Medial_Unicode: 
+      _Final_Unicode: 
+      _Symbol_Unicode: 
+      _InitialFix: 
+      _FinalFix: 
+      _MedialFix: 
+      _HasDot: 0
+      _HasDiacritic: 0
+      _HasAccent: 0
+      _Orientations: 0
+      _Complexity: 1
+      _CanConnectBefore: 0
+      _CanConnectAfter: 0
+      _LinkedWords: []
+      ForcedLetterForm: 0

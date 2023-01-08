@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2ccf69b7988417193c5f51bfc00f11b, type: 3}
+  m_Name: Content - Learn_English
+  m_EditorClassIdentifier: 
+  ContentID: 30
+  Title: 
+  LearnMethod: {fileID: 11400000, guid: 0bfcdf678271dad4481b6a5669b28094, type: 2}
+  LearningLanguage: 1
+  LearningLanguageConfig: {fileID: 11400000, guid: 2bb0c980d4d8c26449996fa0ed952d1f,
+    type: 2}
+  OverridenNativeLanguages: 
+  HelpLanguage: 1
+  DiacriticsOnlyOnIsolated: 0
+  PlayNameSoundWithForms: 0
+  ShowAccentsOnSeparatedLivingLetters: 0
+  LetterDB: {fileID: 11400000, guid: 12e2e64a727f5c148a13ff004ffbd540, type: 2}
+  WordDB: {fileID: 11400000, guid: 99b07ab3e97e6214eb0972679a4eac61, type: 2}
+  PhraseDB: {fileID: 11400000, guid: 5c7aa7cc5a9c8c4478795c24b7fed72d, type: 2}
+  LocalizationDB: {fileID: 11400000, guid: 1f5f4ad8224bd104db51395895c43b00, type: 2}
+  StageDB: {fileID: 11400000, guid: 2c81f9e51dd5978468640cdd4c641f25, type: 2}
+  LearningBlockDB: {fileID: 11400000, guid: a4bec13a8a9a1ce4584604ab57dce823, type: 2}
+  PlaySessionDB: {fileID: 11400000, guid: bad1f65b027ffcf488e995724e84faf3, type: 2}
+  MiniGameDB: {fileID: 11400000, guid: e5435968d408599469dea5ecb4d7df55, type: 2}
+  RewardDB: {fileID: 11400000, guid: 234fae081fc351547a4636d7d7230c1d, type: 2}
+  HomeLogo: {fileID: 21300000, guid: 2d3bca282bec14dc58cea6e2300f1c73, type: 3}
+  TransitionLogo: {fileID: 21300000, guid: 766f95fba1c634c79b060b84cc835bea, type: 3}
+  Flag3D: {fileID: 0}
+  GoogleSheets:
+  - {fileID: 11400000, guid: a3234a1fd847b421c9a21f44d9d4fcd6, type: 2}
+  - {fileID: 11400000, guid: 3a53002f630a640c9952738683733311, type: 2}
+  DBImportDataFiles:
+    localizationDataAsset: {fileID: 4900000, guid: 03c285001072a44be9a47d2bf102c971,
+      type: 3}
+    letterDataAsset: {fileID: 4900000, guid: 61819897793064919bf75f4fdc766269, type: 3}
+    wordDataAsset: {fileID: 4900000, guid: 13107e7eca63f4fc1b572888ea66693e, type: 3}
+    phraseDataAsset: {fileID: 4900000, guid: 9425cb322e0e641cdb012ff72bc913a4, type: 3}
+    playSessionDataAsset: {fileID: 4900000, guid: 136b760544d6646588ee111bf585d088,
+      type: 3}
+    minigameDataAsset: {fileID: 4900000, guid: c770014daa1c0462b86f3d61ee1927da, type: 3}
+    stageDataAsset: {fileID: 4900000, guid: 6e66f219faa61485fa14707a7408b0b0, type: 3}
+    rewardDataAsset: {fileID: 4900000, guid: 9a8f84a0ca7174b87996c4bd292301cf, type: 3}

@@ -8,6 +8,7 @@ namespace KidsLearning
     {
         private static readonly Random random = new Random();
         private Arithmetic _arithmetic;
+        [SerializeField] private int _gradeLevel = 5;
         void Update()
         {
             if (Input.GetKeyDown(KeyCode.Return))
@@ -29,7 +30,7 @@ namespace KidsLearning
 
         private bool ShouldReGenerate(Arithmetic arithmetic)
         {
-            return arithmetic.result < 0 || arithmetic.result > 20 ||
+            return arithmetic.result < 0 || arithmetic.result > (_gradeLevel > 5 ? 20 : 10) ||
             !(Math.Abs(arithmetic.result % 1) < double.Epsilon) ||
             (arithmetic.result == 0 && arithmetic.operatorUsed == '÷');
         }
@@ -57,7 +58,13 @@ namespace KidsLearning
         private char GetRandomOperator()
         {
             // Choose a random number between 0 and 3
-            int opIndex = random.Next(0, 4);
+            int max = 2;
+            if (_gradeLevel > 5)
+            {
+                max = 4;
+            }
+
+            int opIndex = random.Next(0, max);
 
             // Map the random number to an operator
             switch (opIndex)

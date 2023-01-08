@@ -1,0 +1,4895 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6e637db5c2acc0458bc7881edc216d0, type: 3}
+  m_Name: DB LearnHungarian_Word
+  m_EditorClassIdentifier: 
+  table:
+    innerList:
+    - _Id: addition
+      _Active: 1
+      _Kind: 5
+      _Category: 19
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "\xD6SSZEAD\xC1S"
+      _Value: 
+      _SortValue: 1
+      _DrawingId: addition
+      _DrawingLabel: 
+      _Complexity: 9
+      _PlaySessionLinks:
+      - WordGroup5
+      - Math
+    - _Id: airport
+      _Active: 1
+      _Kind: 5
+      _Category: 3
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "REPT\xC9R"
+      _Value: 
+      _SortValue: 
+      _DrawingId: airport
+      _DrawingLabel: 
+      _Complexity: 6
+      _PlaySessionLinks:
+      - WordGroup5
+      - City_2
+    - _Id: angle
+      _Active: 1
+      _Kind: 5
+      _Category: 19
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "SZ\xD6G"
+      _Value: 
+      _SortValue: 9
+      _DrawingId: angle
+      _DrawingLabel: 
+      _Complexity: 4
+      _PlaySessionLinks:
+      - WordGroup5
+      - Math
+    - _Id: animal
+      _Active: 1
+      _Kind: 5
+      _Category: 1
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "\xC1LLAT"
+      _Value: 
+      _SortValue: 
+      _DrawingId: animal
+      _DrawingLabel: 
+      _Complexity: 5
+      _PlaySessionLinks:
+      - WordGroup1
+      - Animal_1
+    - _Id: apple
+      _Active: 1
+      _Kind: 5
+      _Category: 8
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: ALMA
+      _Value: 
+      _SortValue: 
+      _DrawingId: apple
+      _DrawingLabel: 
+      _Complexity: 4
+      _PlaySessionLinks:
+      - WordGroup3
+      - Food_1
+    - _Id: apricot
+      _Active: 1
+      _Kind: 5
+      _Category: 8
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "S\xC1RGABARACK"
+      _Value: 
+      _SortValue: 
+      _DrawingId: apricot
+      _DrawingLabel: 
+      _Complexity: 11
+      _PlaySessionLinks:
+      - WordGroup5
+      - Food_1
+    - _Id: arm
+      _Active: 1
+      _Kind: 5
+      _Category: 2
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: KAR
+      _Value: 
+      _SortValue: 
+      _DrawingId: arm
+      _DrawingLabel: 
+      _Complexity: 3
+      _PlaySessionLinks:
+      - WordGroup1
+      - Body_1
+    - _Id: aunt
+      _Active: 1
+      _Kind: 5
+      _Category: 7
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "NAGYN\xC9NI"
+      _Value: 
+      _SortValue: 
+      _DrawingId: aunt
+      _DrawingLabel: 
+      _Complexity: 8
+      _PlaySessionLinks:
+      - WordGroup4
+      - Family_1
+    - _Id: autumn
+      _Active: 1
+      _Kind: 5
+      _Category: 14
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "\u0150SZ"
+      _Value: 
+      _SortValue: 3
+      _DrawingId: autumn
+      _DrawingLabel: 
+      _Complexity: 3
+      _PlaySessionLinks:
+      - WordGroup5
+      - Seasons
+    - _Id: back
+      _Active: 1
+      _Kind: 5
+      _Category: 2
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "H\xC1T"
+      _Value: 
+      _SortValue: 
+      _DrawingId: back
+      _DrawingLabel: 
+      _Complexity: 3
+      _PlaySessionLinks:
+      - WordGroup3
+      - Body_1
+    - _Id: ball
+      _Active: 1
+      _Kind: 5
+      _Category: 13
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: LABDA
+      _Value: 
+      _SortValue: 
+      _DrawingId: ball
+      _DrawingLabel: 
+      _Complexity: 5
+      _PlaySessionLinks:
+      - WordGroup2
+      - Objects
+    - _Id: banana
+      _Active: 1
+      _Kind: 5
+      _Category: 8
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "BAN\xC1N"
+      _Value: 
+      _SortValue: 
+      _DrawingId: banana
+      _DrawingLabel: 
+      _Complexity: 5
+      _PlaySessionLinks:
+      - WordGroup4
+      - Food_1
+    - _Id: bank
+      _Active: 1
+      _Kind: 5
+      _Category: 3
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: BANK
+      _Value: 
+      _SortValue: 
+      _DrawingId: bank
+      _DrawingLabel: 
+      _Complexity: 4
+      _PlaySessionLinks:
+      - WordGroup4
+      - City_1
+    - _Id: beach
+      _Active: 1
+      _Kind: 5
+      _Category: 11
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: STRAND
+      _Value: 
+      _SortValue: 
+      _DrawingId: beach
+      _DrawingLabel: 
+      _Complexity: 6
+      _PlaySessionLinks:
+      - WordGroup5
+      - Nature_2
+    - _Id: bear
+      _Active: 1
+      _Kind: 5
+      _Category: 1
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: MEDVE
+      _Value: 
+      _SortValue: 
+      _DrawingId: bear
+      _DrawingLabel: 
+      _Complexity: 5
+      _PlaySessionLinks:
+      - WordGroup6
+      - Animal_1
+    - _Id: bed
+      _Active: 1
+      _Kind: 5
+      _Category: 9
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "\xC1GY"
+      _Value: 
+      _SortValue: 
+      _DrawingId: bed
+      _DrawingLabel: 
+      _Complexity: 3
+      _PlaySessionLinks:
+      - WordGroup3
+      - Home_1
+    - _Id: bedroom
+      _Active: 1
+      _Kind: 5
+      _Category: 9
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "H\xC1L\xD3SZOBA"
+      _Value: 
+      _SortValue: 
+      _DrawingId: bedroom
+      _DrawingLabel: 
+      _Complexity: 9
+      _PlaySessionLinks:
+      - WordGroup5
+      - Home_1
+    - _Id: bee
+      _Active: 1
+      _Kind: 5
+      _Category: 1
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "M\xC9H"
+      _Value: 
+      _SortValue: 
+      _DrawingId: bee
+      _DrawingLabel: 
+      _Complexity: 3
+      _PlaySessionLinks:
+      - WordGroup3
+      - Animal_3
+    - _Id: belly
+      _Active: 1
+      _Kind: 5
+      _Category: 2
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: HAS
+      _Value: 
+      _SortValue: 
+      _DrawingId: belly
+      _DrawingLabel: 
+      _Complexity: 3
+      _PlaySessionLinks:
+      - WordGroup5
+      - Body_1
+    - _Id: bicycle
+      _Active: 1
+      _Kind: 5
+      _Category: 3
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: BICIKLI
+      _Value: 
+      _SortValue: 
+      _DrawingId: bicycle
+      _DrawingLabel: 
+      _Complexity: 7
+      _PlaySessionLinks:
+      - WordGroup3
+      - City_3
+    - _Id: bird
+      _Active: 1
+      _Kind: 5
+      _Category: 1
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "MAD\xC1R"
+      _Value: 
+      _SortValue: 
+      _DrawingId: bird
+      _DrawingLabel: 
+      _Complexity: 5
+      _PlaySessionLinks:
+      - WordGroup3
+      - Animal_1
+    - _Id: book
+      _Active: 1
+      _Kind: 5
+      _Category: 13
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "K\xD6NYV"
+      _Value: 
+      _SortValue: 
+      _DrawingId: book
+      _DrawingLabel: 
+      _Complexity: 5
+      _PlaySessionLinks:
+      - WordGroup6
+      - Objects
+    - _Id: box
+      _Active: 1
+      _Kind: 5
+      _Category: 13
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: DOBOZ
+      _Value: 
+      _SortValue: 
+      _DrawingId: box
+      _DrawingLabel: 
+      _Complexity: 5
+      _PlaySessionLinks:
+      - WordGroup7
+      - Objects
+    - _Id: boy
+      _Active: 1
+      _Kind: 5
+      _Category: 7
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "FI\xDA"
+      _Value: 
+      _SortValue: 
+      _DrawingId: boy
+      _DrawingLabel: 
+      _Complexity: 3
+      _PlaySessionLinks:
+      - WordGroup6
+      - Family_2
+    - _Id: brain
+      _Active: 1
+      _Kind: 5
+      _Category: 2
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: AGY
+      _Value: 
+      _SortValue: 
+      _DrawingId: brain
+      _DrawingLabel: 
+      _Complexity: 3
+      _PlaySessionLinks:
+      - WordGroup3
+      - Body_2
+    - _Id: bread
+      _Active: 1
+      _Kind: 5
+      _Category: 8
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "KENY\xC9R"
+      _Value: 
+      _SortValue: 
+      _DrawingId: bread
+      _DrawingLabel: 
+      _Complexity: 6
+      _PlaySessionLinks:
+      - WordGroup5
+      - Food_3
+    - _Id: breathing
+      _Active: 1
+      _Kind: 5
+      _Category: 2
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "L\xC9LEGZ\xC9S"
+      _Value: 
+      _SortValue: 
+      _DrawingId: breathing
+      _DrawingLabel: 
+      _Complexity: 8
+      _PlaySessionLinks:
+      - WordGroup7
+      - Body_2
+    - _Id: breeze
+      _Active: 1
+      _Kind: 5
+      _Category: 11
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "SZELL\u0150"
+      _Value: 
+      _SortValue: 
+      _DrawingId: breeze
+      _DrawingLabel: 
+      _Complexity: 6
+      _PlaySessionLinks:
+      - WordGroup5
+      - Nature_2
+    - _Id: brother
+      _Active: 1
+      _Kind: 5
+      _Category: 7
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "TESTV\xC9R"
+      _Value: 
+      _SortValue: 
+      _DrawingId: brother
+      _DrawingLabel: 
+      _Complexity: 7
+      _PlaySessionLinks:
+      - WordGroup6
+      - Family_1
+    - _Id: bus
+      _Active: 1
+      _Kind: 5
+      _Category: 3
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: BUSZ
+      _Value: 
+      _SortValue: 
+      _DrawingId: bus
+      _DrawingLabel: 
+      _Complexity: 4
+      _PlaySessionLinks:
+      - WordGroup6
+      - City_3
+    - _Id: cake
+      _Active: 1
+      _Kind: 5
+      _Category: 8
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: TORTA
+      _Value: 
+      _SortValue: 
+      _DrawingId: cake
+      _DrawingLabel: 
+      _Complexity: 5
+      _PlaySessionLinks:
+      - WordGroup4
+      - Food_1
+    - _Id: camel
+      _Active: 1
+      _Kind: 5
+      _Category: 1
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: TEVE
+      _Value: 
+      _SortValue: 
+      _DrawingId: camel
+      _DrawingLabel: 
+      _Complexity: 4
+      _PlaySessionLinks:
+      - WordGroup6
+      - Animal_2
+    - _Id: car
+      _Active: 1
+      _Kind: 5
+      _Category: 3
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: KOCSI
+      _Value: 
+      _SortValue: 
+      _DrawingId: car
+      _DrawingLabel: 
+      _Complexity: 5
+      _PlaySessionLinks:
+      - WordGroup4
+      - City_3
+    - _Id: carrot
+      _Active: 1
+      _Kind: 5
+      _Category: 8
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "R\xC9PA"
+      _Value: 
+      _SortValue: 
+      _DrawingId: carrot
+      _DrawingLabel: 
+      _Complexity: 4
+      _PlaySessionLinks:
+      - WordGroup5
+      - Food_2
+    - _Id: castle
+      _Active: 1
+      _Kind: 5
+      _Category: 3
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "KAST\xC9LY"
+      _Value: 
+      _SortValue: 
+      _DrawingId: castle
+      _DrawingLabel: 
+      _Complexity: 7
+      _PlaySessionLinks:
+      - WordGroup5
+      - City_2
+    - _Id: cat
+      _Active: 1
+      _Kind: 5
+      _Category: 1
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: MACSKA
+      _Value: 
+      _SortValue: 
+      _DrawingId: cat
+      _DrawingLabel: 
+      _Complexity: 6
+      _PlaySessionLinks:
+      - WordGroup3
+      - Animal_1
+    - _Id: chair
+      _Active: 1
+      _Kind: 5
+      _Category: 9
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "SZ\xC9K"
+      _Value: 
+      _SortValue: 
+      _DrawingId: chair
+      _DrawingLabel: 
+      _Complexity: 4
+      _PlaySessionLinks:
+      - WordGroup5
+      - Home_3
+    - _Id: cheese
+      _Active: 1
+      _Kind: 5
+      _Category: 8
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: SAJT
+      _Value: 
+      _SortValue: 
+      _DrawingId: cheese
+      _DrawingLabel: 
+      _Complexity: 4
+      _PlaySessionLinks:
+      - WordGroup5
+      - Food_2
+    - _Id: cherry
+      _Active: 1
+      _Kind: 5
+      _Category: 8
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: CSERESZNYE
+      _Value: 
+      _SortValue: 
+      _DrawingId: cherry
+      _DrawingLabel: 
+      _Complexity: 10
+      _PlaySessionLinks:
+      - WordGroup5
+      - Food_1
+    - _Id: chest
+      _Active: 1
+      _Kind: 5
+      _Category: 2
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: MELLKAS
+      _Value: 
+      _SortValue: 
+      _DrawingId: chest
+      _DrawingLabel: 
+      _Complexity: 7
+      _PlaySessionLinks:
+      - WordGroup5
+      - Body_1
+    - _Id: chicken
+      _Active: 1
+      _Kind: 5
+      _Category: 1
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: CSIRKE
+      _Value: 
+      _SortValue: 
+      _DrawingId: chicken
+      _DrawingLabel: 
+      _Complexity: 6
+      _PlaySessionLinks:
+      - WordGroup3
+      - Animal_1
+    - _Id: chickpea
+      _Active: 1
+      _Kind: 5
+      _Category: 8
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "CSICSERIBORS\xD3"
+      _Value: 
+      _SortValue: 
+      _DrawingId: chickpea
+      _DrawingLabel: 
+      _Complexity: 13
+      _PlaySessionLinks:
+      - WordGroup5
+      - Food_2
+    - _Id: circle
+      _Active: 1
+      _Kind: 5
+      _Category: 19
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "K\xD6R"
+      _Value: 
+      _SortValue: 5
+      _DrawingId: circle
+      _DrawingLabel: 
+      _Complexity: 3
+      _PlaySessionLinks:
+      - WordGroup4
+      - Math
+    - _Id: city
+      _Active: 1
+      _Kind: 5
+      _Category: 3
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "V\xC1ROS"
+      _Value: 
+      _SortValue: 
+      _DrawingId: city
+      _DrawingLabel: 
+      _Complexity: 5
+      _PlaySessionLinks:
+      - WordGroup6
+      - City_1
+    - _Id: classroom
+      _Active: 1
+      _Kind: 5
+      _Category: 3
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "OSZT\xC1LY"
+      _Value: 
+      _SortValue: 
+      _DrawingId: classroom
+      _DrawingLabel: 
+      _Complexity: 7
+      _PlaySessionLinks:
+      - WordGroup5
+      - City_1
+    - _Id: closet
+      _Active: 1
+      _Kind: 5
+      _Category: 9
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "GARDR\xD3B"
+      _Value: 
+      _SortValue: 
+      _DrawingId: closet
+      _DrawingLabel: 
+      _Complexity: 7
+      _PlaySessionLinks:
+      - WordGroup4
+      - Home_1
+    - _Id: cloud
+      _Active: 1
+      _Kind: 5
+      _Category: 11
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "FELH\u0150"
+      _Value: 
+      _SortValue: 
+      _DrawingId: cloud
+      _DrawingLabel: 
+      _Complexity: 5
+      _PlaySessionLinks:
+      - WordGroup4
+      - Nature_1
+    - _Id: coat
+      _Active: 1
+      _Kind: 5
+      _Category: 4
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "KAB\xC1T"
+      _Value: 
+      _SortValue: 
+      _DrawingId: coat
+      _DrawingLabel: 
+      _Complexity: 5
+      _PlaySessionLinks:
+      - WordGroup2
+      - Clothes
+    - _Id: coffee
+      _Active: 1
+      _Kind: 5
+      _Category: 8
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "K\xC1V\xC9"
+      _Value: 
+      _SortValue: 
+      _DrawingId: coffee
+      _DrawingLabel: 
+      _Complexity: 4
+      _PlaySessionLinks:
+      - WordGroup6
+      - Food_3
+    - _Id: color_black
+      _Active: 1
+      _Kind: 1
+      _Category: 5
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: FEKETE
+      _Value: black
+      _SortValue: 11
+      _DrawingId: color_black
+      _DrawingLabel: 
+      _Complexity: 6
+      _PlaySessionLinks:
+      - WordGroup2
+      - Colors
+    - _Id: color_blue
+      _Active: 1
+      _Kind: 1
+      _Category: 5
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "K\xC9K"
+      _Value: blue
+      _SortValue: 6
+      _DrawingId: color_blue
+      _DrawingLabel: 
+      _Complexity: 3
+      _PlaySessionLinks:
+      - WordGroup1
+      - Colors
+    - _Id: color_brown
+      _Active: 1
+      _Kind: 1
+      _Category: 5
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: BARNA
+      _Value: brown
+      _SortValue: 1
+      _DrawingId: color_brown
+      _DrawingLabel: 
+      _Complexity: 5
+      _PlaySessionLinks:
+      - WordGroup4
+      - Colors
+    - _Id: color_green
+      _Active: 1
+      _Kind: 1
+      _Category: 5
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "Z\xD6LD"
+      _Value: green
+      _SortValue: 5
+      _DrawingId: color_green
+      _DrawingLabel: 
+      _Complexity: 4
+      _PlaySessionLinks:
+      - WordGroup7
+      - Colors
+    - _Id: color_grey
+      _Active: 1
+      _Kind: 1
+      _Category: 5
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: SZURKE
+      _Value: grey
+      _SortValue: 10
+      _DrawingId: color_grey
+      _DrawingLabel: 
+      _Complexity: 6
+      _PlaySessionLinks:
+      - WordGroup6
+      - Colors
+    - _Id: color_orange
+      _Active: 1
+      _Kind: 1
+      _Category: 5
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "NARANCSS\xC1RGA"
+      _Value: orange
+      _SortValue: 3
+      _DrawingId: color_orange
+      _DrawingLabel: 
+      _Complexity: 12
+      _PlaySessionLinks:
+      - WordGroup5
+      - Colors
+    - _Id: color_pink
+      _Active: 1
+      _Kind: 1
+      _Category: 5
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "R\xD3ZSASZ\xCDN"
+      _Value: pink
+      _SortValue: 8
+      _DrawingId: color_pink
+      _DrawingLabel: 
+      _Complexity: 9
+      _PlaySessionLinks:
+      - WordGroup7
+      - Colors
+    - _Id: color_purple
+      _Active: 1
+      _Kind: 1
+      _Category: 5
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: LILA
+      _Value: purple
+      _SortValue: 7
+      _DrawingId: color_purple
+      _DrawingLabel: 
+      _Complexity: 4
+      _PlaySessionLinks:
+      - WordGroup3
+      - Colors
+    - _Id: color_red
+      _Active: 1
+      _Kind: 1
+      _Category: 5
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: PIROS
+      _Value: red
+      _SortValue: 2
+      _DrawingId: color_red
+      _DrawingLabel: 
+      _Complexity: 5
+      _PlaySessionLinks:
+      - WordGroup5
+      - Colors
+    - _Id: color_white
+      _Active: 1
+      _Kind: 1
+      _Category: 5
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "FEH\xC9R"
+      _Value: 
+      _SortValue: 9
+      _DrawingId: color_white
+      _DrawingLabel: 
+      _Complexity: 5
+      _PlaySessionLinks:
+      - WordGroup3
+      - Colors
+    - _Id: color_yellow
+      _Active: 1
+      _Kind: 1
+      _Category: 5
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "S\xC1RGA"
+      _Value: yellow
+      _SortValue: 4
+      _DrawingId: color_yellow
+      _DrawingLabel: 
+      _Complexity: 5
+      _PlaySessionLinks:
+      - WordGroup5
+      - Colors
+    - _Id: computer
+      _Active: 1
+      _Kind: 5
+      _Category: 9
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "SZ\xC1M\xCDT\xD3G\xC9P"
+      _Value: 
+      _SortValue: 
+      _DrawingId: computer
+      _DrawingLabel: 
+      _Complexity: 10
+      _PlaySessionLinks:
+      - WordGroup5
+      - Home_1
+    - _Id: couch
+      _Active: 1
+      _Kind: 5
+      _Category: 9
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "KANAP\xC9"
+      _Value: 
+      _SortValue: 
+      _DrawingId: couch
+      _DrawingLabel: 
+      _Complexity: 6
+      _PlaySessionLinks:
+      - WordGroup5
+      - Home_3
+    - _Id: cow
+      _Active: 1
+      _Kind: 5
+      _Category: 1
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "TEH\xC9N"
+      _Value: 
+      _SortValue: 
+      _DrawingId: cow
+      _DrawingLabel: 
+      _Complexity: 5
+      _PlaySessionLinks:
+      - WordGroup4
+      - Animal_2
+    - _Id: crocodile
+      _Active: 1
+      _Kind: 5
+      _Category: 1
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: KROKODIL
+      _Value: 
+      _SortValue: 
+      _DrawingId: crocodile
+      _DrawingLabel: 
+      _Complexity: 8
+      _PlaySessionLinks:
+      - WordGroup4
+      - Animal_2
+    - _Id: cucumber
+      _Active: 1
+      _Kind: 5
+      _Category: 8
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: UBORKA
+      _Value: 
+      _SortValue: 
+      _DrawingId: cucumber
+      _DrawingLabel: 
+      _Complexity: 6
+      _PlaySessionLinks:
+      - WordGroup6
+      - Food_2
+    - _Id: cup
+      _Active: 1
+      _Kind: 5
+      _Category: 9
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "POH\xC1R"
+      _Value: 
+      _SortValue: 
+      _DrawingId: cup
+      _DrawingLabel: 
+      _Complexity: 5
+      _PlaySessionLinks:
+      - WordGroup5
+      - Home_2
+    - _Id: daughter
+      _Active: 1
+      _Kind: 5
+      _Category: 7
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "L\xC1NY"
+      _Value: 
+      _SortValue: 
+      _DrawingId: daughter
+      _DrawingLabel: 
+      _Complexity: 4
+      _PlaySessionLinks:
+      - WordGroup5
+      - Family_1
+    - _Id: day_friday
+      _Active: 1
+      _Kind: 5
+      _Category: 6
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "P\xC9NTEK"
+      _Value: 5
+      _SortValue: 5
+      _DrawingId: day_5
+      _DrawingLabel: "P\xC9N"
+      _Complexity: 6
+      _PlaySessionLinks:
+      - WordGroup5
+      - Days
+    - _Id: day_monday
+      _Active: 1
+      _Kind: 5
+      _Category: 6
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "H\xC9TF\u0150"
+      _Value: 1
+      _SortValue: 1
+      _DrawingId: day_1
+      _DrawingLabel: "H\xC9T"
+      _Complexity: 5
+      _PlaySessionLinks:
+      - WordGroup4
+      - Days
+    - _Id: day_saturday
+      _Active: 1
+      _Kind: 5
+      _Category: 6
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: SZOMBAT
+      _Value: 6
+      _SortValue: 6
+      _DrawingId: day_6
+      _DrawingLabel: SZO
+      _Complexity: 7
+      _PlaySessionLinks:
+      - WordGroup5
+      - Days
+    - _Id: day_sunday
+      _Active: 1
+      _Kind: 5
+      _Category: 6
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "VAS\xC1RNAP"
+      _Value: 7
+      _SortValue: 7
+      _DrawingId: day_7
+      _DrawingLabel: VAS
+      _Complexity: 8
+      _PlaySessionLinks:
+      - WordGroup6
+      - Days
+    - _Id: day_thursday
+      _Active: 1
+      _Kind: 5
+      _Category: 6
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "CS\xDCT\xD6RT\xD6K"
+      _Value: 4
+      _SortValue: 4
+      _DrawingId: day_4
+      _DrawingLabel: "CS\xDC"
+      _Complexity: 9
+      _PlaySessionLinks:
+      - WordGroup6
+      - Days
+    - _Id: day_tuesday
+      _Active: 1
+      _Kind: 5
+      _Category: 6
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: KEDD
+      _Value: 2
+      _SortValue: 2
+      _DrawingId: day_2
+      _DrawingLabel: KED
+      _Complexity: 4
+      _PlaySessionLinks:
+      - WordGroup2
+      - Days
+    - _Id: day_wednesday
+      _Active: 1
+      _Kind: 5
+      _Category: 6
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: SZERDA
+      _Value: 3
+      _SortValue: 3
+      _DrawingId: day_3
+      _DrawingLabel: SZE
+      _Complexity: 6
+      _PlaySessionLinks:
+      - WordGroup5
+      - Days
+    - _Id: desert
+      _Active: 1
+      _Kind: 5
+      _Category: 11
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: SIVATAG
+      _Value: 
+      _SortValue: 
+      _DrawingId: desert
+      _DrawingLabel: 
+      _Complexity: 7
+      _PlaySessionLinks:
+      - WordGroup6
+      - Nature_2
+    - _Id: rhombus
+      _Active: 1
+      _Kind: 5
+      _Category: 19
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: ROMBUSZ
+      _Value: 
+      _SortValue: 8
+      _DrawingId: rhombus
+      _DrawingLabel: 
+      _Complexity: 7
+      _PlaySessionLinks:
+      - WordGroup6
+      - Math
+    - _Id: digestion
+      _Active: 1
+      _Kind: 5
+      _Category: 2
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "EM\xC9SZT\xC9S"
+      _Value: 
+      _SortValue: 
+      _DrawingId: digestion
+      _DrawingLabel: 
+      _Complexity: 8
+      _PlaySessionLinks:
+      - WordGroup5
+      - Body_2
+    - _Id: dish
+      _Active: 1
+      _Kind: 5
+      _Category: 9
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "T\xC1L"
+      _Value: 
+      _SortValue: 
+      _DrawingId: dish
+      _DrawingLabel: 
+      _Complexity: 3
+      _PlaySessionLinks:
+      - WordGroup1
+      - Home_2
+    - _Id: division
+      _Active: 1
+      _Kind: 5
+      _Category: 19
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "OSZT\xC1S"
+      _Value: 
+      _SortValue: 4
+      _DrawingId: division
+      _DrawingLabel: 
+      _Complexity: 6
+      _PlaySessionLinks:
+      - WordGroup5
+      - Math
+    - _Id: dog
+      _Active: 1
+      _Kind: 5
+      _Category: 1
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: KUTYA
+      _Value: 
+      _SortValue: 
+      _DrawingId: dog
+      _DrawingLabel: 
+      _Complexity: 5
+      _PlaySessionLinks:
+      - WordGroup6
+      - Animal_1
+    - _Id: doll
+      _Active: 1
+      _Kind: 5
+      _Category: 13
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: BABA
+      _Value: 
+      _SortValue: 
+      _DrawingId: doll
+      _DrawingLabel: 
+      _Complexity: 4
+      _PlaySessionLinks:
+      - WordGroup2
+      - Objects
+    - _Id: door
+      _Active: 1
+      _Kind: 5
+      _Category: 9
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "AJT\xD3"
+      _Value: 
+      _SortValue: 
+      _DrawingId: door
+      _DrawingLabel: 
+      _Complexity: 4
+      _PlaySessionLinks:
+      - WordGroup4
+      - Home_1
+    - _Id: duck
+      _Active: 1
+      _Kind: 5
+      _Category: 1
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: KACSA
+      _Value: 
+      _SortValue: 
+      _DrawingId: duck
+      _DrawingLabel: 
+      _Complexity: 5
+      _PlaySessionLinks:
+      - WordGroup2
+      - Animal_1
+    - _Id: ear
+      _Active: 1
+      _Kind: 5
+      _Category: 2
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "F\xDCL"
+      _Value: 
+      _SortValue: 
+      _DrawingId: ear
+      _DrawingLabel: 
+      _Complexity: 3
+      _PlaySessionLinks:
+      - WordGroup6
+      - Body_2
+    - _Id: elephant
+      _Active: 1
+      _Kind: 5
+      _Category: 1
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "ELEF\xC1NT"
+      _Value: 
+      _SortValue: 
+      _DrawingId: elephant
+      _DrawingLabel: 
+      _Complexity: 7
+      _PlaySessionLinks:
+      - WordGroup4
+      - Animal_2
+    - _Id: eye
+      _Active: 1
+      _Kind: 5
+      _Category: 2
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: SZEM
+      _Value: 
+      _SortValue: 
+      _DrawingId: eye
+      _DrawingLabel: 
+      _Complexity: 4
+      _PlaySessionLinks:
+      - WordGroup5
+      - Body_2
+    - _Id: face
+      _Active: 1
+      _Kind: 5
+      _Category: 2
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: ARC
+      _Value: 
+      _SortValue: 
+      _DrawingId: face
+      _DrawingLabel: 
+      _Complexity: 3
+      _PlaySessionLinks:
+      - WordGroup2
+      - Body_1
+    - _Id: father
+      _Active: 1
+      _Kind: 5
+      _Category: 7
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: APA
+      _Value: 
+      _SortValue: 
+      _DrawingId: father
+      _DrawingLabel: 
+      _Complexity: 3
+      _PlaySessionLinks:
+      - WordGroup5
+      - Family_1
+    - _Id: field
+      _Active: 1
+      _Kind: 5
+      _Category: 3
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "TISZT\xC1S"
+      _Value: 
+      _SortValue: 
+      _DrawingId: field
+      _DrawingLabel: 
+      _Complexity: 7
+      _PlaySessionLinks:
+      - WordGroup5
+      - City_2
+    - _Id: finger
+      _Active: 1
+      _Kind: 5
+      _Category: 2
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "\xDAJ"
+      _Value: 
+      _SortValue: 
+      _DrawingId: finger
+      _DrawingLabel: 
+      _Complexity: 2
+      _PlaySessionLinks:
+      - WordGroup6
+      - Body_1
+    - _Id: fire
+      _Active: 1
+      _Kind: 5
+      _Category: 11
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "T\u0170Z"
+      _Value: 
+      _SortValue: 
+      _DrawingId: fire
+      _DrawingLabel: 
+      _Complexity: 3
+      _PlaySessionLinks:
+      - WordGroup7
+      - Nature_2
+    - _Id: floor
+      _Active: 1
+      _Kind: 5
+      _Category: 9
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "PADL\xD3"
+      _Value: 
+      _SortValue: 
+      _DrawingId: floor
+      _DrawingLabel: 
+      _Complexity: 5
+      _PlaySessionLinks:
+      - WordGroup5
+      - Home_3
+    - _Id: flower
+      _Active: 1
+      _Kind: 5
+      _Category: 11
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "VIR\xC1G"
+      _Value: 
+      _SortValue: 
+      _DrawingId: flower
+      _DrawingLabel: 
+      _Complexity: 5
+      _PlaySessionLinks:
+      - WordGroup6
+      - Nature_1
+    - _Id: food
+      _Active: 1
+      _Kind: 5
+      _Category: 8
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "\xC9TEL"
+      _Value: 
+      _SortValue: 
+      _DrawingId: food
+      _DrawingLabel: 
+      _Complexity: 4
+      _PlaySessionLinks:
+      - WordGroup1
+      - Food_3
+    - _Id: foot
+      _Active: 1
+      _Kind: 5
+      _Category: 2
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "L\xC1B"
+      _Value: 
+      _SortValue: 
+      _DrawingId: foot
+      _DrawingLabel: 
+      _Complexity: 3
+      _PlaySessionLinks:
+      - WordGroup2
+      - Body_1
+    - _Id: forest
+      _Active: 1
+      _Kind: 5
+      _Category: 11
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "ERD\u0150"
+      _Value: 
+      _SortValue: 
+      _DrawingId: forest
+      _DrawingLabel: 
+      _Complexity: 4
+      _PlaySessionLinks:
+      - WordGroup4
+      - Nature_1
+    - _Id: fork
+      _Active: 1
+      _Kind: 5
+      _Category: 9
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: VILLA
+      _Value: 
+      _SortValue: 
+      _DrawingId: fork
+      _DrawingLabel: 
+      _Complexity: 5
+      _PlaySessionLinks:
+      - WordGroup6
+      - Home_2
+    - _Id: fox
+      _Active: 1
+      _Kind: 5
+      _Category: 1
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "R\xD3KA"
+      _Value: 
+      _SortValue: 
+      _DrawingId: fox
+      _DrawingLabel: 
+      _Complexity: 4
+      _PlaySessionLinks:
+      - WordGroup4
+      - Animal_3
+    - _Id: fridge
+      _Active: 1
+      _Kind: 5
+      _Category: 9
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "H\u0170T\u0150"
+      _Value: 
+      _SortValue: 
+      _DrawingId: fridge
+      _DrawingLabel: 
+      _Complexity: 4
+      _PlaySessionLinks:
+      - WordGroup6
+      - Home_2
+    - _Id: frog
+      _Active: 1
+      _Kind: 5
+      _Category: 1
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "B\xC9KA"
+      _Value: 
+      _SortValue: 
+      _DrawingId: frog
+      _DrawingLabel: 
+      _Complexity: 4
+      _PlaySessionLinks:
+      - WordGroup2
+      - Animal_3
+    - _Id: garden
+      _Active: 1
+      _Kind: 5
+      _Category: 9
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: KERT
+      _Value: 
+      _SortValue: 
+      _DrawingId: garden
+      _DrawingLabel: 
+      _Complexity: 4
+      _PlaySessionLinks:
+      - WordGroup1
+      - Home_1
+    - _Id: garlic
+      _Active: 1
+      _Kind: 5
+      _Category: 8
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: FOKHAGYMA
+      _Value: 
+      _SortValue: 
+      _DrawingId: garlic
+      _DrawingLabel: 
+      _Complexity: 9
+      _PlaySessionLinks:
+      - WordGroup4
+      - Food_2
+    - _Id: girl
+      _Active: 1
+      _Kind: 5
+      _Category: 7
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "L\xC1NY"
+      _Value: 
+      _SortValue: 
+      _DrawingId: girl
+      _DrawingLabel: 
+      _Complexity: 4
+      _PlaySessionLinks:
+      - WordGroup5
+      - Family_2
+    - _Id: gloves
+      _Active: 1
+      _Kind: 5
+      _Category: 4
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "KESZTY\u0170"
+      _Value: 
+      _SortValue: 
+      _DrawingId: gloves
+      _DrawingLabel: 
+      _Complexity: 7
+      _PlaySessionLinks:
+      - WordGroup6
+      - Clothes
+    - _Id: glue
+      _Active: 1
+      _Kind: 5
+      _Category: 13
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "RAGASZT\xD3"
+      _Value: 
+      _SortValue: 
+      _DrawingId: glue
+      _DrawingLabel: 
+      _Complexity: 8
+      _PlaySessionLinks:
+      - WordGroup5
+      - Objects
+    - _Id: goat
+      _Active: 1
+      _Kind: 5
+      _Category: 1
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: KECSKE
+      _Value: 
+      _SortValue: 
+      _DrawingId: goat
+      _DrawingLabel: 
+      _Complexity: 6
+      _PlaySessionLinks:
+      - WordGroup2
+      - Animal_3
+    - _Id: granddaughter
+      _Active: 1
+      _Kind: 5
+      _Category: 7
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: UNOKA
+      _Value: 
+      _SortValue: 
+      _DrawingId: granddaughter
+      _DrawingLabel: 
+      _Complexity: 5
+      _PlaySessionLinks:
+      - WordGroup6
+      - Family_2
+    - _Id: grandfather
+      _Active: 1
+      _Kind: 5
+      _Category: 7
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: NAGYPAPA
+      _Value: 
+      _SortValue: 
+      _DrawingId: grandfather
+      _DrawingLabel: 
+      _Complexity: 8
+      _PlaySessionLinks:
+      - WordGroup5
+      - Family_2
+    - _Id: grandmother
+      _Active: 1
+      _Kind: 5
+      _Category: 7
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: NAGYMAMA
+      _Value: 
+      _SortValue: 
+      _DrawingId: grandmother
+      _DrawingLabel: 
+      _Complexity: 8
+      _PlaySessionLinks:
+      - WordGroup4
+      - Family_2
+    - _Id: grandson
+      _Active: 1
+      _Kind: 5
+      _Category: 7
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: UNOKA
+      _Value: 
+      _SortValue: 
+      _DrawingId: grandson
+      _DrawingLabel: 
+      _Complexity: 5
+      _PlaySessionLinks:
+      - WordGroup6
+      - Family_2
+    - _Id: grapes
+      _Active: 1
+      _Kind: 5
+      _Category: 8
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "SZ\u0150L\u0150"
+      _Value: 
+      _SortValue: 
+      _DrawingId: grapes
+      _DrawingLabel: 
+      _Complexity: 5
+      _PlaySessionLinks:
+      - WordGroup5
+      - Food_1
+    - _Id: hair
+      _Active: 1
+      _Kind: 5
+      _Category: 2
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: HAJ
+      _Value: 
+      _SortValue: 
+      _DrawingId: hair
+      _DrawingLabel: 
+      _Complexity: 3
+      _PlaySessionLinks:
+      - WordGroup3
+      - Body_1
+    - _Id: hand
+      _Active: 1
+      _Kind: 5
+      _Category: 2
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "K\xC9Z"
+      _Value: 
+      _SortValue: 
+      _DrawingId: hand
+      _DrawingLabel: 
+      _Complexity: 3
+      _PlaySessionLinks:
+      - WordGroup7
+      - Body_1
+    - _Id: hat
+      _Active: 1
+      _Kind: 5
+      _Category: 4
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: KALAP
+      _Value: 
+      _SortValue: 
+      _DrawingId: hat
+      _DrawingLabel: 
+      _Complexity: 5
+      _PlaySessionLinks:
+      - WordGroup5
+      - Clothes
+    - _Id: head
+      _Active: 1
+      _Kind: 5
+      _Category: 2
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: FEJ
+      _Value: 
+      _SortValue: 
+      _DrawingId: head
+      _DrawingLabel: 
+      _Complexity: 3
+      _PlaySessionLinks:
+      - WordGroup3
+      - Body_1
+    - _Id: hill
+      _Active: 1
+      _Kind: 5
+      _Category: 11
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: DOMB
+      _Value: 
+      _SortValue: 
+      _DrawingId: hill
+      _DrawingLabel: 
+      _Complexity: 4
+      _PlaySessionLinks:
+      - WordGroup4
+      - Nature_2
+    - _Id: horse
+      _Active: 1
+      _Kind: 5
+      _Category: 1
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "L\xD3"
+      _Value: 
+      _SortValue: 
+      _DrawingId: horse
+      _DrawingLabel: 
+      _Complexity: 2
+      _PlaySessionLinks:
+      - WordGroup4
+      - Animal_3
+    - _Id: hospital
+      _Active: 1
+      _Kind: 5
+      _Category: 3
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "K\xD3RH\xC1Z"
+      _Value: 
+      _SortValue: 
+      _DrawingId: hospital
+      _DrawingLabel: 
+      _Complexity: 6
+      _PlaySessionLinks:
+      - WordGroup7
+      - City_1
+    - _Id: house
+      _Active: 1
+      _Kind: 5
+      _Category: 3
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "H\xC1Z"
+      _Value: 
+      _SortValue: 
+      _DrawingId: house
+      _DrawingLabel: 
+      _Complexity: 3
+      _PlaySessionLinks:
+      - WordGroup7
+      - City_1
+    - _Id: ice-cream
+      _Active: 1
+      _Kind: 5
+      _Category: 8
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: FAGYLALT
+      _Value: 
+      _SortValue: 
+      _DrawingId: ice-cream
+      _DrawingLabel: 
+      _Complexity: 8
+      _PlaySessionLinks:
+      - WordGroup3
+      - Food_1
+    - _Id: island
+      _Active: 1
+      _Kind: 5
+      _Category: 11
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: SZIGET
+      _Value: 
+      _SortValue: 
+      _DrawingId: island
+      _DrawingLabel: 
+      _Complexity: 6
+      _PlaySessionLinks:
+      - WordGroup5
+      - Nature_1
+    - _Id: jacket
+      _Active: 1
+      _Kind: 5
+      _Category: 4
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "KAB\xC1T"
+      _Value: 
+      _SortValue: 
+      _DrawingId: jacket
+      _DrawingLabel: 
+      _Complexity: 5
+      _PlaySessionLinks:
+      - WordGroup2
+      - Clothes
+    - _Id: juice
+      _Active: 1
+      _Kind: 5
+      _Category: 8
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "GY\xDCM\xD6LCSL\xC9"
+      _Value: 
+      _SortValue: 
+      _DrawingId: juice
+      _DrawingLabel: 
+      _Complexity: 10
+      _PlaySessionLinks:
+      - WordGroup6
+      - Food_3
+    - _Id: kitchen
+      _Active: 1
+      _Kind: 5
+      _Category: 9
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: KONYHA
+      _Value: 
+      _SortValue: 
+      _DrawingId: kitchen
+      _DrawingLabel: 
+      _Complexity: 6
+      _PlaySessionLinks:
+      - WordGroup5
+      - Home_2
+    - _Id: kiwi
+      _Active: 1
+      _Kind: 5
+      _Category: 8
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: KIVI
+      _Value: 
+      _SortValue: 
+      _DrawingId: kiwi
+      _DrawingLabel: 
+      _Complexity: 4
+      _PlaySessionLinks:
+      - WordGroup6
+      - Food_1
+    - _Id: knife
+      _Active: 1
+      _Kind: 5
+      _Category: 9
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "K\xC9S"
+      _Value: 
+      _SortValue: 
+      _DrawingId: knife
+      _DrawingLabel: 
+      _Complexity: 3
+      _PlaySessionLinks:
+      - WordGroup5
+      - Home_2
+    - _Id: lamp
+      _Active: 1
+      _Kind: 5
+      _Category: 9
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "L\xC1MPA"
+      _Value: 
+      _SortValue: 
+      _DrawingId: lamp
+      _DrawingLabel: 
+      _Complexity: 5
+      _PlaySessionLinks:
+      - WordGroup5
+      - Home_1
+    - _Id: leg
+      _Active: 1
+      _Kind: 5
+      _Category: 2
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "L\xC1B"
+      _Value: 
+      _SortValue: 
+      _DrawingId: leg
+      _DrawingLabel: 
+      _Complexity: 3
+      _PlaySessionLinks:
+      - WordGroup2
+      - Body_1
+    - _Id: library
+      _Active: 1
+      _Kind: 5
+      _Category: 3
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "K\xD6NYVT\xC1R"
+      _Value: 
+      _SortValue: 
+      _DrawingId: library
+      _DrawingLabel: 
+      _Complexity: 8
+      _PlaySessionLinks:
+      - WordGroup6
+      - City_2
+    - _Id: lion
+      _Active: 1
+      _Kind: 5
+      _Category: 1
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "OROSZL\xC1N"
+      _Value: 
+      _SortValue: 
+      _DrawingId: lion
+      _DrawingLabel: 
+      _Complexity: 8
+      _PlaySessionLinks:
+      - WordGroup5
+      - Animal_1
+    - _Id: lips
+      _Active: 1
+      _Kind: 5
+      _Category: 2
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: AJKAK
+      _Value: 
+      _SortValue: 
+      _DrawingId: lips
+      _DrawingLabel: 
+      _Complexity: 5
+      _PlaySessionLinks:
+      - WordGroup3
+      - Body_2
+    - _Id: liquid
+      _Active: 1
+      _Kind: 5
+      _Category: 11
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "FOLYAD\xC9K"
+      _Value: 
+      _SortValue: 
+      _DrawingId: liquid
+      _DrawingLabel: 
+      _Complexity: 8
+      _PlaySessionLinks:
+      - WordGroup5
+      - Nature_2
+    - _Id: lizard
+      _Active: 1
+      _Kind: 5
+      _Category: 1
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "GY\xCDK"
+      _Value: 
+      _SortValue: 
+      _DrawingId: lizard
+      _DrawingLabel: 
+      _Complexity: 4
+      _PlaySessionLinks:
+      - WordGroup3
+      - Animal_3
+    - _Id: man
+      _Active: 1
+      _Kind: 5
+      _Category: 7
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: EMBER
+      _Value: 
+      _SortValue: 
+      _DrawingId: man
+      _DrawingLabel: 
+      _Complexity: 5
+      _PlaySessionLinks:
+      - WordGroup3
+      - Family_2
+    - _Id: market
+      _Active: 1
+      _Kind: 5
+      _Category: 3
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: PIAC
+      _Value: 
+      _SortValue: 
+      _DrawingId: market
+      _DrawingLabel: 
+      _Complexity: 4
+      _PlaySessionLinks:
+      - WordGroup5
+      - City_1
+    - _Id: meat
+      _Active: 1
+      _Kind: 5
+      _Category: 8
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "H\xDAS"
+      _Value: 
+      _SortValue: 
+      _DrawingId: meat
+      _DrawingLabel: 
+      _Complexity: 3
+      _PlaySessionLinks:
+      - WordGroup6
+      - Food_3
+    - _Id: mirror
+      _Active: 1
+      _Kind: 5
+      _Category: 9
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "T\xDCK\xD6R"
+      _Value: 
+      _SortValue: 
+      _DrawingId: mirror
+      _DrawingLabel: 
+      _Complexity: 5
+      _PlaySessionLinks:
+      - WordGroup6
+      - Home_3
+    - _Id: monkey
+      _Active: 1
+      _Kind: 5
+      _Category: 1
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: MAJOM
+      _Value: 
+      _SortValue: 
+      _DrawingId: monkey
+      _DrawingLabel: 
+      _Complexity: 5
+      _PlaySessionLinks:
+      - WordGroup4
+      - Animal_2
+    - _Id: month_april
+      _Active: 1
+      _Kind: 5
+      _Category: 10
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "\xC1PRILIS"
+      _Value: 4
+      _SortValue: 4
+      _DrawingId: month_blank
+      _DrawingLabel: "\xC1PR"
+      _Complexity: 7
+      _PlaySessionLinks:
+      - WordGroup5
+      - Months
+    - _Id: month_august
+      _Active: 1
+      _Kind: 5
+      _Category: 10
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: AUGUSZTUS
+      _Value: 8
+      _SortValue: 8
+      _DrawingId: month_blank
+      _DrawingLabel: AUG
+      _Complexity: 9
+      _PlaySessionLinks:
+      - WordGroup6
+      - Months
+    - _Id: month_december
+      _Active: 1
+      _Kind: 5
+      _Category: 10
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: DECEMBER
+      _Value: 12
+      _SortValue: 12
+      _DrawingId: month_blank
+      _DrawingLabel: DEC
+      _Complexity: 8
+      _PlaySessionLinks:
+      - WordGroup3
+      - Months
+    - _Id: month_february
+      _Active: 1
+      _Kind: 5
+      _Category: 10
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "FEBRU\xC1R"
+      _Value: 2
+      _SortValue: 2
+      _DrawingId: month_blank
+      _DrawingLabel: FEB
+      _Complexity: 7
+      _PlaySessionLinks:
+      - WordGroup6
+      - Months
+    - _Id: month_january
+      _Active: 1
+      _Kind: 5
+      _Category: 10
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "JANU\xC1R"
+      _Value: 1
+      _SortValue: 1
+      _DrawingId: month_blank
+      _DrawingLabel: JAN
+      _Complexity: 6
+      _PlaySessionLinks:
+      - WordGroup6
+      - Months
+    - _Id: month_july
+      _Active: 1
+      _Kind: 5
+      _Category: 10
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "J\xDALIUS"
+      _Value: 7
+      _SortValue: 7
+      _DrawingId: month_blank
+      _DrawingLabel: "J\xDAL"
+      _Complexity: 6
+      _PlaySessionLinks:
+      - WordGroup6
+      - Months
+    - _Id: month_june
+      _Active: 1
+      _Kind: 5
+      _Category: 10
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "J\xDANIUS"
+      _Value: 6
+      _SortValue: 6
+      _DrawingId: month_blank
+      _DrawingLabel: "J\xDAN"
+      _Complexity: 6
+      _PlaySessionLinks:
+      - WordGroup6
+      - Months
+    - _Id: month_march
+      _Active: 1
+      _Kind: 5
+      _Category: 10
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "M\xC1RCIUS"
+      _Value: 3
+      _SortValue: 3
+      _DrawingId: month_blank
+      _DrawingLabel: "M\xC1R"
+      _Complexity: 7
+      _PlaySessionLinks:
+      - WordGroup6
+      - Months
+    - _Id: month_may
+      _Active: 1
+      _Kind: 5
+      _Category: 10
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "M\xC1JUS"
+      _Value: 5
+      _SortValue: 5
+      _DrawingId: month_blank
+      _DrawingLabel: "M\xC1J"
+      _Complexity: 5
+      _PlaySessionLinks:
+      - WordGroup6
+      - Months
+    - _Id: month_november
+      _Active: 1
+      _Kind: 5
+      _Category: 10
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: NOVEMBER
+      _Value: 11
+      _SortValue: 11
+      _DrawingId: month_blank
+      _DrawingLabel: NOV
+      _Complexity: 8
+      _PlaySessionLinks:
+      - WordGroup6
+      - Months
+    - _Id: month_october
+      _Active: 1
+      _Kind: 5
+      _Category: 10
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "OKT\xD3BER"
+      _Value: 10
+      _SortValue: 10
+      _DrawingId: month_blank
+      _DrawingLabel: OKT
+      _Complexity: 7
+      _PlaySessionLinks:
+      - WordGroup4
+      - Months
+    - _Id: month_september
+      _Active: 1
+      _Kind: 5
+      _Category: 10
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: SZEPTEMBER
+      _Value: 9
+      _SortValue: 9
+      _DrawingId: month_blank
+      _DrawingLabel: SZE
+      _Complexity: 10
+      _PlaySessionLinks:
+      - WordGroup5
+      - Months
+    - _Id: moon
+      _Active: 1
+      _Kind: 5
+      _Category: 11
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: HOLD
+      _Value: 
+      _SortValue: 
+      _DrawingId: moon
+      _DrawingLabel: 
+      _Complexity: 4
+      _PlaySessionLinks:
+      - WordGroup4
+      - Nature_1
+    - _Id: mother
+      _Active: 1
+      _Kind: 5
+      _Category: 7
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: ANYA
+      _Value: 
+      _SortValue: 
+      _DrawingId: mother
+      _DrawingLabel: 
+      _Complexity: 4
+      _PlaySessionLinks:
+      - WordGroup5
+      - Family_1
+    - _Id: motorbike
+      _Active: 1
+      _Kind: 5
+      _Category: 3
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: MOTOR
+      _Value: 
+      _SortValue: 
+      _DrawingId: motorbike
+      _DrawingLabel: 
+      _Complexity: 5
+      _PlaySessionLinks:
+      - WordGroup4
+      - City_3
+    - _Id: mountain
+      _Active: 1
+      _Kind: 5
+      _Category: 11
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: HEGY
+      _Value: 
+      _SortValue: 
+      _DrawingId: mountain
+      _DrawingLabel: 
+      _Complexity: 4
+      _PlaySessionLinks:
+      - WordGroup3
+      - Nature_2
+    - _Id: mouth
+      _Active: 1
+      _Kind: 5
+      _Category: 2
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "SZ\xC1J"
+      _Value: 
+      _SortValue: 
+      _DrawingId: mouth
+      _DrawingLabel: 
+      _Complexity: 4
+      _PlaySessionLinks:
+      - WordGroup5
+      - Body_2
+    - _Id: multiplication
+      _Active: 1
+      _Kind: 5
+      _Category: 19
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "SZORZ\xC1S"
+      _Value: 
+      _SortValue: 3
+      _DrawingId: multiplication
+      _DrawingLabel: 
+      _Complexity: 7
+      _PlaySessionLinks:
+      - WordGroup7
+      - Math
+    - _Id: museum
+      _Active: 1
+      _Kind: 5
+      _Category: 3
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "M\xDAZEUM"
+      _Value: 
+      _SortValue: 
+      _DrawingId: museum
+      _DrawingLabel: 
+      _Complexity: 6
+      _PlaySessionLinks:
+      - WordGroup7
+      - City_2
+    - _Id: nail
+      _Active: 1
+      _Kind: 5
+      _Category: 2
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "K\xD6R\xD6M"
+      _Value: 
+      _SortValue: 
+      _DrawingId: nail
+      _DrawingLabel: 
+      _Complexity: 5
+      _PlaySessionLinks:
+      - WordGroup4
+      - Body_1
+    - _Id: nature
+      _Active: 1
+      _Kind: 5
+      _Category: 11
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "TERM\xC9SZET"
+      _Value: 
+      _SortValue: 
+      _DrawingId: nature
+      _DrawingLabel: 
+      _Complexity: 9
+      _PlaySessionLinks:
+      - WordGroup5
+      - Nature_1
+    - _Id: needle
+      _Active: 1
+      _Kind: 5
+      _Category: 13
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "T\u0170"
+      _Value: 
+      _SortValue: 
+      _DrawingId: needle
+      _DrawingLabel: 
+      _Complexity: 2
+      _PlaySessionLinks:
+      - WordGroup6
+      - Objects
+    - _Id: nose
+      _Active: 1
+      _Kind: 5
+      _Category: 2
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: ORR
+      _Value: 
+      _SortValue: 
+      _DrawingId: nose
+      _DrawingLabel: 
+      _Complexity: 3
+      _PlaySessionLinks:
+      - WordGroup4
+      - Body_2
+    - _Id: number
+      _Active: 1
+      _Kind: 5
+      _Category: 19
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "SZ\xC1M"
+      _Value: 
+      _SortValue: 0
+      _DrawingId: number
+      _DrawingLabel: 
+      _Complexity: 4
+      _PlaySessionLinks:
+      - WordGroup5
+      - Math
+    - _Id: number_00
+      _Active: 1
+      _Kind: 5
+      _Category: 12
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: NULLA
+      _Value: 
+      _SortValue: 0
+      _DrawingId: number_00
+      _DrawingLabel: 
+      _Complexity: 5
+      _PlaySessionLinks:
+      - WordGroup6
+      - Numbers_1
+    - _Id: number_01
+      _Active: 1
+      _Kind: 5
+      _Category: 12
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: EGY
+      _Value: 
+      _SortValue: 1
+      _DrawingId: number_01
+      _DrawingLabel: 
+      _Complexity: 3
+      _PlaySessionLinks:
+      - WordGroup3
+      - Numbers_1
+    - _Id: number_02
+      _Active: 1
+      _Kind: 5
+      _Category: 12
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "KETT\u0150"
+      _Value: 
+      _SortValue: 2
+      _DrawingId: number_02
+      _DrawingLabel: 
+      _Complexity: 5
+      _PlaySessionLinks:
+      - WordGroup4
+      - Numbers_1
+    - _Id: number_03
+      _Active: 1
+      _Kind: 5
+      _Category: 12
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "H\xC1ROM"
+      _Value: 
+      _SortValue: 3
+      _DrawingId: number_03
+      _DrawingLabel: 
+      _Complexity: 5
+      _PlaySessionLinks:
+      - WordGroup4
+      - Numbers_1
+    - _Id: number_04
+      _Active: 1
+      _Kind: 5
+      _Category: 12
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "N\xC9GY"
+      _Value: 
+      _SortValue: 4
+      _DrawingId: number_04
+      _DrawingLabel: 
+      _Complexity: 4
+      _PlaySessionLinks:
+      - WordGroup4
+      - Numbers_1
+    - _Id: number_05
+      _Active: 1
+      _Kind: 5
+      _Category: 12
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "\xD6T"
+      _Value: 
+      _SortValue: 5
+      _DrawingId: number_05
+      _DrawingLabel: 
+      _Complexity: 2
+      _PlaySessionLinks:
+      - WordGroup4
+      - Numbers_1
+    - _Id: number_06
+      _Active: 1
+      _Kind: 5
+      _Category: 12
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: HAT
+      _Value: 
+      _SortValue: 6
+      _DrawingId: number_06
+      _DrawingLabel: 
+      _Complexity: 3
+      _PlaySessionLinks:
+      - WordGroup3
+      - Numbers_1
+    - _Id: number_07
+      _Active: 1
+      _Kind: 5
+      _Category: 12
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "H\xC9T"
+      _Value: 
+      _SortValue: 7
+      _DrawingId: number_07
+      _DrawingLabel: 
+      _Complexity: 3
+      _PlaySessionLinks:
+      - WordGroup3
+      - Numbers_1
+    - _Id: number_08
+      _Active: 1
+      _Kind: 5
+      _Category: 12
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: NYOLC
+      _Value: 
+      _SortValue: 8
+      _DrawingId: number_08
+      _DrawingLabel: 
+      _Complexity: 5
+      _PlaySessionLinks:
+      - WordGroup5
+      - Numbers_1
+    - _Id: number_09
+      _Active: 1
+      _Kind: 5
+      _Category: 12
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: KILENC
+      _Value: 
+      _SortValue: 9
+      _DrawingId: number_09
+      _DrawingLabel: 
+      _Complexity: 6
+      _PlaySessionLinks:
+      - WordGroup4
+      - Numbers_1
+    - _Id: number_10
+      _Active: 1
+      _Kind: 5
+      _Category: 12
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "T\xCDZ"
+      _Value: 
+      _SortValue: 10
+      _DrawingId: number_10
+      _DrawingLabel: 
+      _Complexity: 3
+      _PlaySessionLinks:
+      - WordGroup7
+      - Numbers_1
+    - _Id: number_11
+      _Active: 1
+      _Kind: 5
+      _Category: 12
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: TIZENEGY
+      _Value: 
+      _SortValue: 11
+      _DrawingId: number_11
+      _DrawingLabel: 
+      _Complexity: 8
+      _PlaySessionLinks:
+      - WordGroup7
+      - Numbers_2
+    - _Id: number_12
+      _Active: 1
+      _Kind: 5
+      _Category: 12
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "TIZENKETT\u0150"
+      _Value: 
+      _SortValue: 12
+      _DrawingId: number_12
+      _DrawingLabel: 
+      _Complexity: 10
+      _PlaySessionLinks:
+      - WordGroup7
+      - Numbers_2
+    - _Id: number_13
+      _Active: 1
+      _Kind: 5
+      _Category: 12
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "TIZENH\xC1ROM"
+      _Value: 
+      _SortValue: 13
+      _DrawingId: number_13
+      _DrawingLabel: 
+      _Complexity: 10
+      _PlaySessionLinks:
+      - WordGroup7
+      - Numbers_2
+    - _Id: number_14
+      _Active: 1
+      _Kind: 5
+      _Category: 12
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "TIZENN\xC9GY"
+      _Value: 
+      _SortValue: 14
+      _DrawingId: number_14
+      _DrawingLabel: 
+      _Complexity: 9
+      _PlaySessionLinks:
+      - WordGroup7
+      - Numbers_2
+    - _Id: number_15
+      _Active: 1
+      _Kind: 5
+      _Category: 12
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "TIZEN\xD6T"
+      _Value: 
+      _SortValue: 15
+      _DrawingId: number_15
+      _DrawingLabel: 
+      _Complexity: 7
+      _PlaySessionLinks:
+      - WordGroup7
+      - Numbers_2
+    - _Id: number_16
+      _Active: 1
+      _Kind: 5
+      _Category: 12
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: TIZENHAT
+      _Value: 
+      _SortValue: 16
+      _DrawingId: number_16
+      _DrawingLabel: 
+      _Complexity: 8
+      _PlaySessionLinks:
+      - WordGroup7
+      - Numbers_2
+    - _Id: number_17
+      _Active: 1
+      _Kind: 5
+      _Category: 12
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "TIZENH\xC9T"
+      _Value: 
+      _SortValue: 17
+      _DrawingId: number_17
+      _DrawingLabel: 
+      _Complexity: 8
+      _PlaySessionLinks:
+      - WordGroup7
+      - Numbers_2
+    - _Id: number_18
+      _Active: 1
+      _Kind: 5
+      _Category: 12
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: TIZENNYOLC
+      _Value: 
+      _SortValue: 18
+      _DrawingId: number_18
+      _DrawingLabel: 
+      _Complexity: 10
+      _PlaySessionLinks:
+      - WordGroup7
+      - Numbers_2
+    - _Id: number_19
+      _Active: 1
+      _Kind: 5
+      _Category: 12
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: TIZENKILENC
+      _Value: 
+      _SortValue: 19
+      _DrawingId: number_19
+      _DrawingLabel: 
+      _Complexity: 11
+      _PlaySessionLinks:
+      - WordGroup7
+      - Numbers_2
+    - _Id: number_20
+      _Active: 1
+      _Kind: 5
+      _Category: 12
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "H\xDASZ"
+      _Value: 
+      _SortValue: 20
+      _DrawingId: number_20
+      _DrawingLabel: 
+      _Complexity: 4
+      _PlaySessionLinks:
+      - WordGroup6
+      - Numbers_2
+    - _Id: octopus
+      _Active: 1
+      _Kind: 5
+      _Category: 1
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: POLIP
+      _Value: 
+      _SortValue: 
+      _DrawingId: octopus
+      _DrawingLabel: 
+      _Complexity: 5
+      _PlaySessionLinks:
+      - WordGroup5
+      - Animal_3
+    - _Id: oil
+      _Active: 1
+      _Kind: 5
+      _Category: 8
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: OLAJ
+      _Value: 
+      _SortValue: 
+      _DrawingId: oil
+      _DrawingLabel: 
+      _Complexity: 4
+      _PlaySessionLinks:
+      - WordGroup4
+      - Food_2
+    - _Id: onion
+      _Active: 1
+      _Kind: 5
+      _Category: 8
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: HAGYMA
+      _Value: 
+      _SortValue: 
+      _DrawingId: onion
+      _DrawingLabel: 
+      _Complexity: 6
+      _PlaySessionLinks:
+      - WordGroup3
+      - Food_2
+    - _Id: oven
+      _Active: 1
+      _Kind: 5
+      _Category: 9
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "S\xDCT\u0150"
+      _Value: 
+      _SortValue: 
+      _DrawingId: oven
+      _DrawingLabel: 
+      _Complexity: 4
+      _PlaySessionLinks:
+      - WordGroup6
+      - Home_2
+    - _Id: oxygen
+      _Active: 1
+      _Kind: 5
+      _Category: 11
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "OXIG\xC9N"
+      _Value: 
+      _SortValue: 
+      _DrawingId: oxygen
+      _DrawingLabel: 
+      _Complexity: 6
+      _PlaySessionLinks:
+      - WordGroup7
+      - Nature_2
+    - _Id: paper
+      _Active: 1
+      _Kind: 5
+      _Category: 13
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "PAP\xCDR"
+      _Value: 
+      _SortValue: 
+      _DrawingId: paper
+      _DrawingLabel: 
+      _Complexity: 5
+      _PlaySessionLinks:
+      - WordGroup5
+      - Objects
+    - _Id: park
+      _Active: 1
+      _Kind: 5
+      _Category: 3
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: PARK
+      _Value: 
+      _SortValue: 
+      _DrawingId: park
+      _DrawingLabel: 
+      _Complexity: 4
+      _PlaySessionLinks:
+      - WordGroup5
+      - City_1
+    - _Id: parrot
+      _Active: 1
+      _Kind: 5
+      _Category: 1
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "PAPAG\xC1J"
+      _Value: 
+      _SortValue: 
+      _DrawingId: parrot
+      _DrawingLabel: 
+      _Complexity: 7
+      _PlaySessionLinks:
+      - WordGroup5
+      - Animal_2
+    - _Id: pear
+      _Active: 1
+      _Kind: 5
+      _Category: 8
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "K\xD6RTE"
+      _Value: 
+      _SortValue: 
+      _DrawingId: pear
+      _DrawingLabel: 
+      _Complexity: 5
+      _PlaySessionLinks:
+      - WordGroup4
+      - Food_1
+    - _Id: pencil
+      _Active: 1
+      _Kind: 5
+      _Category: 13
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: CERUZA
+      _Value: 
+      _SortValue: 
+      _DrawingId: pencil
+      _DrawingLabel: 
+      _Complexity: 6
+      _PlaySessionLinks:
+      - WordGroup7
+      - Objects
+    - _Id: penguin
+      _Active: 1
+      _Kind: 5
+      _Category: 1
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: PINGVIN
+      _Value: 
+      _SortValue: 
+      _DrawingId: penguin
+      _DrawingLabel: 
+      _Complexity: 7
+      _PlaySessionLinks:
+      - WordGroup6
+      - Animal_3
+    - _Id: pepper
+      _Active: 1
+      _Kind: 5
+      _Category: 8
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: BORS
+      _Value: 
+      _SortValue: 
+      _DrawingId: pepper
+      _DrawingLabel: 
+      _Complexity: 4
+      _PlaySessionLinks:
+      - WordGroup5
+      - Food_2
+    - _Id: pet
+      _Active: 1
+      _Kind: 5
+      _Category: 7
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "KIS\xC1LLAT"
+      _Value: 
+      _SortValue: 
+      _DrawingId: pet
+      _DrawingLabel: 
+      _Complexity: 8
+      _PlaySessionLinks:
+      - WordGroup5
+      - Family_2
+    - _Id: pharmacy
+      _Active: 1
+      _Kind: 5
+      _Category: 3
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "GY\xD3GYSZERT\xC1R"
+      _Value: 
+      _SortValue: 
+      _DrawingId: pharmacy
+      _DrawingLabel: 
+      _Complexity: 12
+      _PlaySessionLinks:
+      - WordGroup5
+      - City_2
+    - _Id: pig
+      _Active: 1
+      _Kind: 5
+      _Category: 1
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: MALAC
+      _Value: 
+      _SortValue: 
+      _DrawingId: pig
+      _DrawingLabel: 
+      _Complexity: 5
+      _PlaySessionLinks:
+      - WordGroup3
+      - Animal_2
+    - _Id: plane
+      _Active: 1
+      _Kind: 5
+      _Category: 3
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "REP\xDCL\u0150"
+      _Value: 
+      _SortValue: 
+      _DrawingId: plane
+      _DrawingLabel: 
+      _Complexity: 6
+      _PlaySessionLinks:
+      - WordGroup6
+      - City_3
+    - _Id: plant
+      _Active: 1
+      _Kind: 5
+      _Category: 11
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "N\xD6V\xC9NY"
+      _Value: 
+      _SortValue: 
+      _DrawingId: plant
+      _DrawingLabel: 
+      _Complexity: 6
+      _PlaySessionLinks:
+      - WordGroup6
+      - Nature_1
+    - _Id: playground
+      _Active: 1
+      _Kind: 5
+      _Category: 3
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "J\xC1TSZ\xD3T\xC9R"
+      _Value: 
+      _SortValue: 
+      _DrawingId: playground
+      _DrawingLabel: 
+      _Complexity: 9
+      _PlaySessionLinks:
+      - WordGroup5
+      - City_1
+    - _Id: port
+      _Active: 1
+      _Kind: 5
+      _Category: 3
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "KIK\xD6T\u0150"
+      _Value: 
+      _SortValue: 
+      _DrawingId: port
+      _DrawingLabel: 
+      _Complexity: 6
+      _PlaySessionLinks:
+      - WordGroup4
+      - City_2
+    - _Id: potato
+      _Active: 1
+      _Kind: 5
+      _Category: 8
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: BURGONYA
+      _Value: 
+      _SortValue: 
+      _DrawingId: potato
+      _DrawingLabel: 
+      _Complexity: 8
+      _PlaySessionLinks:
+      - WordGroup6
+      - Food_2
+    - _Id: rain
+      _Active: 1
+      _Kind: 5
+      _Category: 11
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "ES\u0150"
+      _Value: 
+      _SortValue: 
+      _DrawingId: rain
+      _DrawingLabel: 
+      _Complexity: 3
+      _PlaySessionLinks:
+      - WordGroup5
+      - Nature_1
+    - _Id: rat
+      _Active: 1
+      _Kind: 5
+      _Category: 1
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "PATK\xC1NY"
+      _Value: 
+      _SortValue: 
+      _DrawingId: rat
+      _DrawingLabel: 
+      _Complexity: 7
+      _PlaySessionLinks:
+      - WordGroup5
+      - Animal_1
+    - _Id: rectangle
+      _Active: 1
+      _Kind: 5
+      _Category: 19
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "T\xC9GLALAP"
+      _Value: 
+      _SortValue: 7
+      _DrawingId: rectangle
+      _DrawingLabel: 
+      _Complexity: 8
+      _PlaySessionLinks:
+      - WordGroup5
+      - Math
+    - _Id: restaurant
+      _Active: 1
+      _Kind: 5
+      _Category: 3
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "\xC9TTEREM"
+      _Value: 
+      _SortValue: 
+      _DrawingId: restaurant
+      _DrawingLabel: 
+      _Complexity: 7
+      _PlaySessionLinks:
+      - WordGroup3
+      - City_1
+    - _Id: rice
+      _Active: 1
+      _Kind: 5
+      _Category: 8
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "R\xCDZS"
+      _Value: 
+      _SortValue: 
+      _DrawingId: rice
+      _DrawingLabel: 
+      _Complexity: 4
+      _PlaySessionLinks:
+      - WordGroup7
+      - Food_2
+    - _Id: river
+      _Active: 1
+      _Kind: 5
+      _Category: 11
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "FOLY\xD3"
+      _Value: 
+      _SortValue: 
+      _DrawingId: river
+      _DrawingLabel: 
+      _Complexity: 5
+      _PlaySessionLinks:
+      - WordGroup5
+      - Nature_1
+    - _Id: road
+      _Active: 1
+      _Kind: 5
+      _Category: 3
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "\xDAT"
+      _Value: 
+      _SortValue: 
+      _DrawingId: road
+      _DrawingLabel: 
+      _Complexity: 2
+      _PlaySessionLinks:
+      - WordGroup6
+      - City_3
+    - _Id: roof
+      _Active: 1
+      _Kind: 5
+      _Category: 9
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "TET\u0150"
+      _Value: 
+      _SortValue: 
+      _DrawingId: roof
+      _DrawingLabel: 
+      _Complexity: 4
+      _PlaySessionLinks:
+      - WordGroup4
+      - Home_1
+    - _Id: salt
+      _Active: 1
+      _Kind: 5
+      _Category: 8
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "S\xD3"
+      _Value: 
+      _SortValue: 
+      _DrawingId: salt
+      _DrawingLabel: 
+      _Complexity: 2
+      _PlaySessionLinks:
+      - WordGroup5
+      - Food_3
+    - _Id: scarf
+      _Active: 1
+      _Kind: 5
+      _Category: 4
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "S\xC1LL"
+      _Value: 
+      _SortValue: 
+      _DrawingId: scarf
+      _DrawingLabel: 
+      _Complexity: 4
+      _PlaySessionLinks:
+      - WordGroup5
+      - Clothes
+    - _Id: school
+      _Active: 1
+      _Kind: 5
+      _Category: 3
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: ISKOLA
+      _Value: 
+      _SortValue: 
+      _DrawingId: school
+      _DrawingLabel: 
+      _Complexity: 6
+      _PlaySessionLinks:
+      - WordGroup5
+      - City_1
+    - _Id: scissors
+      _Active: 1
+      _Kind: 5
+      _Category: 13
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "OLL\xD3"
+      _Value: 
+      _SortValue: 
+      _DrawingId: scissors
+      _DrawingLabel: 
+      _Complexity: 4
+      _PlaySessionLinks:
+      - WordGroup4
+      - Objects
+    - _Id: sea
+      _Active: 1
+      _Kind: 5
+      _Category: 11
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: TENGER
+      _Value: 
+      _SortValue: 
+      _DrawingId: sea
+      _DrawingLabel: 
+      _Complexity: 6
+      _PlaySessionLinks:
+      - WordGroup4
+      - Nature_2
+    - _Id: shirt
+      _Active: 1
+      _Kind: 5
+      _Category: 4
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: ING
+      _Value: 
+      _SortValue: 
+      _DrawingId: shirt
+      _DrawingLabel: 
+      _Complexity: 3
+      _PlaySessionLinks:
+      - WordGroup4
+      - Clothes
+    - _Id: shoes
+      _Active: 1
+      _Kind: 5
+      _Category: 4
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "CIP\u0150"
+      _Value: 
+      _SortValue: 
+      _DrawingId: shoes
+      _DrawingLabel: 
+      _Complexity: 4
+      _PlaySessionLinks:
+      - WordGroup5
+      - Clothes
+    - _Id: shop
+      _Active: 1
+      _Kind: 5
+      _Category: 3
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: BOLT
+      _Value: 
+      _SortValue: 
+      _DrawingId: shop
+      _DrawingLabel: 
+      _Complexity: 4
+      _PlaySessionLinks:
+      - WordGroup4
+      - City_1
+    - _Id: shower
+      _Active: 1
+      _Kind: 5
+      _Category: 9
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "ZUHANYZ\xD3"
+      _Value: 
+      _SortValue: 
+      _DrawingId: shower
+      _DrawingLabel: 
+      _Complexity: 8
+      _PlaySessionLinks:
+      - WordGroup7
+      - Home_3
+    - _Id: sink
+      _Active: 1
+      _Kind: 5
+      _Category: 9
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "MOSOGAT\xD3"
+      _Value: 
+      _SortValue: 
+      _DrawingId: sink
+      _DrawingLabel: 
+      _Complexity: 8
+      _PlaySessionLinks:
+      - WordGroup5
+      - Home_2
+    - _Id: sister
+      _Active: 1
+      _Kind: 5
+      _Category: 7
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "N\u0150V\xC9R"
+      _Value: 
+      _SortValue: 
+      _DrawingId: sister
+      _DrawingLabel: 
+      _Complexity: 5
+      _PlaySessionLinks:
+      - WordGroup6
+      - Family_1
+    - _Id: skirt
+      _Active: 1
+      _Kind: 5
+      _Category: 4
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: SZOKNYA
+      _Value: 
+      _SortValue: 
+      _DrawingId: skirt
+      _DrawingLabel: 
+      _Complexity: 7
+      _PlaySessionLinks:
+      - WordGroup5
+      - Clothes
+    - _Id: sky
+      _Active: 1
+      _Kind: 5
+      _Category: 11
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "\xC9G"
+      _Value: 
+      _SortValue: 
+      _DrawingId: sky
+      _DrawingLabel: 
+      _Complexity: 2
+      _PlaySessionLinks:
+      - WordGroup3
+      - Nature_2
+    - _Id: snake
+      _Active: 1
+      _Kind: 5
+      _Category: 1
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "K\xCDGY\xD3"
+      _Value: 
+      _SortValue: 
+      _DrawingId: snake
+      _DrawingLabel: 
+      _Complexity: 5
+      _PlaySessionLinks:
+      - WordGroup4
+      - Animal_2
+    - _Id: snow
+      _Active: 1
+      _Kind: 5
+      _Category: 11
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "H\xD3"
+      _Value: 
+      _SortValue: 
+      _DrawingId: snow
+      _DrawingLabel: 
+      _Complexity: 2
+      _PlaySessionLinks:
+      - WordGroup4
+      - Nature_1
+    - _Id: soap
+      _Active: 1
+      _Kind: 5
+      _Category: 9
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: SZAPPAN
+      _Value: 
+      _SortValue: 
+      _DrawingId: soap
+      _DrawingLabel: 
+      _Complexity: 7
+      _PlaySessionLinks:
+      - WordGroup5
+      - Home_3
+    - _Id: socks
+      _Active: 1
+      _Kind: 5
+      _Category: 4
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: ZOKNI
+      _Value: 
+      _SortValue: 
+      _DrawingId: socks
+      _DrawingLabel: 
+      _Complexity: 5
+      _PlaySessionLinks:
+      - WordGroup7
+      - Clothes
+    - _Id: soil
+      _Active: 1
+      _Kind: 5
+      _Category: 11
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: TALAJ
+      _Value: 
+      _SortValue: 
+      _DrawingId: soil
+      _DrawingLabel: 
+      _Complexity: 5
+      _PlaySessionLinks:
+      - WordGroup3
+      - Nature_1
+    - _Id: solid
+      _Active: 1
+      _Kind: 5
+      _Category: 11
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "SZIL\xC1RD"
+      _Value: 
+      _SortValue: 
+      _DrawingId: solid
+      _DrawingLabel: 
+      _Complexity: 7
+      _PlaySessionLinks:
+      - WordGroup5
+      - Nature_2
+    - _Id: son
+      _Active: 1
+      _Kind: 5
+      _Category: 7
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "FI\xDA"
+      _Value: 
+      _SortValue: 
+      _DrawingId: son
+      _DrawingLabel: 
+      _Complexity: 3
+      _PlaySessionLinks:
+      - WordGroup6
+      - Family_1
+    - _Id: spoon
+      _Active: 1
+      _Kind: 5
+      _Category: 9
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "KAN\xC1L"
+      _Value: 
+      _SortValue: 
+      _DrawingId: spoon
+      _DrawingLabel: 
+      _Complexity: 5
+      _PlaySessionLinks:
+      - WordGroup4
+      - Home_2
+    - _Id: spring
+      _Active: 1
+      _Kind: 5
+      _Category: 14
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: TAVASZ
+      _Value: 
+      _SortValue: 1
+      _DrawingId: spring
+      _DrawingLabel: 
+      _Complexity: 6
+      _PlaySessionLinks:
+      - WordGroup6
+      - Seasons
+    - _Id: squirrel
+      _Active: 1
+      _Kind: 5
+      _Category: 1
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "M\xD3KUS"
+      _Value: 
+      _SortValue: 
+      _DrawingId: squirrel
+      _DrawingLabel: 
+      _Complexity: 5
+      _PlaySessionLinks:
+      - WordGroup6
+      - Animal_3
+    - _Id: stairs
+      _Active: 1
+      _Kind: 5
+      _Category: 9
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "L\xC9PCS\u0150"
+      _Value: 
+      _SortValue: 
+      _DrawingId: stairs
+      _DrawingLabel: 
+      _Complexity: 6
+      _PlaySessionLinks:
+      - WordGroup5
+      - Home_1
+    - _Id: star
+      _Active: 1
+      _Kind: 5
+      _Category: 11
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: CSILLAG
+      _Value: 
+      _SortValue: 
+      _DrawingId: star
+      _DrawingLabel: 
+      _Complexity: 7
+      _PlaySessionLinks:
+      - WordGroup3
+      - Nature_2
+    - _Id: station
+      _Active: 1
+      _Kind: 5
+      _Category: 3
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "\xC1LLOM\xC1S"
+      _Value: 
+      _SortValue: 
+      _DrawingId: station
+      _DrawingLabel: 
+      _Complexity: 7
+      _PlaySessionLinks:
+      - WordGroup5
+      - City_2
+    - _Id: stone
+      _Active: 1
+      _Kind: 5
+      _Category: 11
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "K\u0150"
+      _Value: 
+      _SortValue: 
+      _DrawingId: stone
+      _DrawingLabel: 
+      _Complexity: 2
+      _PlaySessionLinks:
+      - WordGroup4
+      - Nature_2
+    - _Id: stove
+      _Active: 1
+      _Kind: 5
+      _Category: 9
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: KEMENCE
+      _Value: 
+      _SortValue: 
+      _DrawingId: stove
+      _DrawingLabel: 
+      _Complexity: 7
+      _PlaySessionLinks:
+      - WordGroup4
+      - Home_2
+    - _Id: street
+      _Active: 1
+      _Kind: 5
+      _Category: 3
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: UTCA
+      _Value: 
+      _SortValue: 
+      _DrawingId: street
+      _DrawingLabel: 
+      _Complexity: 4
+      _PlaySessionLinks:
+      - WordGroup6
+      - City_2
+    - _Id: substraction
+      _Active: 1
+      _Kind: 5
+      _Category: 19
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "KIVON\xC1S"
+      _Value: 
+      _SortValue: 2
+      _DrawingId: substraction
+      _DrawingLabel: 
+      _Complexity: 7
+      _PlaySessionLinks:
+      - WordGroup6
+      - Math
+    - _Id: sugar
+      _Active: 1
+      _Kind: 5
+      _Category: 8
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: CUKOR
+      _Value: 
+      _SortValue: 
+      _DrawingId: sugar
+      _DrawingLabel: 
+      _Complexity: 5
+      _PlaySessionLinks:
+      - WordGroup6
+      - Food_3
+    - _Id: summer
+      _Active: 1
+      _Kind: 5
+      _Category: 14
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "NY\xC1R"
+      _Value: 
+      _SortValue: 2
+      _DrawingId: summer
+      _DrawingLabel: 
+      _Complexity: 4
+      _PlaySessionLinks:
+      - WordGroup5
+      - Seasons
+    - _Id: sun
+      _Active: 1
+      _Kind: 5
+      _Category: 11
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: NAP
+      _Value: 
+      _SortValue: 
+      _DrawingId: sun
+      _DrawingLabel: 
+      _Complexity: 3
+      _PlaySessionLinks:
+      - WordGroup5
+      - Nature_1
+    - _Id: table
+      _Active: 1
+      _Kind: 5
+      _Category: 9
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: ASZTAL
+      _Value: 
+      _SortValue: 
+      _DrawingId: table
+      _DrawingLabel: 
+      _Complexity: 6
+      _PlaySessionLinks:
+      - WordGroup5
+      - Home_3
+    - _Id: tea
+      _Active: 1
+      _Kind: 5
+      _Category: 8
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: TEA
+      _Value: 
+      _SortValue: 
+      _DrawingId: tea
+      _DrawingLabel: 
+      _Complexity: 3
+      _PlaySessionLinks:
+      - WordGroup1
+      - Food_3
+    - _Id: tear
+      _Active: 1
+      _Kind: 5
+      _Category: 2
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "K\xD6NNY"
+      _Value: 
+      _SortValue: 
+      _DrawingId: tear
+      _DrawingLabel: 
+      _Complexity: 5
+      _PlaySessionLinks:
+      - WordGroup5
+      - Body_2
+    - _Id: television
+      _Active: 1
+      _Kind: 5
+      _Category: 9
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "TELEV\xCDZI\xD3"
+      _Value: 
+      _SortValue: 
+      _DrawingId: television
+      _DrawingLabel: 
+      _Complexity: 9
+      _PlaySessionLinks:
+      - WordGroup7
+      - Home_3
+    - _Id: test
+      _Active: 1
+      _Kind: 5
+      _Category: 13
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: TESZT
+      _Value: 
+      _SortValue: 
+      _DrawingId: test
+      _DrawingLabel: 
+      _Complexity: 5
+      _PlaySessionLinks:
+      - WordGroup5
+      - Objects
+    - _Id: theatre
+      _Active: 1
+      _Kind: 5
+      _Category: 3
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "SZ\xCDNH\xC1Z"
+      _Value: 
+      _SortValue: 
+      _DrawingId: theatre
+      _DrawingLabel: 
+      _Complexity: 7
+      _PlaySessionLinks:
+      - WordGroup7
+      - City_2
+    - _Id: tiger
+      _Active: 1
+      _Kind: 5
+      _Category: 1
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: TIGRIS
+      _Value: 
+      _SortValue: 
+      _DrawingId: tiger
+      _DrawingLabel: 
+      _Complexity: 6
+      _PlaySessionLinks:
+      - WordGroup5
+      - Animal_1
+    - _Id: toilet
+      _Active: 1
+      _Kind: 5
+      _Category: 9
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: WC
+      _Value: 
+      _SortValue: 
+      _DrawingId: toilet
+      _DrawingLabel: 
+      _Complexity: 2
+      _PlaySessionLinks:
+      - WordGroup7
+      - Home_3
+    - _Id: tomato
+      _Active: 1
+      _Kind: 5
+      _Category: 8
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: PARADICSOM
+      _Value: 
+      _SortValue: 
+      _DrawingId: tomato
+      _DrawingLabel: 
+      _Complexity: 10
+      _PlaySessionLinks:
+      - WordGroup5
+      - Food_2
+    - _Id: tongue
+      _Active: 1
+      _Kind: 5
+      _Category: 2
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: NYELV
+      _Value: 
+      _SortValue: 
+      _DrawingId: tongue
+      _DrawingLabel: 
+      _Complexity: 5
+      _PlaySessionLinks:
+      - WordGroup6
+      - Body_2
+    - _Id: tooth
+      _Active: 1
+      _Kind: 5
+      _Category: 2
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: FOG
+      _Value: 
+      _SortValue: 
+      _DrawingId: tooth
+      _DrawingLabel: 
+      _Complexity: 3
+      _PlaySessionLinks:
+      - WordGroup4
+      - Body_2
+    - _Id: towel
+      _Active: 1
+      _Kind: 5
+      _Category: 9
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "T\xD6R\xDCLK\xD6Z\u0150"
+      _Value: 
+      _SortValue: 
+      _DrawingId: towel
+      _DrawingLabel: 
+      _Complexity: 9
+      _PlaySessionLinks:
+      - WordGroup7
+      - Home_3
+    - _Id: town
+      _Active: 1
+      _Kind: 5
+      _Category: 3
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "V\xC1ROS"
+      _Value: 
+      _SortValue: 
+      _DrawingId: town
+      _DrawingLabel: 
+      _Complexity: 5
+      _PlaySessionLinks:
+      - WordGroup6
+      - City_1
+    - _Id: toy
+      _Active: 1
+      _Kind: 5
+      _Category: 13
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "J\xC1T\xC9K"
+      _Value: 
+      _SortValue: 
+      _DrawingId: toy
+      _DrawingLabel: 
+      _Complexity: 5
+      _PlaySessionLinks:
+      - WordGroup3
+      - Objects
+    - _Id: train
+      _Active: 1
+      _Kind: 5
+      _Category: 3
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: VONAT
+      _Value: 
+      _SortValue: 
+      _DrawingId: train
+      _DrawingLabel: 
+      _Complexity: 5
+      _PlaySessionLinks:
+      - WordGroup6
+      - City_3
+    - _Id: tree
+      _Active: 1
+      _Kind: 5
+      _Category: 11
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: FA
+      _Value: 
+      _SortValue: 
+      _DrawingId: tree
+      _DrawingLabel: 
+      _Complexity: 2
+      _PlaySessionLinks:
+      - WordGroup2
+      - Nature_1
+    - _Id: triangle
+      _Active: 1
+      _Kind: 5
+      _Category: 19
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "H\xC1ROMSZ\xD6G"
+      _Value: 
+      _SortValue: 6
+      _DrawingId: triangle
+      _DrawingLabel: 
+      _Complexity: 9
+      _PlaySessionLinks:
+      - WordGroup5
+      - Math
+    - _Id: trousers
+      _Active: 1
+      _Kind: 5
+      _Category: 4
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "NADR\xC1G"
+      _Value: 
+      _SortValue: 
+      _DrawingId: trousers
+      _DrawingLabel: 
+      _Complexity: 6
+      _PlaySessionLinks:
+      - WordGroup4
+      - Clothes
+    - _Id: truck
+      _Active: 1
+      _Kind: 5
+      _Category: 3
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "TEHERAUT\xD3"
+      _Value: 
+      _SortValue: 
+      _DrawingId: truck
+      _DrawingLabel: 
+      _Complexity: 9
+      _PlaySessionLinks:
+      - WordGroup6
+      - City_3
+    - _Id: turtle
+      _Active: 1
+      _Kind: 5
+      _Category: 1
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "TEKN\u0150S"
+      _Value: 
+      _SortValue: 
+      _DrawingId: turtle
+      _DrawingLabel: 
+      _Complexity: 6
+      _PlaySessionLinks:
+      - WordGroup5
+      - Animal_2
+    - _Id: uncle
+      _Active: 1
+      _Kind: 5
+      _Category: 7
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "NAGYB\xC1CSI"
+      _Value: 
+      _SortValue: 
+      _DrawingId: uncle
+      _DrawingLabel: 
+      _Complexity: 9
+      _PlaySessionLinks:
+      - WordGroup4
+      - Family_1
+    - _Id: vegetal
+      _Active: 1
+      _Kind: 5
+      _Category: 11
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "N\xD6V\xC9NYI"
+      _Value: 
+      _SortValue: 
+      _DrawingId: vegetal
+      _DrawingLabel: 
+      _Complexity: 7
+      _PlaySessionLinks:
+      - WordGroup6
+      - Nature_1
+    - _Id: volcano
+      _Active: 1
+      _Kind: 5
+      _Category: 11
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "VULK\xC1N"
+      _Value: 
+      _SortValue: 
+      _DrawingId: volcano
+      _DrawingLabel: 
+      _Complexity: 6
+      _PlaySessionLinks:
+      - WordGroup6
+      - Nature_2
+    - _Id: washing_machine
+      _Active: 1
+      _Kind: 5
+      _Category: 9
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "MOS\xD3G\xC9P"
+      _Value: 
+      _SortValue: 
+      _DrawingId: washing_machine
+      _DrawingLabel: 
+      _Complexity: 7
+      _PlaySessionLinks:
+      - WordGroup5
+      - Home_3
+    - _Id: water
+      _Active: 1
+      _Kind: 5
+      _Category: 8
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "V\xCDZ"
+      _Value: 
+      _SortValue: 
+      _DrawingId: water
+      _DrawingLabel: 
+      _Complexity: 3
+      _PlaySessionLinks:
+      - WordGroup7
+      - Food_3
+    - _Id: watermelon
+      _Active: 1
+      _Kind: 5
+      _Category: 8
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "G\xD6R\xD6GDINNYE"
+      _Value: 
+      _SortValue: 
+      _DrawingId: watermelon
+      _DrawingLabel: 
+      _Complexity: 11
+      _PlaySessionLinks:
+      - WordGroup5
+      - Food_1
+    - _Id: whale
+      _Active: 1
+      _Kind: 5
+      _Category: 1
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "B\xC1LNA"
+      _Value: 
+      _SortValue: 
+      _DrawingId: whale
+      _DrawingLabel: 
+      _Complexity: 5
+      _PlaySessionLinks:
+      - WordGroup4
+      - Animal_2
+    - _Id: window
+      _Active: 1
+      _Kind: 5
+      _Category: 9
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: ABLAK
+      _Value: 
+      _SortValue: 
+      _DrawingId: window
+      _DrawingLabel: 
+      _Complexity: 5
+      _PlaySessionLinks:
+      - WordGroup2
+      - Home_1
+    - _Id: winter
+      _Active: 1
+      _Kind: 5
+      _Category: 14
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "T\xC9L"
+      _Value: 
+      _SortValue: 4
+      _DrawingId: winter
+      _DrawingLabel: 
+      _Complexity: 3
+      _PlaySessionLinks:
+      - WordGroup1
+      - Seasons
+    - _Id: woman
+      _Active: 1
+      _Kind: 5
+      _Category: 7
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "N\u0150"
+      _Value: 
+      _SortValue: 
+      _DrawingId: woman
+      _DrawingLabel: 
+      _Complexity: 2
+      _PlaySessionLinks:
+      - WordGroup4
+      - Family_2
+    - _Id: yogurt
+      _Active: 1
+      _Kind: 5
+      _Category: 8
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: JOGHURT
+      _Value: 
+      _SortValue: 
+      _DrawingId: yogurt
+      _DrawingLabel: 
+      _Complexity: 7
+      _PlaySessionLinks:
+      - WordGroup6
+      - Food_1
+    - _Id: zoo
+      _Active: 1
+      _Kind: 5
+      _Category: 3
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "\xC1LLATKERT"
+      _Value: 
+      _SortValue: 
+      _DrawingId: zoo
+      _DrawingLabel: 
+      _Complexity: 9
+      _PlaySessionLinks:
+      - WordGroup1
+      - City_2
+    - _Id: jeep
+      _Active: 1
+      _Kind: 5
+      _Category: 3
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: DZSIP
+      _Value: 
+      _SortValue: 
+      _DrawingId: jeep
+      _DrawingLabel: 
+      _Complexity: 4
+      _PlaySessionLinks:
+      - WordGroup7
+      - City_3
+    - _Id: judo
+      _Active: 1
+      _Kind: 5
+      _Category: 2
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "DZS\xDAD\xD3"
+      _Value: 
+      _SortValue: 
+      _DrawingId: judo
+      _DrawingLabel: 
+      _Complexity: 4
+      _PlaySessionLinks:
+      - WordGroup7
+      - Body_2
+    - _Id: koala
+      _Active: 1
+      _Kind: 5
+      _Category: 1
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: KOALA
+      _Value: 
+      _SortValue: 
+      _DrawingId: koala
+      _DrawingLabel: 
+      _Complexity: 5
+      _PlaySessionLinks:
+      - WordGroup4
+      - Animal_3
+    - _Id: square
+      _Active: 1
+      _Kind: 5
+      _Category: 19
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "N\xC9GYZET"
+      _Value: 
+      _SortValue: 
+      _DrawingId: square
+      _DrawingLabel: 
+      _Complexity: 8
+      _PlaySessionLinks:
+      - WordGroup7
+      - Math
+    - _Id: quad
+      _Active: 1
+      _Kind: 5
+      _Category: 3
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: QUAD
+      _Value: 
+      _SortValue: 
+      _DrawingId: quad
+      _DrawingLabel: 
+      _Complexity: 4
+      _PlaySessionLinks:
+      - WordGroup6
+      - City_3
+    - _Id: wasabi
+      _Active: 1
+      _Kind: 5
+      _Category: 8
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: WASABI
+      _Value: 
+      _SortValue: 
+      _DrawingId: wasabi
+      _DrawingLabel: 
+      _Complexity: 6
+      _PlaySessionLinks:
+      - WordGroup7
+      - Food_3
+    - _Id: taxi
+      _Active: 1
+      _Kind: 5
+      _Category: 3
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: TAXI
+      _Value: 
+      _SortValue: 
+      _DrawingId: taxi
+      _DrawingLabel: 
+      _Complexity: 4
+      _PlaySessionLinks:
+      - WordGroup7
+      - City_3
+    - _Id: xylophone
+      _Active: 1
+      _Kind: 5
+      _Category: 13
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: XILOFON
+      _Value: 
+      _SortValue: 
+      _DrawingId: xylophone
+      _DrawingLabel: 
+      _Complexity: 8
+      _PlaySessionLinks:
+      - WordGroup7
+      - Objects
+    - _Id: yoga
+      _Active: 1
+      _Kind: 5
+      _Category: 2
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: "J\xD3GA"
+      _Value: 
+      _SortValue: 
+      _DrawingId: yoga
+      _DrawingLabel: 
+      _Complexity: 4
+      _PlaySessionLinks:
+      - WordGroup4
+      - Body_2
+    - _Id: yak
+      _Active: 1
+      _Kind: 5
+      _Category: 1
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: YAK
+      _Value: 
+      _SortValue: 
+      _DrawingId: yak
+      _DrawingLabel: 
+      _Complexity: 3
+      _PlaySessionLinks:
+      - WordGroup7
+      - Animal_3
+    - _Id: string
+      _Active: 1
+      _Kind: 5
+      _Category: 13
+      _Form: 1
+      _Article: 0
+      _Gender: 0
+      _LinkedWord: 
+      _Text: MADZAG
+      _Value: 
+      _SortValue: 
+      _DrawingId: string
+      _DrawingLabel: 
+      _Complexity: 5
+      _PlaySessionLinks:
+      - WordGroup7
+      - Objects

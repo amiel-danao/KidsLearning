@@ -1,0 +1,1403 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6b8dc816d8d6e54d8325fbac00e0782, type: 3}
+  m_Name: DB LearnHungarian_Phrase
+  m_EditorClassIdentifier: 
+  table:
+    innerList:
+    - _Id: Phrase_apple
+      _Active: 1
+      _Text: "Az ALMA a f\xE1n n\u0151."
+      _Category: 14
+      _Linked: 
+      _Words:
+      - apple
+      - tree
+      _Answers:
+      - apple
+      _Complexity: 0
+      _PlaySessionLink:
+      - Food
+    - _Id: Phrase_arm
+      _Active: 1
+      _Text: "A KAROD nagyon hossz\xFA."
+      _Category: 15
+      _Linked: 
+      _Words:
+      - arm
+      _Answers:
+      - arm
+      _Complexity: 0
+      _PlaySessionLink:
+      - Body
+    - _Id: Phrase_aunt
+      _Active: 1
+      _Text: "A NAGYN\xC9N\xC9M egy nagyv\xE1rosban \xE9l."
+      _Category: 13
+      _Linked: 
+      _Words:
+      - aunt
+      - city
+      _Answers:
+      - aunt
+      _Complexity: 0
+      _PlaySessionLink:
+      - Family
+    - _Id: Phrase_ball
+      _Active: 1
+      _Text: Van egy LABDA a strandon.
+      _Category: 10
+      _Linked: 
+      _Words:
+      - ball
+      - beach
+      _Answers:
+      - ball
+      _Complexity: 0
+      _PlaySessionLink:
+      - Objects
+    - _Id: Phrase_banana
+      _Active: 1
+      _Text: "Ez a BAN\xC1N s\xE1rga."
+      _Category: 14
+      _Linked: 
+      _Words:
+      - banana
+      - color_yellow
+      _Answers:
+      - banana
+      _Complexity: 0
+      _PlaySessionLink:
+      - Food
+    - _Id: Phrase_bed
+      _Active: 1
+      _Text: "Az \xC1GY piros."
+      _Category: 9
+      _Linked: 
+      _Words:
+      - bed
+      - color_red
+      _Answers:
+      - bed
+      _Complexity: 0
+      _PlaySessionLink:
+      - Home
+    - _Id: Phrase_bedroom
+      _Active: 1
+      _Text: "Egy macska j\xE1tszik a H\xC1L\xD3SZOB\xC1BAN."
+      _Category: 9
+      _Linked: 
+      _Words:
+      - bedroom
+      - cat
+      _Answers:
+      - bedroom
+      _Complexity: 0
+      _PlaySessionLink:
+      - Home
+    - _Id: Phrase_belly
+      _Active: 1
+      _Text: "F\xE1j a HASAM."
+      _Category: 15
+      _Linked: 
+      _Words:
+      - belly
+      _Answers:
+      - belly
+      _Complexity: 0
+      _PlaySessionLink:
+      - Body
+    - _Id: Phrase_bicycle
+      _Active: 1
+      _Text: "A BICIKLI r\xE9gi."
+      _Category: 12
+      _Linked: 
+      _Words:
+      - bicycle
+      _Answers:
+      - bicycle
+      _Complexity: 0
+      _PlaySessionLink:
+      - City
+    - _Id: Phrase_bird
+      _Active: 1
+      _Text: "Egy MAD\xC1R \xE9nekel az erd\u0151ben."
+      _Category: 8
+      _Linked: 
+      _Words:
+      - bird
+      - forest
+      _Answers:
+      - bird
+      _Complexity: 0
+      _PlaySessionLink:
+      - Animals
+    - _Id: Phrase_book
+      _Active: 1
+      _Text: "Egy K\xD6NYV van az asztalon."
+      _Category: 10
+      _Linked: 
+      _Words:
+      - book
+      - table
+      _Answers:
+      - book
+      _Complexity: 0
+      _PlaySessionLink:
+      - Objects
+    - _Id: Phrase_box
+      _Active: 1
+      _Text: Ez egy nagy DOBOZ.
+      _Category: 10
+      _Linked: 
+      _Words:
+      - box
+      _Answers:
+      - box
+      _Complexity: 0
+      _PlaySessionLink:
+      - Objects
+    - _Id: Phrase_boy
+      _Active: 1
+      _Text: "Egy FI\xDA \xE9nekel az aut\xF3ban."
+      _Category: 13
+      _Linked: 
+      _Words:
+      - boy
+      - car
+      _Answers:
+      - boy
+      _Complexity: 0
+      _PlaySessionLink:
+      - Family
+    - _Id: Phrase_brain
+      _Active: 1
+      _Text: Az AGY a fejben van.
+      _Category: 15
+      _Linked: 
+      _Words:
+      - brain
+      - head
+      _Answers:
+      - brain
+      _Complexity: 0
+      _PlaySessionLink:
+      - Body
+    - _Id: Phrase_bus
+      _Active: 1
+      _Text: "A BUSZ z\xF6ld."
+      _Category: 12
+      _Linked: 
+      _Words:
+      - bus
+      - color_green
+      _Answers:
+      - bus
+      _Complexity: 0
+      _PlaySessionLink:
+      - City
+    - _Id: Phrase_cake
+      _Active: 1
+      _Text: "TORTA van a h\u0171t\u0151ben."
+      _Category: 14
+      _Linked: 
+      _Words:
+      - cake
+      - fridge
+      _Answers:
+      - cake
+      _Complexity: 0
+      _PlaySessionLink:
+      - Food
+    - _Id: Phrase_camel
+      _Active: 1
+      _Text: "A TEVE a sivatagban \xE9l."
+      _Category: 8
+      _Linked: 
+      _Words:
+      - camel
+      - desert
+      _Answers:
+      - camel
+      _Complexity: 0
+      _PlaySessionLink:
+      - Animals
+    - _Id: Phrase_carrot
+      _Active: 1
+      _Text: "A R\xC9PA eg\xE9szs\xE9ges."
+      _Category: 14
+      _Linked: 
+      _Words:
+      - carrot
+      _Answers:
+      - carrot
+      _Complexity: 0
+      _PlaySessionLink:
+      - Food
+    - _Id: Phrase_cat
+      _Active: 1
+      _Text: A MACSKA kicsi.
+      _Category: 8
+      _Linked: 
+      _Words:
+      - cat
+      _Answers:
+      - cat
+      _Complexity: 0
+      _PlaySessionLink:
+      - Animals
+    - _Id: Phrase_chair
+      _Active: 1
+      _Text: "Ez egy kis SZ\xC9K."
+      _Category: 9
+      _Linked: 
+      _Words:
+      - chair
+      _Answers:
+      - chair
+      _Complexity: 0
+      _PlaySessionLink:
+      - Home
+    - _Id: Phrase_cheese
+      _Active: 1
+      _Text: Szeretem a SAJTOT.
+      _Category: 14
+      _Linked: 
+      _Words:
+      - cheese
+      _Answers:
+      - cheese
+      _Complexity: 0
+      _PlaySessionLink:
+      - Food
+    - _Id: Phrase_chickpea
+      _Active: 1
+      _Text: "A CSICSERIBORS\xD3 kicsi."
+      _Category: 14
+      _Linked: 
+      _Words:
+      - chickpea
+      _Answers:
+      - chickpea
+      _Complexity: 0
+      _PlaySessionLink:
+      - Food
+    - _Id: Phrase_cloud
+      _Active: 1
+      _Text: "A FELH\u0150 feh\xE9r."
+      _Category: 7
+      _Linked: 
+      _Words:
+      - cloud
+      - color_white
+      _Answers:
+      - cloud
+      _Complexity: 0
+      _PlaySessionLink:
+      - Nature
+    - _Id: Phrase_coat
+      _Active: 1
+      _Text: "A KAB\xC1T nagyon r\xE9gi."
+      _Category: 11
+      _Linked: 
+      _Words:
+      - coat
+      _Answers:
+      - coat
+      _Complexity: 0
+      _PlaySessionLink:
+      - Clothes
+    - _Id: Phrase_coffee
+      _Active: 1
+      _Text: "Anyuk\xE1m K\xC1V\xC9T iszik."
+      _Category: 14
+      _Linked: 
+      _Words:
+      - coffee
+      - mother
+      _Answers:
+      - coffee
+      _Complexity: 0
+      _PlaySessionLink:
+      - Food
+    - _Id: Phrase_computer
+      _Active: 1
+      _Text: "A SZ\xC1M\xCDT\xD3G\xC9P be van kapcsolva."
+      _Category: 9
+      _Linked: 
+      _Words:
+      - computer
+      _Answers:
+      - computer
+      _Complexity: 0
+      _PlaySessionLink:
+      - Home
+    - _Id: Phrase_couch
+      _Active: 1
+      _Text: "Ez egy z\xF6ld KANAP\xC9."
+      _Category: 9
+      _Linked: 
+      _Words:
+      - couch
+      - color_green
+      _Answers:
+      - couch
+      _Complexity: 0
+      _PlaySessionLink:
+      - Home
+    - _Id: Phrase_cow
+      _Active: 1
+      _Text: "A TEH\xC9N tejet ad."
+      _Category: 8
+      _Linked: 
+      _Words:
+      - cow
+      _Answers:
+      - cow
+      _Complexity: 0
+      _PlaySessionLink:
+      - Animals
+    - _Id: Phrase_daughter
+      _Active: 1
+      _Text: "A L\xC1NYOM t\xE9v\xE9t n\xE9z."
+      _Category: 13
+      _Linked: 
+      _Words:
+      - daughter
+      - television
+      _Answers:
+      - daughter
+      _Complexity: 0
+      _PlaySessionLink:
+      - Family
+    - _Id: Phrase_dog
+      _Active: 1
+      _Text: Ez egy barna KUTYA.
+      _Category: 8
+      _Linked: 
+      _Words:
+      - dog
+      - color_brown
+      _Answers:
+      - dog
+      _Complexity: 0
+      _PlaySessionLink:
+      - Animals
+    - _Id: Phrase_door
+      _Active: 1
+      _Text: "Az AJT\xD3 z\xE1rva van."
+      _Category: 9
+      _Linked: 
+      _Words:
+      - door
+      _Answers:
+      - door
+      _Complexity: 0
+      _PlaySessionLink:
+      - Home
+    - _Id: Phrase_elephant
+      _Active: 1
+      _Text: "Az ELEF\xC1NT nagy."
+      _Category: 8
+      _Linked: 
+      _Words:
+      - elephant
+      _Answers:
+      - elephant
+      _Complexity: 0
+      _PlaySessionLink:
+      - Animals
+    - _Id: Phrase_eye
+      _Active: 1
+      _Text: "Ez egy k\xE9k SZEM."
+      _Category: 15
+      _Linked: 
+      _Words:
+      - eye
+      - color_blue
+      _Answers:
+      - eye
+      _Complexity: 0
+      _PlaySessionLink:
+      - Body
+    - _Id: Phrase_face
+      _Active: 1
+      _Text: Boldog az ARCOM.
+      _Category: 15
+      _Linked: 
+      _Words:
+      - face
+      _Answers:
+      - face
+      _Complexity: 0
+      _PlaySessionLink:
+      - Body
+    - _Id: Phrase_father
+      _Active: 1
+      _Text: "APUK\xC1D k\xF3rh\xE1zban dolgozik."
+      _Category: 13
+      _Linked: 
+      _Words:
+      - father
+      - hospital
+      _Answers:
+      - father
+      _Complexity: 0
+      _PlaySessionLink:
+      - Family
+    - _Id: Phrase_finger
+      _Active: 1
+      _Text: "Az UJJAD nagyon r\xF6vid."
+      _Category: 15
+      _Linked: 
+      _Words:
+      - finger
+      _Answers:
+      - finger
+      _Complexity: 0
+      _PlaySessionLink:
+      - Body
+    - _Id: Phrase_flower
+      _Active: 1
+      _Text: "Ez egy gy\xF6ny\xF6r\u0171 VIR\xC1G."
+      _Category: 7
+      _Linked: 
+      _Words:
+      - flower
+      _Answers:
+      - flower
+      _Complexity: 0
+      _PlaySessionLink:
+      - Nature
+    - _Id: Phrase_food
+      _Active: 1
+      _Text: "Az \xC9TEL fontos."
+      _Category: 14
+      _Linked: 
+      _Words:
+      - food
+      _Answers:
+      - food
+      _Complexity: 0
+      _PlaySessionLink:
+      - Food
+    - _Id: Phrase_forest
+      _Active: 1
+      _Text: "Az ERD\u0150 s\xF6t\xE9t."
+      _Category: 7
+      _Linked: 
+      _Words:
+      - forest
+      _Answers:
+      - forest
+      _Complexity: 0
+      _PlaySessionLink:
+      - Nature
+    - _Id: Phrase_fork
+      _Active: 1
+      _Text: "Ez egy m\u0171anyag VILLA."
+      _Category: 9
+      _Linked: 
+      _Words:
+      - fork
+      _Answers:
+      - fork
+      _Complexity: 0
+      _PlaySessionLink:
+      - Home
+    - _Id: Phrase_frog
+      _Active: 1
+      _Text: "Egy B\xC9KA van a foly\xF3ban."
+      _Category: 8
+      _Linked: 
+      _Words:
+      - frog
+      - river
+      _Answers:
+      - frog
+      _Complexity: 0
+      _PlaySessionLink:
+      - Animals
+    - _Id: Phrase_garden
+      _Active: 1
+      _Text: Van egy fa a KERTBEN.
+      _Category: 12
+      _Linked: 
+      _Words:
+      - garden
+      - tree
+      _Answers:
+      - garden
+      _Complexity: 0
+      _PlaySessionLink:
+      - City
+    - _Id: Phrase_girl
+      _Active: 1
+      _Text: "Egy L\xC1NY biciklizik."
+      _Category: 13
+      _Linked: 
+      _Words:
+      - girl
+      - bicycle
+      _Answers:
+      - girl
+      _Complexity: 0
+      _PlaySessionLink:
+      - Family
+    - _Id: Phrase_gloves
+      _Active: 1
+      _Text: "Egy fi\xFA KESZTY\u0170T hord."
+      _Category: 11
+      _Linked: 
+      _Words:
+      - boy
+      - gloves
+      _Answers:
+      - gloves
+      _Complexity: 0
+      _PlaySessionLink:
+      - Clothes
+    - _Id: Phrase_goat
+      _Active: 1
+      _Text: "A KECSKE n\xF6v\xE9nyt eszik."
+      _Category: 8
+      _Linked: 
+      _Words:
+      - goat
+      - plant
+      _Answers:
+      - goat
+      _Complexity: 0
+      _PlaySessionLink:
+      - Animals
+    - _Id: Phrase_grandfather
+      _Active: 1
+      _Text: "A NAGYPAP\xC1D nagyon \xF6reg."
+      _Category: 13
+      _Linked: 
+      _Words:
+      - grandfather
+      _Answers:
+      - grandfather
+      _Complexity: 0
+      _PlaySessionLink:
+      - Family
+    - _Id: Phrase_grandmother
+      _Active: 1
+      _Text: "A NAGYMAM\xC1M busszal j\xE1r."
+      _Category: 13
+      _Linked: 
+      _Words:
+      - grandmother
+      - bus
+      _Answers:
+      - grandmother
+      _Complexity: 0
+      _PlaySessionLink:
+      - Family
+    - _Id: Phrase_hair
+      _Active: 1
+      _Text: A HAJAM fekete.
+      _Category: 15
+      _Linked: 
+      _Words:
+      - hair
+      - color_black
+      _Answers:
+      - hair
+      _Complexity: 0
+      _PlaySessionLink:
+      - Body
+    - _Id: Phrase_hand
+      _Active: 1
+      _Text: A KEZEM kicsi.
+      _Category: 15
+      _Linked: 
+      _Words:
+      - hand
+      _Answers:
+      - hand
+      _Complexity: 0
+      _PlaySessionLink:
+      - Body
+    - _Id: Phrase_hat
+      _Active: 1
+      _Text: A KALAPOM kicsi.
+      _Category: 11
+      _Linked: 
+      _Words:
+      - hat
+      _Answers:
+      - hat
+      _Complexity: 0
+      _PlaySessionLink:
+      - Clothes
+    - _Id: Phrase_head
+      _Active: 1
+      _Text: "A csirke mozgatja a FEJ\xC9T."
+      _Category: 15
+      _Linked: 
+      _Words:
+      - head
+      - chicken
+      _Answers:
+      - head
+      _Complexity: 0
+      _PlaySessionLink:
+      - Body
+    - _Id: Phrase_horse
+      _Active: 1
+      _Text: "Ez egy fekete L\xD3."
+      _Category: 8
+      _Linked: 
+      _Words:
+      - horse
+      - color_black
+      _Answers:
+      - horse
+      _Complexity: 0
+      _PlaySessionLink:
+      - Animals
+    - _Id: Phrase_house
+      _Active: 1
+      _Text: "A H\xC1Z a szigeten \xE1ll."
+      _Category: 12
+      _Linked: 
+      _Words:
+      - house
+      - island
+      _Answers:
+      - house
+      _Complexity: 0
+      _PlaySessionLink:
+      - City
+    - _Id: Phrase_island
+      _Active: 1
+      _Text: A SZIGET a tengeren fekszik.
+      _Category: 7
+      _Linked: 
+      _Words:
+      - island
+      - sea
+      _Answers:
+      - island
+      _Complexity: 0
+      _PlaySessionLink:
+      - Nature
+    - _Id: Phrase_jacket
+      _Active: 1
+      _Text: "A KAB\xC1T s\xE1rga."
+      _Category: 11
+      _Linked: 
+      _Words:
+      - jacket
+      - color_yellow
+      _Answers:
+      - jacket
+      _Complexity: 0
+      _PlaySessionLink:
+      - Clothes
+    - _Id: Phrase_kitchen
+      _Active: 1
+      _Text: "Van egy kutya a KONYH\xC1BAN."
+      _Category: 9
+      _Linked: 
+      _Words:
+      - kitchen
+      - dog
+      _Answers:
+      - kitchen
+      _Complexity: 0
+      _PlaySessionLink:
+      - Home
+    - _Id: Phrase_lamp
+      _Active: 1
+      _Text: "A L\xC1MPA ki van kapcsolva."
+      _Category: 9
+      _Linked: 
+      _Words:
+      - lamp
+      _Answers:
+      - lamp
+      _Complexity: 0
+      _PlaySessionLink:
+      - Home
+    - _Id: Phrase_lips
+      _Active: 1
+      _Text: Az AJKAK pirosak.
+      _Category: 15
+      _Linked: 
+      _Words:
+      - lips
+      - color_red
+      _Answers:
+      - lips
+      _Complexity: 0
+      _PlaySessionLink:
+      - Body
+    - _Id: Phrase_meat
+      _Active: 1
+      _Text: "Az oroszl\xE1n H\xDAST eszik."
+      _Category: 14
+      _Linked: 
+      _Words:
+      - lion
+      - meat
+      _Answers:
+      - meat
+      _Complexity: 0
+      _PlaySessionLink:
+      - Food
+    - _Id: Phrase_monkey
+      _Active: 1
+      _Text: A MAJOM vicces.
+      _Category: 8
+      _Linked: 
+      _Words:
+      - monkey
+      _Answers:
+      - monkey
+      _Complexity: 0
+      _PlaySessionLink:
+      - Animals
+    - _Id: Phrase_moon
+      _Active: 1
+      _Text: "Egy f\xE9rfi n\xE9zi a HOLDAT."
+      _Category: 7
+      _Linked: 
+      _Words:
+      - moon
+      - man
+      _Answers:
+      - moon
+      _Complexity: 0
+      _PlaySessionLink:
+      - Nature
+    - _Id: Phrase_mother
+      _Active: 1
+      _Text: "Az ANYUK\xC1M szeret engem."
+      _Category: 13
+      _Linked: 
+      _Words:
+      - mother
+      _Answers:
+      - mother
+      _Complexity: 0
+      _PlaySessionLink:
+      - Family
+    - _Id: Phrase_motorbike
+      _Active: 1
+      _Text: "Ez egy \xFAj MOTORKER\xC9KP\xC1R."
+      _Category: 12
+      _Linked: 
+      _Words:
+      - motorbike
+      _Answers:
+      - motorbike
+      _Complexity: 0
+      _PlaySessionLink:
+      - City
+    - _Id: Phrase_mountain
+      _Active: 1
+      _Text: A HEGY magas.
+      _Category: 7
+      _Linked: 
+      _Words:
+      - mountain
+      _Answers:
+      - mountain
+      _Complexity: 0
+      _PlaySessionLink:
+      - Nature
+    - _Id: Phrase_mouth
+      _Active: 1
+      _Text: "\xC9tel van a SZ\xC1JBAN."
+      _Category: 15
+      _Linked: 
+      _Words:
+      - mouth
+      - food
+      _Answers:
+      - mouth
+      _Complexity: 0
+      _PlaySessionLink:
+      - Body
+    - _Id: Phrase_museum
+      _Active: 1
+      _Text: "A M\xDAZEUMNAK nagy ablaka van."
+      _Category: 12
+      _Linked: 
+      _Words:
+      - museum
+      - window
+      _Answers:
+      - museum
+      _Complexity: 0
+      _PlaySessionLink:
+      - City
+    - _Id: Phrase_needle
+      _Active: 1
+      _Text: "A T\u0170 nagyon kicsi."
+      _Category: 10
+      _Linked: 
+      _Words:
+      - needle
+      _Answers:
+      - needle
+      _Complexity: 0
+      _PlaySessionLink:
+      - Objects
+    - _Id: Phrase_nose
+      _Active: 1
+      _Text: "A f\xE9rfinak nagy ORRA van."
+      _Category: 15
+      _Linked: 
+      _Words:
+      - nose
+      - man
+      _Answers:
+      - nose
+      _Complexity: 0
+      _PlaySessionLink:
+      - Body
+    - _Id: Phrase_oil
+      _Active: 1
+      _Text: "OLAJ van a padl\xF3n."
+      _Category: 14
+      _Linked: 
+      _Words:
+      - oil
+      - floor
+      _Answers:
+      - oil
+      _Complexity: 0
+      _PlaySessionLink:
+      - Food
+    - _Id: Phrase_paper
+      _Active: 1
+      _Text: "Egy l\xE1ny PAP\xCDRRA \xEDr."
+      _Category: 10
+      _Linked: 
+      _Words:
+      - paper
+      - girl
+      _Answers:
+      - paper
+      _Complexity: 0
+      _PlaySessionLink:
+      - Objects
+    - _Id: Phrase_parrot
+      _Active: 1
+      _Text: "Van egy PAPAPG\xC1J a f\xE1n."
+      _Category: 8
+      _Linked: 
+      _Words:
+      - parrot
+      - tree
+      _Answers:
+      - parrot
+      _Complexity: 0
+      _PlaySessionLink:
+      - Animals
+    - _Id: Phrase_pencil
+      _Active: 1
+      _Text: "A CERUZA \xFAj."
+      _Category: 10
+      _Linked: 
+      _Words:
+      - pencil
+      _Answers:
+      - pencil
+      _Complexity: 0
+      _PlaySessionLink:
+      - Objects
+    - _Id: Phrase_penguin
+      _Active: 1
+      _Text: "A PINGVIN a tengerben \xFAszik."
+      _Category: 8
+      _Linked: 
+      _Words:
+      - penguin
+      - sea
+      _Answers:
+      - penguin
+      _Complexity: 0
+      _PlaySessionLink:
+      - Animals
+    - _Id: Phrase_pet
+      _Active: 1
+      _Text: "Szeretem a KIS\xC1LLATOM."
+      _Category: 13
+      _Linked: 
+      _Words:
+      - pet
+      _Answers:
+      - pet
+      _Complexity: 0
+      _PlaySessionLink:
+      - Family
+    - _Id: Phrase_plant
+      _Active: 1
+      _Text: "A N\xD6V\xC9NY z\xF6ld."
+      _Category: 7
+      _Linked: 
+      _Words:
+      - plant
+      - color_green
+      _Answers:
+      - plant
+      _Complexity: 0
+      _PlaySessionLink:
+      - Nature
+    - _Id: Phrase_port
+      _Active: 1
+      _Text: "A KIK\xD6T\u0150 a tengerparton van."
+      _Category: 12
+      _Linked: 
+      _Words:
+      - port
+      - sea
+      _Answers:
+      - port
+      _Complexity: 0
+      _PlaySessionLink:
+      - City
+    - _Id: Phrase_potato
+      _Active: 1
+      _Text: Ez egy nagy BURGONYA.
+      _Category: 14
+      _Linked: 
+      _Words:
+      - potato
+      _Answers:
+      - potato
+      _Complexity: 0
+      _PlaySessionLink:
+      - Food
+    - _Id: Phrase_restaurant
+      _Active: 1
+      _Text: "Tetszik ez az \xC9TTEREM."
+      _Category: 12
+      _Linked: 
+      _Words:
+      - restaurant
+      _Answers:
+      - restaurant
+      _Complexity: 0
+      _PlaySessionLink:
+      - City
+    - _Id: Phrase_river
+      _Active: 1
+      _Text: "Egy fi\xFA horg\xE1szik a FOLY\xD3N\xC1L."
+      _Category: 7
+      _Linked: 
+      _Words:
+      - river
+      _Answers:
+      - river
+      _Complexity: 0
+      _PlaySessionLink:
+      - Nature
+    - _Id: Phrase_scarf
+      _Active: 1
+      _Text: "A S\xC1L r\xF3zsasz\xEDn."
+      _Category: 11
+      _Linked: 
+      _Words:
+      - scarf
+      - color_pink
+      _Answers:
+      - scarf
+      _Complexity: 0
+      _PlaySessionLink:
+      - Clothes
+    - _Id: Phrase_school
+      _Active: 1
+      _Text: "A fi\xFA ISKOL\xC1BA j\xE1r."
+      _Category: 12
+      _Linked: 
+      _Words:
+      - school
+      - boy
+      _Answers:
+      - school
+      _Complexity: 0
+      _PlaySessionLink:
+      - City
+    - _Id: Phrase_shirt
+      _Active: 1
+      _Text: "Van egy ING a szekr\xE9nyben."
+      _Category: 11
+      _Linked: 
+      _Words:
+      - shirt
+      - closet
+      _Answers:
+      - shirt
+      _Complexity: 0
+      _PlaySessionLink:
+      - Clothes
+    - _Id: Phrase_shoes
+      _Active: 1
+      _Text: "A CIP\u0150 sz\xFCrke."
+      _Category: 11
+      _Linked: 
+      _Words:
+      - shoes
+      - color_grey
+      _Answers:
+      - shoes
+      _Complexity: 0
+      _PlaySessionLink:
+      - Clothes
+    - _Id: Phrase_sister
+      _Active: 1
+      _Text: "A N\u0150V\xC9REM focizik."
+      _Category: 13
+      _Linked: 
+      _Words:
+      - sister
+      _Answers:
+      - sister
+      _Complexity: 0
+      _PlaySessionLink:
+      - Family
+    - _Id: Phrase_skirt
+      _Active: 1
+      _Text: Tetszik ez a SZOKNYA.
+      _Category: 11
+      _Linked: 
+      _Words:
+      - skirt
+      _Answers:
+      - skirt
+      _Complexity: 0
+      _PlaySessionLink:
+      - Clothes
+    - _Id: Phrase_sky
+      _Active: 1
+      _Text: "Az \xC9G k\xE9k."
+      _Category: 7
+      _Linked: 
+      _Words:
+      - sky
+      _Answers:
+      - sky
+      _Complexity: 0
+      _PlaySessionLink:
+      - Nature
+    - _Id: Phrase_snake
+      _Active: 1
+      _Text: "A K\xCDGY\xD3 patk\xE1nyt eszik."
+      _Category: 8
+      _Linked: 
+      _Words:
+      - snake
+      - rat
+      _Answers:
+      - snake
+      _Complexity: 0
+      _PlaySessionLink:
+      - Animals
+    - _Id: Phrase_snow
+      _Active: 1
+      _Text: "A hegyekben H\xD3 van."
+      _Category: 7
+      _Linked: 
+      _Words:
+      - snow
+      - mountain
+      _Answers:
+      - snow
+      _Complexity: 0
+      _PlaySessionLink:
+      - Nature
+    - _Id: Phrase_son
+      _Active: 1
+      _Text: A FIAM szereti a joghurtot.
+      _Category: 13
+      _Linked: 
+      _Words:
+      - son
+      - yogurt
+      _Answers:
+      - son
+      _Complexity: 0
+      _PlaySessionLink:
+      - Family
+    - _Id: Phrase_squirrel
+      _Active: 1
+      _Text: "A M\xD3KUS felm\xE1szik egy f\xE1ra."
+      _Category: 8
+      _Linked: 
+      _Words:
+      - squirrel
+      - tree
+      _Answers:
+      - squirrel
+      _Complexity: 0
+      _PlaySessionLink:
+      - Animals
+    - _Id: Phrase_star
+      _Active: 1
+      _Text: "Van egy CSILLAG az \xE9gen."
+      _Category: 7
+      _Linked: 
+      _Words:
+      - star
+      - sky
+      _Answers:
+      - star
+      _Complexity: 0
+      _PlaySessionLink:
+      - Nature
+    - _Id: Phrase_stone
+      _Active: 1
+      _Text: "Ez egy kis K\u0150."
+      _Category: 7
+      _Linked: 
+      _Words:
+      - stone
+      _Answers:
+      - stone
+      _Complexity: 0
+      _PlaySessionLink:
+      - Nature
+    - _Id: Phrase_stove
+      _Active: 1
+      _Text: "T\u0171z \xE9g a KEMENC\xC9BEN"
+      _Category: 9
+      _Linked: 
+      _Words:
+      - stove
+      - fire
+      _Answers:
+      - stove
+      _Complexity: 0
+      _PlaySessionLink:
+      - Home
+    - _Id: Phrase_sun
+      _Active: 1
+      _Text: "A NAP az \xE9gen van."
+      _Category: 7
+      _Linked: 
+      _Words:
+      - sun
+      - sky
+      _Answers:
+      - sun
+      _Complexity: 0
+      _PlaySessionLink:
+      - Nature
+    - _Id: Phrase_television
+      _Active: 1
+      _Text: "Egy l\xE1ny n\xE9zi a TELEV\xCDZI\xD3T."
+      _Category: 9
+      _Linked: 
+      _Words:
+      - girl
+      - television
+      _Answers:
+      - television
+      _Complexity: 0
+      _PlaySessionLink:
+      - Home
+    - _Id: Phrase_tiger
+      _Active: 1
+      _Text: "A TIGRIS a dzsungelben \xE9l."
+      _Category: 8
+      _Linked: 
+      _Words:
+      - tiger
+      _Answers:
+      - tiger
+      _Complexity: 0
+      _PlaySessionLink:
+      - Animals
+    - _Id: Phrase_tomato
+      _Active: 1
+      _Text: Ez egy piros PARADICSOM.
+      _Category: 14
+      _Linked: 
+      _Words:
+      - tomato
+      - color_red
+      _Answers:
+      - tomato
+      _Complexity: 0
+      _PlaySessionLink:
+      - Food
+    - _Id: Phrase_tongue
+      _Active: 1
+      _Text: "A NYELV a sz\xE1jban van."
+      _Category: 15
+      _Linked: 
+      _Words:
+      - tongue
+      - mouth
+      _Answers:
+      - tongue
+      _Complexity: 0
+      _PlaySessionLink:
+      - Body
+    - _Id: Phrase_tooth
+      _Active: 1
+      _Text: "A FOG elt\xF6rt."
+      _Category: 15
+      _Linked: 
+      _Words:
+      - tooth
+      _Answers:
+      - tooth
+      _Complexity: 0
+      _PlaySessionLink:
+      - Body
+    - _Id: Phrase_toy
+      _Active: 1
+      _Text: "Van egy J\xC1T\xC9K az \xE1gyon."
+      _Category: 10
+      _Linked: 
+      _Words:
+      - toy
+      - bed
+      _Answers:
+      - toy
+      _Complexity: 0
+      _PlaySessionLink:
+      - Objects
+    - _Id: Phrase_train
+      _Active: 1
+      _Text: "A VONAT meg\xE1ll az \xE1llom\xE1son."
+      _Category: 12
+      _Linked: 
+      _Words:
+      - train
+      - station
+      _Answers:
+      - train
+      _Complexity: 0
+      _PlaySessionLink:
+      - City
+    - _Id: Phrase_tree
+      _Active: 1
+      _Text: Ez egy nagy FA.
+      _Category: 7
+      _Linked: 
+      _Words:
+      - tree
+      _Answers:
+      - tree
+      _Complexity: 0
+      _PlaySessionLink:
+      - Nature
+    - _Id: Phrase_truck
+      _Active: 1
+      _Text: "Ez egy narancss\xE1rga TEHERAUT\xD3."
+      _Category: 12
+      _Linked: 
+      _Words:
+      - truck
+      - color_orange
+      _Answers:
+      - truck
+      _Complexity: 0
+      _PlaySessionLink:
+      - City
+    - _Id: Phrase_uncle
+      _Active: 1
+      _Text: "A NAGYB\xC1TY\xC1M a v\xE1rosban \xE9l."
+      _Category: 13
+      _Linked: 
+      _Words:
+      - uncle
+      - city
+      _Answers:
+      - uncle
+      _Complexity: 0
+      _PlaySessionLink:
+      - Family
+    - _Id: Phrase_volcano
+      _Active: 1
+      _Text: "Egy VULK\xC1N vesz\xE9lyes."
+      _Category: 7
+      _Linked: 
+      _Words:
+      - volcano
+      _Answers:
+      - volcano
+      _Complexity: 0
+      _PlaySessionLink:
+      - Nature
+    - _Id: Phrase_water
+      _Active: 1
+      _Text: "V\xCDZ van a foly\xF3ban."
+      _Category: 14
+      _Linked: 
+      _Words:
+      - water
+      - river
+      _Answers:
+      - water
+      _Complexity: 0
+      _PlaySessionLink:
+      - Food
+    - _Id: Phrase_watermelon
+      _Active: 1
+      _Text: "A l\xE1ny szereti a G\xD6R\xD6GDINNY\xC9T."
+      _Category: 14
+      _Linked: 
+      _Words:
+      - watermelon
+      - girl
+      _Answers:
+      - watermelon
+      _Complexity: 0
+      _PlaySessionLink:
+      - Food
+    - _Id: Phrase_window
+      _Active: 1
+      _Text: Egy ABLAK nyitva van.
+      _Category: 9
+      _Linked: 
+      _Words:
+      - window
+      _Answers:
+      - window
+      _Complexity: 0
+      _PlaySessionLink:
+      - Home
+    - _Id: Phrase_woman
+      _Active: 1
+      _Text: "Egy N\u0150 kab\xE1tot hord."
+      _Category: 13
+      _Linked: 
+      _Words:
+      - woman
+      - coat
+      _Answers:
+      - woman
+      _Complexity: 0
+      _PlaySessionLink:
+      - Family
+    - _Id: Phrase_zoo
+      _Active: 1
+      _Text: "Egy tigris az \xC1LLATKERTBEN \xE9l."
+      _Category: 12
+      _Linked: 
+      _Words:
+      - zoo
+      - tiger
+      _Answers:
+      - zoo
+      _Complexity: 0
+      _PlaySessionLink:
+      - City
