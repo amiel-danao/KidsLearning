@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SocialPlatforms.Impl;
 
@@ -35,33 +36,36 @@ namespace KidsLearning.Assets
             }
         }
 
-        private void OnCorrectAnswerEvent(Arithmetic arithmetic)
+        private void OnCorrectAnswerEvent(Arithmetic arithmetic, List<string> wrongAnswers)
         {
             int score = ComputeScore(_lastTimerTime);
-            string summary = ConstructSummary(arithmetic);
+            string summary = ConstructSummary(arithmetic, wrongAnswers);
             _connection.TrySaveScore(score, _lastTimerTime, summary);
         }
 
-        private string ConstructSummary(Arithmetic arithmetic)
+        private string ConstructSummary(Arithmetic arithmetic, List<string> wrongAnswers)
         {
-            string summary = $"Solving {arithmetic}";
+            string summary = $"Solved {arithmetic}";
+            if (wrongAnswers.Count > 0)
+            {
+                summary += $"\nWrong Answers:\n{string.Join('\n', wrongAnswers)}";
+            }
 
             return summary;
         }
 
         private int ComputeScore(float time)
         {
-            int score = _maxScore;
             var clampedTime = Math.Clamp(time, _minTime, _maxTime);
-            var timeRangePercentage = PercentageBetweenTwoNumbers(clampedTime, _minTime, _maxTime);
-            score = (int)FindScoreFromTime(timeRangePercentage, _minScore, _maxScore);
+            var timeRangePercentage = 100 - PercentageBetweenTwoNumbers(clampedTime, _minTime, _maxTime);
+            int score = (int)FindScoreFromTime(timeRangePercentage, _minScore, _maxScore);
 
             return score;
         }
 
-        public double PercentageBetweenTwoNumbers(double number1, double number2, double number3)
+        public double PercentageBetweenTwoNumbers(double value, double minNumber, double maxNumber)
         {
-            return number1 / (number2 + number3) * 100;
+            return (value - minNumber) / (maxNumber - minNumber) * 100;
         }
 
         public double FindScoreFromTime(double percentage, double minimum, double maximum)

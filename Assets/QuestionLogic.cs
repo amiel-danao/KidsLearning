@@ -21,7 +21,7 @@ namespace KidsLearning
         private List<Arithmetic> _questions = new List<Arithmetic>();
         private int _currentQuestionIndex = -1;
 
-        public Action<Arithmetic> CorrectAnsweredEvent;
+        public Action<Arithmetic, List<string>> CorrectAnsweredEvent;
         public Action LevelFinishedEvent;
         public Action<bool> BeginPuzzleEvent;
         public Action ShapeFinishedEvent;
@@ -29,6 +29,7 @@ namespace KidsLearning
         [SerializeField] private AudioClip _correctSound;
         [SerializeField] private AudioClip _yaySound;
         [SerializeField] private GameObject _congratsPanel;
+        private List<string> _wrongAnswers = new List<string>();
 
         void Awake()
         {
@@ -106,7 +107,7 @@ namespace KidsLearning
             {
                 var previousAnswer = _allAnswerParts[previousIndex];
                 _soundEffect.PlayOneShot(_correctSound);
-                CorrectAnsweredEvent?.Invoke(_questions[previousIndex]);
+                CorrectAnsweredEvent?.Invoke(_questions[previousIndex], _wrongAnswers);
             }
             catch (IndexOutOfRangeException)
             {
@@ -147,8 +148,8 @@ namespace KidsLearning
                         Debug.Log("Level Finished!");
                         BeginPuzzleEvent?.Invoke(false);
                     }
-                    
                 }
+                _wrongAnswers.Clear();
             }
             catch (IndexOutOfRangeException exception)
             {

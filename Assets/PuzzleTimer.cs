@@ -22,7 +22,7 @@ namespace KidsLearning.Assets
             if (_questionLogic != null)
             {
                 _questionLogic.BeginPuzzleEvent += ResetTimer;
-                _questionLogic.CorrectAnsweredEvent += (answer) =>
+                _questionLogic.CorrectAnsweredEvent += (answer, wrongAnswers) =>
                 {
                     _start = false;
                     BeforeResetTimerEvent?.Invoke(elapsedTime);

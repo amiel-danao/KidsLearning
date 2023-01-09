@@ -84,13 +84,20 @@ namespace KidsLearning.Assets
 
         public IEnumerator SaveScore(string lessonName, int score, float time, string summary)
         {
-
+            var data = new Dictionary<string, string>{
+                {"user", GetUserId() },
+                {"score", score.ToString() },
+                {"time", time.ToString() },
+                {"lesson_name", lessonName },
+                {"summary", summary }
+            };
             var form = new WWWForm();
-            form.AddField("user", GetUserId());
-            form.AddField("score", score);
-            form.AddField("time", (int)time);
-            form.AddField("lesson_name", lessonName);
-            form.AddField("summary", summary);
+
+            foreach (var item in data)
+            {
+                form.AddField(item.Key, item.Value);
+                Debug.Log($"saving data : {item.Key} = {item.Value}\n");
+            }
 
             using UnityWebRequest www = UnityWebRequest.Post($"{_domain}{_apiEndpoint}{_apiSaveEndpoint}", form);
             //www.SetRequestHeader("Content-Type", "application/json");
@@ -102,7 +109,7 @@ namespace KidsLearning.Assets
             }
             else
             {
-                Debug.Log($"Save score complete! \n {form.ToString()}");
+                Debug.Log($"Save score complete! \n");
             }
         }
 
