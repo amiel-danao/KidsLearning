@@ -46,7 +46,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4055498e9231945739feb8dd395084b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RootConfig: {fileID: 11400000, guid: ffc45d8c9eeba3e4c81277267e92c28c, type: 2}
+  defaultLanguageConfig: {fileID: 11400000, guid: 2bb0c980d4d8c26449996fa0ed952d1f, type: 2}
+  RootConfig: {fileID: 11400000, guid: e1e2f3c01d638df41b7d4b498dff26d7, type: 2}
   NavigationManager: {fileID: 0}
   ModalWindowActivated: 0
   Loaded: 0

@@ -12,11 +12,13 @@ using Antura.Rewards;
 using Antura.Teacher;
 using Antura.UI;
 using Antura.Utilities;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.Networking;
+using Object = UnityEngine.Object;
 
 namespace Antura.Core
 {
@@ -27,6 +29,7 @@ namespace Antura.Core
     /// </summary>
     public class AppManager : SingletonMonoBehaviour<AppManager>
     {
+        public LangConfig defaultLanguageConfig;
         public AppEditionConfig AppEdition => RootConfig.LoadedAppEdition;
         public ContentEditionConfig ContentEdition => RootConfig.ContentEdition;
 
@@ -46,6 +49,7 @@ namespace Antura.Core
         public PlayerProfileManager PlayerProfileManager;
         public RewardSystemManager RewardSystemManager;
         public AssetManager AssetManager;
+        public Action InitializedManagersEvent;
 
         [HideInInspector]
         public NavigationManager NavigationManager;
@@ -88,6 +92,11 @@ namespace Antura.Core
             GlobalUI.Init();
         }
 
+        private void Start()
+        {
+            InitializedManagersEvent?.Invoke();
+        }
+
         /// <summary>
         /// first Init, from Awake()
         /// </summary>
@@ -99,14 +108,14 @@ namespace Antura.Core
             }
             alreadySetup = true;
 
-            if (DebugConfig.I.AddressablesBlockingLoad)
-            {
+            //if (DebugConfig.I.AddressablesBlockingLoad)
+            //{
                 BlockingCoroutine(InitCO());
-            }
+            /*}
             else
             {
                 StartCoroutine(InitCO());
-            }
+            }*/
 
         }
 
@@ -185,7 +194,7 @@ namespace Antura.Core
         public IEnumerator ReloadEdition()
         {
             LanguageSwitcher = new LanguageSwitcher();
-            yield return LanguageSwitcher.LoadAllLanguageData();
+            //yield return LanguageSwitcher.LoadAllLanguageData();
             yield return LanguageSwitcher.LoadEditionData();
             DB = new DatabaseManager(ContentEdition);
             yield return LanguageSwitcher.PreloadLocalizedDataCO();
@@ -197,6 +206,7 @@ namespace Antura.Core
             Teacher = new TeacherAI(DB, VocabularyHelper, ScoreHelper);
             LogManager = new LogManager();
             GameLauncher = new MiniGameLauncher(Teacher);
+            
         }
 
         public IEnumerator ResetLanguageSetup(LanguageCode langCode)
@@ -320,11 +330,11 @@ namespace Antura.Core
 
         void On_TMPro_Text_Changed(Object obj)
         {
-            var tmpText = obj as TMPro.TMP_Text;
+            /*var tmpText = obj as TMPro.TMP_Text;
             if (tmpText != null && LanguageSwitcher.I.GetHelper(LanguageUse.Learning).FixTMProDiacriticPositions(tmpText.textInfo))
             {
                 tmpText.UpdateVertexData();
-            }
+            }*/
         }
         #endregion
     }

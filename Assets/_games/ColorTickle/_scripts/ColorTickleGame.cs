@@ -1,3 +1,4 @@
+using Antura.Core;
 using UnityEngine;
 
 namespace Antura.Minigames.ColorTickle
@@ -121,6 +122,17 @@ namespace Antura.Minigames.ColorTickle
         }
 
         #endregion
+
+        protected override void Awake()
+        {
+            AppManager.I.InitializedManagersEvent += () => Initialize(GetConfiguration().Context);
+
+        }
+
+        protected override void Start()
+        {
+
+        }
 
         protected override void OnInitialize(IGameContext context)
         {

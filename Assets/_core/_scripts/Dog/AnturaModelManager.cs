@@ -46,11 +46,11 @@ namespace Antura.Dog
 
         void Start()
         {
-            if (AppManager.I.Player != null)
+            /*if (AppManager.I.Player != null)
             {
                 var c = AppManager.I.Player.CurrentAnturaCustomizations;
                 LoadAnturaCustomization(c);
-            }
+            }*/
         }
 
         #endregion

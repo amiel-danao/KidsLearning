@@ -89,7 +89,9 @@ namespace Antura.Language
 
             //var stopwatch = new Stopwatch();
             //stopwatch.Start();
-            yield return AssetLoader.Load<LangConfig>($"languages/{language}/LangConfig_{language}", r => languageData.config = r, DebugConfig.I.AddressablesBlockingLoad, fromResources: true);
+            //yield return AssetLoader.Load<LangConfig>($"languages/{language}/LangConfig_{language}", r => languageData.config = r, DebugConfig.I.AddressablesBlockingLoad, fromResources: true);
+            //yield return AssetLoader.Load<LangConfig>("kangkong", r => languageData.config = r, DebugConfig.I.AddressablesBlockingLoad);
+            languageData.config = AppManager.I.defaultLanguageConfig;
             if (languageData.config == null)
             {
                 throw new FileNotFoundException($"Could not find the LangConfig file for {language} in the language resources! Did you setup it correctly?");

@@ -158,15 +158,15 @@ namespace Antura.Minigames
 
         #region Initialisation
 
+        
         protected virtual void Start()
         {
-            Initialize(GetConfiguration().Context);
-        }
 
+        }
         /// <summary>
         /// Initializes the minigame with the given context.
         /// </summary>
-        void Initialize(IGameContext context)
+        protected virtual void Initialize(IGameContext context)
         {
             Context = context;
             OutcomeState = new OutcomeGameState(this);

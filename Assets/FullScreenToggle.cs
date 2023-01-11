@@ -8,6 +8,7 @@ namespace KidsLearning.Assets
     {
         public override void OnPointerDown(PointerEventData eventData)
         {
+            Debug.Log("Full Screen Toggle");
             Screen.fullScreen = !Screen.fullScreen;
             base.OnPointerDown(eventData);
         }

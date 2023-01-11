@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 468a46d0ae32c3544b7d98094e6448a9, type: 3}
   m_Name: AddressableAssetSettings
   m_EditorClassIdentifier: 
-  m_DefaultGroup: dafff4c4e20272c459d81311d6032379
+  m_DefaultGroup: 62d2319a875c65945a81f5340183c47d
   m_CachedHash:
     serializedVersion: 2
     Hash: 00000000000000000000000000000000
@@ -38,7 +38,7 @@ MonoBehaviour:
   m_RemoteCatalogLoadPath:
     m_Id: e07fb50dd87b93d4bb7c3a6f33de078a
   m_ContentStateBuildPath: 
-  m_BuildAddressablesWithPlayerBuild: 2
+  m_BuildAddressablesWithPlayerBuild: 1
   m_overridePlayerVersion: 
   m_GroupAssets:
   - {fileID: 11400000, guid: bab1a4700d745264d86ab478d06edc73, type: 2}
@@ -62,7 +62,7 @@ MonoBehaviour:
   m_BuildSettings:
     m_CompileScriptsInVirtualMode: 0
     m_CleanupStreamingAssetsAfterBuilds: 1
-    m_LogResourceManagerExceptions: 0
+    m_LogResourceManagerExceptions: 1
     m_BundleBuildPath: Temp/com.unity.addressables/AssetBundles
   m_ProfileSettings:
     m_Profiles:
@@ -133,6 +133,7 @@ MonoBehaviour:
     - audio_songs
     - icons
     - shapedata
+    - kangkong
   m_SchemaTemplates: []
   m_GroupTemplateObjects:
   - {fileID: 11400000, guid: c4aa22099a6f33f49b70426083bec26d, type: 2}
@@ -146,10 +147,10 @@ MonoBehaviour:
   - {fileID: 11400000, guid: bce71b53e8002e7498b3f95b5be732d2, type: 2}
   - {fileID: 11400000, guid: cc09267446206984485fef1dfa631a88, type: 2}
   - {fileID: 11400000, guid: 31613178ef74678449971a21f1b48eda, type: 2}
-  m_ActiveProfileId: 5c0e4c442977ba049ba0e0c1445d59ec
+  m_ActiveProfileId: f7737597e7c94c34f9eff552ede12193
   m_HostingServicesManager:
     m_HostingServiceInfos: []
     m_Settings: {fileID: 11400000}
-    m_NextInstanceId: 1
+    m_NextInstanceId: 2
     m_RegisteredServiceTypeRefs:
     - UnityEditor.AddressableAssets.HostingServices.HttpHostingService, Unity.Addressables.Editor
