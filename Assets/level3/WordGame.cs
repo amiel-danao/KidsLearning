@@ -10,7 +10,7 @@ using Random = System.Random;
 
 namespace KidsLearning
 {
-    public class WordGame : MonoBehaviour
+    public class WordGame : MonoBehaviour, IGameManager
     {
         [SerializeField] private List<WordGuess> _wordGuesses = new List<WordGuess>();
         [SerializeField] private Image _imageToGuess;
@@ -24,10 +24,19 @@ namespace KidsLearning
         [SerializeField] private AudioClip _yaySound;
         [SerializeField] private GameObject _congratsPanel;
         private int _currentWordIndex = -1;
-        public Action<WordGuess> CorrectAnsweredEvent;
-        public Action<bool> BeginPuzzleEvent;
-        public Action LevelFinishedEvent;
+        public Action<IQuestion, List<string>> CorrectAnsweredEvent { get; set; }
+        public Action LevelFinishedEvent { get; set; }
+        public Action<bool> BeginPuzzleEvent { get; set; }
+        public List<string> WrongAnswers { get; set; }
+        public List<string> AllCorrectAnswers { get; set; }
+        public List<string> AllWrongAnswers { get; set; }
 
+        private void Awake()
+        {
+            WrongAnswers = new List<string>();
+            AllCorrectAnswers = new List<string>();
+            AllWrongAnswers = new List<string>();
+        }
 
         void Start()
         {
@@ -38,9 +47,9 @@ namespace KidsLearning
         private void AssembleLetters(WordGuess wordGuess)
         {
 
-            System.Random rng = new System.Random();
+            Random rng = new Random();
             var chars = wordGuess.MyWord.ToCharArray();
-            var randomizedLetters = new String(chars.OrderBy(x => rng.Next()).ToArray());
+            var randomizedLetters = new string(chars.OrderBy(x => rng.Next()).ToArray());
 
             while (randomizedLetters.Equals(wordGuess.MyWord))
             {
@@ -83,7 +92,8 @@ namespace KidsLearning
                 try
                 {
                     _soundEffect.PlayOneShot(_correctSound);
-                    CorrectAnsweredEvent?.Invoke(_wordGuesses[_currentWordIndex]);
+                    CorrectAnsweredEvent?.Invoke(_wordGuesses[_currentWordIndex], new List<string>());
+                    AllCorrectAnswers.Add(_wordGuesses[_currentWordIndex].MyWord);
                 }
                 catch (IndexOutOfRangeException)
                 {
@@ -125,12 +135,14 @@ namespace KidsLearning
                 else
                 {
                     _imageToGuess.enabled = false;
+                    BeginPuzzleEvent?.Invoke(false);
                     iTween.Stop(_imageToGuess.gameObject);
+                    _congratsPanel.SetActive(true);
                     LevelFinishedEvent?.Invoke();
                     _soundEffect.PlayOneShot(_yaySound);
-                    _congratsPanel.SetActive(true);
+                    
                     Debug.Log("Level Finished!");
-                    BeginPuzzleEvent?.Invoke(false);
+                    
                 }
             }
             catch (IndexOutOfRangeException exception)

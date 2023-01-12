@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 
-namespace KidsLearning.Assets
+namespace KidsLearning
 {
     public class RESTConnection : MonoBehaviour
     {
@@ -23,6 +23,8 @@ namespace KidsLearning.Assets
 
         [DllImport("__Internal")]
         private static extern string GetURLFromQueryStr();
+
+        public Action<int> SavedScoreEvent;
 
         public static bool HasKey(string key)
         {
@@ -60,7 +62,7 @@ namespace KidsLearning.Assets
         }
         private void Start()
         {
-            Debug.Log(GetUserId());
+            Debug.Log($"user id = {GetUserId()}");
         }
 
         public string GetUserId()
@@ -109,6 +111,7 @@ namespace KidsLearning.Assets
             }
             else
             {
+                SavedScoreEvent?.Invoke(score);
                 Debug.Log($"Save score complete! \n");
             }
         }

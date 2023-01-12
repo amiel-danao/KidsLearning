@@ -17,7 +17,7 @@ namespace KidsLearning
 
         public AnswerChoice CurrentDraggedObject => _currentDraggedObject;
         [SerializeField] private AudioSource _soundEffect;
-        [SerializeField] private AudioClip _clickSound, _unClickSound;
+        [SerializeField] private AudioClip _clickSound, _unClickSound, _wrongSound;
 
         private void Start()
         {
@@ -72,6 +72,12 @@ namespace KidsLearning
                 rectTransform.lossyScale.y * rectTransform.rect.size.y);
 
             _boundingBox = new Rect(position, size);
+        }
+
+        internal void AddWrongAnswer(AnswerChoice answerChoice)
+        {
+            _soundEffect.PlayOneShot(_wrongSound);
+            _questionLogic.AddWrongAnswer(answerChoice);
         }
     }
 }

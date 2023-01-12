@@ -56,9 +56,14 @@ namespace KidsLearning
 
         public void OnEndDrag(PointerEventData eventData)
         {
-            if (_currentAnswerHover == null || _currentAnswerHover.MyAnswerChoice != this)
+            if (_currentAnswerHover == null)
             {
                 _manager.UnregisterDraggedObject(this);
+            }
+            else if (_currentAnswerHover.MyAnswerChoice != this)
+            {
+                _manager.UnregisterDraggedObject(this);
+                _manager.AddWrongAnswer(this);
             }
             else
             {

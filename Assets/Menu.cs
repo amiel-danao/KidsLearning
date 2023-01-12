@@ -19,6 +19,11 @@ namespace KidsLearning
 
         }
 
+        public void RestartScene()
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
+
         public void SwitchScene(string sceneName)
         {
             SceneManager.LoadScene(sceneName);

@@ -1,9 +1,12 @@
 using Antura.Core;
+using KidsLearning;
+using System.Collections.Generic;
+using System;
 using UnityEngine;
 
 namespace Antura.Minigames.ColorTickle
 {
-    public class ColorTickleGame : MiniGameController
+    public class ColorTickleGame : MiniGameController, IGameManager
     {
         #region PUBLIC MEMBERS
 
@@ -121,6 +124,13 @@ namespace Antura.Minigames.ColorTickle
             set { m_TutorialUIManager = value; }
         }
 
+        public Action<IQuestion, List<string>> CorrectAnsweredEvent { get; set; }
+        public Action LevelFinishedEvent { get; set; }
+        public Action<bool> BeginPuzzleEvent { get; set; }
+        public List<string> WrongAnswers { get; set; }
+        public List<string> AllCorrectAnswers { get; set; }
+        public List<string> AllWrongAnswers { get; set; }
+        [SerializeField] private GameObject _congratsPanel;
         #endregion
 
         protected override void Awake()
@@ -131,7 +141,7 @@ namespace Antura.Minigames.ColorTickle
 
         protected override void Start()
         {
-
+            
         }
 
         protected override void OnInitialize(IGameContext context)
@@ -139,6 +149,14 @@ namespace Antura.Minigames.ColorTickle
             IntroductionState = new IntroductionGameState(this, GetConfiguration().TutorialEnabled);
             TutorialState = new TutorialGameState(this);
             PlayState = new PlayGameState(this);
+            PlayState.CorrectAnsweredEvent += (question, wrongAnswers)=> { 
+                CorrectAnsweredEvent?.Invoke(question, wrongAnswers);
+                AllCorrectAnswers = PlayState.AllCorrectAnswers;
+                AllWrongAnswers = PlayState.AllWrongAnswers;
+            };
+            PlayState.BeginPuzzleEvent += (start)=> BeginPuzzleEvent?.Invoke(start);
+
+            LevelFinishedEvent += ()=> _congratsPanel.SetActive(true);
             ResultState = new ResultGameState(this);
         }
 

@@ -37,7 +37,16 @@ namespace Antura.UI
             if (I != null)
             { return; }
 
-            I = Instantiate(Resources.Load<GlobalUI>(ResourceId));
+            var existing = GameObject.Find("[GlobalUI]");
+            if (existing != null)
+            {
+                I = existing.GetComponent<GlobalUI>();
+            }
+            else
+            {
+                I = Instantiate(Resources.Load<GlobalUI>(ResourceId));
+            }
+            
             I.gameObject.name = "[GlobalUI]";
         }
 

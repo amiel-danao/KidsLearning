@@ -15,7 +15,7 @@ namespace KidsLearning
             _wordGame.CorrectAnsweredEvent += OnCorrectAnswerEvent;
         }
 
-        private void OnCorrectAnswerEvent(WordGuess wordGuess)
+        private void OnCorrectAnswerEvent(IQuestion wordGuess, List<string> wrongAnswers)
         {
 
             iTween.ScaleTo(_checkImage.gameObject, iTween.Hash(
@@ -24,9 +24,6 @@ namespace KidsLearning
                 "easetype", iTween.EaseType.easeInOutCubic,
                 "oncomplete", "ActionAfterTweenComplete", "oncompletetarget", gameObject
             ));
-
-
-
         }
 
         void ActionAfterTweenComplete()

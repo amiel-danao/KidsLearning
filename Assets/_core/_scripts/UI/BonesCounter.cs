@@ -91,7 +91,14 @@ namespace Antura.UI
 
         public void SetValueAuto()
         {
-            totBones = AppManager.I.Player.GetTotalNumberOfBones();
+            if (AppManager.I.Player != null)
+            {
+                totBones = AppManager.I.Player.GetTotalNumberOfBones();
+            }
+            else
+            {
+                totBones = 3;
+            }
         }
 
         public void SetValue(int _bones)

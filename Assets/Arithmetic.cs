@@ -1,7 +1,7 @@
 
 namespace KidsLearning
 {
-    public struct Arithmetic
+    public struct Arithmetic: IQuestion
     {
         public int num1;
         public int num2;
@@ -19,6 +19,11 @@ namespace KidsLearning
         public override string ToString()
         {
             return $"{num1} {operatorUsed} {num2} = {result}";
+        }
+
+        public string ToQuestionText(string answer)
+        {
+            return $"{num1} {operatorUsed} {num2} = {answer}";
         }
     }
 }

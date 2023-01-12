@@ -5,6 +5,7 @@ using Antura.Minigames;
 using System.Collections.Generic;
 using Antura.Database;
 using UnityEngine;
+using KidsLearning;
 
 namespace Antura.LivingLetters
 {
@@ -12,7 +13,7 @@ namespace Antura.LivingLetters
     /// Controller of Living Letter characters. Functions as a view for learning data.
     /// Manages the Living Letter animations and initialises the view content.
     /// </summary>
-    public class LivingLetterController : MonoBehaviour
+    public class LivingLetterController : MonoBehaviour, IQuestion
     {
         public const float WALKING_SPEED = 0.0f;
         public const float RUN_SPEED = 1.0f;
@@ -61,6 +62,11 @@ namespace Antura.LivingLetters
         /// Gets the data.
         /// </summary>
         ILivingLetterData data;
+
+        public override string ToString()
+        {
+            return $"{LabelRender.text}";
+        }
 
         public ILivingLetterData Data
         {

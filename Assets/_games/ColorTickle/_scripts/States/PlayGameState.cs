@@ -1,9 +1,13 @@
 using Antura.LivingLetters;
+using KidsLearning;
+using System;
+using System.Collections.Generic;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 namespace Antura.Minigames.ColorTickle
 {
-    public class PlayGameState : FSM.IState
+    public class PlayGameState : FSM.IState, IGameManager
     {
         #region PRIVATE MEMBERS
 
@@ -11,6 +15,14 @@ namespace Antura.Minigames.ColorTickle
         GameObject m_CurrentLetter;
 
         private int m_MaxLives => game.MaxLives;
+
+        public Action<IQuestion, List<string>> CorrectAnsweredEvent { get;  set; }
+        public Action LevelFinishedEvent { get; set; }
+        public Action<bool> BeginPuzzleEvent { get; set; }
+        public List<string> WrongAnswers { get; set; }
+        public List<string> AllCorrectAnswers { get; set; }
+        public List<string> AllWrongAnswers { get; set; }
+
         int m_Lives;
         int m_Rounds;
         int m_iRoundsSuccessfull;
@@ -38,6 +50,8 @@ namespace Antura.Minigames.ColorTickle
         public PlayGameState(ColorTickleGame game)
         {
             this.game = game;
+            AllWrongAnswers = new List<string>();
+            AllCorrectAnswers = new List<string>();
         }
 
         public void EnterState()
@@ -59,6 +73,7 @@ namespace Antura.Minigames.ColorTickle
             InitLetter();
 
             ResetLaunchTimer(true);
+            BeginPuzzleEvent?.Invoke(true);
         }
 
         public void ExitState()
@@ -130,6 +145,7 @@ namespace Antura.Minigames.ColorTickle
                             m_CurrentLetter.gameObject.SetActive(true);
                             // Initialize the next letter
                             InitLetter();
+                            BeginPuzzleEvent?.Invoke(true);
                         }
                     }
                 }
@@ -157,6 +173,9 @@ namespace Antura.Minigames.ColorTickle
                         m_LetterObjectView.DoHorray();
                         ColorTickleConfiguration.Instance.Context.GetAudioManager().PlaySound(Sfx.Win);
 
+                        CorrectAnsweredEvent?.Invoke(m_LetterObjectView, AllWrongAnswers);
+                        AllCorrectAnswers.Add(m_LetterObjectView.LabelRender.text);
+
                         game.Context.GetLogManager().OnAnswered(m_LetterObjectView.Data, true);
 
                         //play win particle
@@ -175,6 +194,9 @@ namespace Antura.Minigames.ColorTickle
                         game.Context.GetLogManager().OnAnswered(m_LetterObjectView.Data, false);
                         game.Context.GetAudioManager().PlaySound(Sfx.LetterAngry);
                         game.Context.GetAudioManager().PlaySound(Sfx.Lose);
+
+                        BeginPuzzleEvent?.Invoke(false);
+                        LevelFinishedEvent?.Invoke();
                     }
                 }
                 else if (tickled)
@@ -183,6 +205,7 @@ namespace Antura.Minigames.ColorTickle
                     if (m_CurrentLetter != null)
                         m_CurrentLetter.GetComponent<HitStateLLController>().TicklesLetter();
                     LoseLife();
+                    AllWrongAnswers.Add(m_LetterObjectView.LabelRender.text);
                 }
             }
         }

@@ -28,6 +28,7 @@ namespace Antura.Minigames.ColorTickle
             if (timer < 0)
             {
                 //AudioManager.I.PlayDialog(TextID.GetTextIDFromStars(game.starsAwarded).ToString());
+                game.LevelFinishedEvent?.Invoke();
                 game.EndGame(game.starsAwarded, game.CurrentScore);
             }
         }

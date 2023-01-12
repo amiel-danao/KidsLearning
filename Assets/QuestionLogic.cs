@@ -11,7 +11,7 @@ using Random = System.Random;
 namespace KidsLearning
 {
     [RequireComponent(typeof(ArithmeticGenerator))]
-    public class QuestionLogic : MonoBehaviour
+    public class QuestionLogic : MonoBehaviour, IGameManager, IComponent
     {
         [SerializeField] private TMP_Text _questionText;
         [SerializeField] private ArithmeticGenerator _arithmeticGenerator;
@@ -21,22 +21,45 @@ namespace KidsLearning
         private List<Arithmetic> _questions = new List<Arithmetic>();
         private int _currentQuestionIndex = -1;
 
-        public Action<Arithmetic, List<string>> CorrectAnsweredEvent;
-        public Action LevelFinishedEvent;
-        public Action<bool> BeginPuzzleEvent;
         public Action ShapeFinishedEvent;
         [SerializeField] private AudioSource _soundEffect;
         [SerializeField] private AudioClip _correctSound;
         [SerializeField] private AudioClip _yaySound;
         [SerializeField] private GameObject _congratsPanel;
-        private List<string> _wrongAnswers = new List<string>();
 
-        void Awake()
+        public Action<IQuestion, List<string>> CorrectAnsweredEvent { get; set; }
+        public Action LevelFinishedEvent { get; set; }
+        public Action<bool> BeginPuzzleEvent { get; set; }
+        public List<string> WrongAnswers { get; set; }
+        public List<string> AllWrongAnswers { get; set; }
+        public List<string> AllCorrectAnswers { get; set; }
+        public IComponent DependentTo { get ; set ; }
+        public Action DoneInitialization { get ; set ; }
+
+        public void AddWrongAnswer(AnswerChoice wrongAnswer)
         {
-            
+            WrongAnswers.Add(wrongAnswer.MyText.text);
+            var currentArithmetic = _questions[_currentQuestionIndex].ToQuestionText(wrongAnswer.MyText.text);
+            AllWrongAnswers.Add(currentArithmetic);
+        }
+
+        private void Awake()
+        {
+            WrongAnswers = new List<string>();
+            AllCorrectAnswers = new List<string>();
+            AllWrongAnswers = new List<string>();
+			Debug.Log("Awake()");
         }
 
         void Start()
+        {
+            if (DependentTo == null)
+            {
+                Initialize();
+            }
+        }
+
+        public void Initialize()
         {
             iTween.ScaleTo(_questionText.gameObject, iTween.Hash(
                 "scale", Vector3.one * 0.8f,
@@ -46,6 +69,9 @@ namespace KidsLearning
             ));
             AssembleLevel();
             NextQuestion();
+            Debug.Log("OnEnable()");
+
+            DoneInitialization?.Invoke();
         }
 
         public AnswerParts GetAnswerPart(AnswerChoice answerChoice)
@@ -107,7 +133,9 @@ namespace KidsLearning
             {
                 var previousAnswer = _allAnswerParts[previousIndex];
                 _soundEffect.PlayOneShot(_correctSound);
-                CorrectAnsweredEvent?.Invoke(_questions[previousIndex], _wrongAnswers);
+                CorrectAnsweredEvent?.Invoke(_questions[previousIndex], WrongAnswers);
+                AllCorrectAnswers.Add(_questions[previousIndex].ToString());
+                WrongAnswers.Clear();
             }
             catch (IndexOutOfRangeException)
             {
@@ -142,14 +170,13 @@ namespace KidsLearning
                     }
                     else
                     {
-                        _soundEffect.PlayOneShot(_yaySound);
-                        LevelFinishedEvent?.Invoke();
                         _congratsPanel.SetActive(true);
+                        _soundEffect.PlayOneShot(_yaySound);
+                        LevelFinishedEvent?.Invoke();                        
                         Debug.Log("Level Finished!");
                         BeginPuzzleEvent?.Invoke(false);
                     }
                 }
-                _wrongAnswers.Clear();
             }
             catch (IndexOutOfRangeException exception)
             {

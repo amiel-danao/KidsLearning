@@ -3,42 +3,46 @@ using System.Collections;
 using TMPro;
 using UnityEngine;
 
-namespace KidsLearning.Assets
+namespace KidsLearning
 {
-    public class PuzzleTimer : MonoBehaviour
+    public class PuzzleTimer : MonoBehaviour, IComponent
     {
         [SerializeField] private TMP_Text _text;
-        [SerializeField] private QuestionLogic _questionLogic;
-        [SerializeField] private WordGame _wordGame;
+        [SerializeField] private IGameManager _gameManager;
         public float interval = 1.0f;
         public bool repeat = false;
         public Action<float> BeforeResetTimerEvent;
         private float elapsedTime = 0.0f;
         private bool _start = false;
+        [SerializeField] private string _gameManagerName = "GameManager";
+        [SerializeField] private string _dependentToName = "GameManager";
+        public IComponent DependentTo { get; set; }
+        public Action DoneInitialization { get; set; }
 
-        private void Start()
+        void Awake()
         {
-            UpdateTimerText();
-            if (_questionLogic != null)
-            {
-                _questionLogic.BeginPuzzleEvent += ResetTimer;
-                _questionLogic.CorrectAnsweredEvent += (answer, wrongAnswers) =>
-                {
-                    _start = false;
-                    BeforeResetTimerEvent?.Invoke(elapsedTime);
-                };
-            }
-
-            if (_wordGame != null)
-            {
-                _wordGame.BeginPuzzleEvent += ResetTimer;
-                _wordGame.CorrectAnsweredEvent += (answer) =>
-                {
-                    _start = false;
-                    BeforeResetTimerEvent?.Invoke(elapsedTime);
-                };
-            }
+            Initialize();
         }
+
+        public void Initialize()
+        {
+            var appManager = GameObject.Find(_gameManagerName);
+
+            _gameManager = appManager.GetComponent<IGameManager>();
+
+            UpdateTimerText();
+            if (_gameManager != null)
+            {
+                _gameManager.CorrectAnsweredEvent += (answer, wrongAnswers) =>
+                {
+                    _start = false;
+                    BeforeResetTimerEvent?.Invoke(elapsedTime);
+                };
+                _gameManager.BeginPuzzleEvent += ResetTimer;
+            }
+            DoneInitialization?.Invoke();
+        }
+
 
         private void UpdateTimerText()
         {
@@ -57,6 +61,7 @@ namespace KidsLearning.Assets
         private void ResetTimer(bool autoStart)
         {
             elapsedTime = 0;
+            UpdateTimerText();
             if (autoStart)
             {
                 _start = true;

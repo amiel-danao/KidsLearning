@@ -76,7 +76,7 @@ namespace KidsLearning.Assets.level3
             rectTransform.GetWorldCorners(corners);
             var position = corners[0];
 
-            Vector2 size = new Vector2(
+            Vector2 size = new(
                 rectTransform.lossyScale.x * rectTransform.rect.size.x,
                 rectTransform.lossyScale.y * rectTransform.rect.size.y);
 
